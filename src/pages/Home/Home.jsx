@@ -1,7 +1,11 @@
-import React from "react";
+import Title from "../../components/Title/Title";
 
 function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <Title title="" description="" fsDifference="" />
+    </div>
+  );
 }
 
 export default Home;
