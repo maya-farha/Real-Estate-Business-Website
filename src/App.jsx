@@ -5,6 +5,7 @@ import About from "./pages/AboutUs/About";
 import Prperty from "./pages/Property/Property";
 import Service from "./pages/Services/Service";
 import Contact from "./pages/Contact/Contact";
+import TextContainer from "./componants/TextContainer/TextContainer";
 
 function App() {
   return (
@@ -16,6 +17,11 @@ function App() {
         <Route path="/service" element={<Service />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+      <div className="subContainer">
+        <TextContainer heading ="200+" Paragraph ="Happy Customers"/>
+        <TextContainer heading ="10k+" Paragraph ="Properties For Clients"/>
+        <TextContainer heading ="16+" Paragraph ="Years of Experience"/>
+      </div>
     </>
   );
 }

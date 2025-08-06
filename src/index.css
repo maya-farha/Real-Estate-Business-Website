@@ -8,7 +8,6 @@
 
 
                   /* font size */
-
 .msFontSize20 {
   font-size: 20px;
 }
@@ -46,7 +45,7 @@
 
                   /* colors */
 
-.msWhiteColor {
+.mswhiteColor {
   color: #ffffff;
 }
 .msGrayColor {
@@ -54,6 +53,9 @@
 }
 .msPurpleColor {
   color: #703bf7;
+}
+.msBgGrey10{
+  background-color: #1A1A1A;
 }
 
                       /* white_spacing */
@@ -66,6 +68,13 @@
   .white-spacing {
     padding: 0 80px;
   }
+                    /* font size */
+    .msFontSize18 { /* 18 => 16 */
+      font-size: 16px;
+      }
+    .msFontSize40 { /* 40 => 30 */
+      font-size: 30px;
+      }
 }
 
                       /* small screen */
@@ -73,4 +82,11 @@
   .white-spacing {
     padding: 0 16px;
   }
+                      /* font size */
+  .msFontSize18 { /* 16 => 14 */
+    font-size: 14px;
+    }
+  .msFontSize40 { /* 30 => 24 */
+    font-size: 24px;
+    }
 }
