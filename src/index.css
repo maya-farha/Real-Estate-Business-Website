@@ -3,55 +3,72 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* font size */
-.fs-20 {
+
+                                    /* general classes */
+
+
+                  /* font size */
+
+.msFontSize20 {
   font-size: 20px;
 }
-.fs-24 {
+.msFontSize24 {
   font-size: 24px;
 }
-.fs-40 {
+.msFontSize40 {
   font-size: 40px;
 }
-.fs-48 {
+.msFontSize48 {
   font-size: 48px;
 }
-.fs-60 {
+.msFontSize60 {
   font-size: 60px;
 }
-/* font weight */
-.fw-500 {
+
+                  /*  font weight */
+.msFontWeight500 {
   font-weight: 500;
 }
-.fw-600 {
+.msFontWeight600 {
   font-weight: 600;
 }
-.fw-700 {
+.msFontWeight700 {
   font-weight: 700;
 }
-/* colors */
-.color-white {
+
+                  /*  line height */
+.msLineHeight120{
+  line-height: 120%;
+}
+.msLineHeight150{
+  line-height: 150%;
+}
+
+                  /* colors */
+
+.msWhiteColor {
   color: #ffffff;
 }
-.color-gray {
+.msGrayColor {
   color: #999999;
 }
-.color-purple {
+.msPurpleColor {
   color: #703bf7;
 }
-/* white_spacing */
+
+                      /* white_spacing */
 .white-spacing {
   padding: 0 162px;
 }
 
-/* medium screen */
+                      /* medium screen */
 @media screen and (max-width: 1440px) {
   .white-spacing {
     padding: 0 80px;
   }
 }
 
-/* small screen */
+                      /* small screen */
 @media screen and (max-width: 992px) {
   .white-spacing {
     padding: 0 16px;
