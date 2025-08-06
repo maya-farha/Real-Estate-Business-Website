@@ -1,0 +1,38 @@
+.mf-button {
+  border: none;
+  border-radius: 10px;
+  padding: 18px 24px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  color: white;
+}
+/* button-black */
+.mf-btn-black {
+  border: 1px solid #262626;
+}
+/* button-purble */
+.mf-btn-purble,
+.mf-btn-purble-p54 {
+  background-color: #703bf7;
+}
+
+.mf-btn-purble-p54 {
+  padding: 18px 54.5px;
+}
+
+.mf-btn-black:hover,
+.mf-btn-purble:hover,
+.mf-btn-purble-p54:hover {
+  background-color: #703bf7dc;
+}
+
+/* small screen */
+@media screen and (max-width: 992px) {
+  .mf-button {
+    padding: 14px 0;
+    width: 100%;
+  }
+}
