@@ -40,7 +40,7 @@ function FormBulid() {
   }, [items]);
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="formBulding" onSubmit={handleSubmit}>
       <label htmlFor="image">image</label>
       <input type="file" id="image" onChange={(e) => showimg(e)}></input>
 
