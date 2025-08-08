@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Form, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import About from "./pages/AboutUs/About";
@@ -7,6 +7,7 @@ import Service from "./pages/Services/Service";
 import Contact from "./pages/Contact/Contact";
 
 import NavBar from "./components/NavBar/NavBar";
+import FormBulid from "./components/dashbord/FormBulid";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
         ]}
         btn="Contact Us"
       ></NavBar>
-
+      <FormBulid />
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>

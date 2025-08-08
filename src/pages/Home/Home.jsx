@@ -2,7 +2,7 @@ import Title from "../../components/Title/Title";
 
 function Home() {
   return (
-    <div>
+    <div className="hero">
       <Title title="" description="" fsDifference="" />
     </div>
   );
