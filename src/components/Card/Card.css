@@ -1,0 +1,99 @@
+
+                                            /* Card */
+.Card{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding: 50px;
+    border: 1px solid #262626;
+    border-radius: 12px;
+
+    .starsContainer{
+        
+        img{
+            padding: 10px;
+            margin-right: 10px;
+            border: 1px solid #262626;
+            border-radius: 50%;
+            background-color: #1A1A1A;
+        }
+    }
+    .msTextContainer{
+        max-width: 412px;
+        p{
+            padding-top: 14px
+        }
+    }
+    .msContainer{
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        b{
+            padding-bottom: 2px;
+        }
+    }
+    button{
+        width: 134px;
+        padding: 18px 24px;
+        border: 1px solid #262626;
+    }
+}
+
+
+                                            /* medium screen */
+@media screen and (max-width: 1440px) {
+    .Card{
+        gap: 30px;
+        padding: 40px;
+    .starsContainer{
+            gap: 8px;
+            img{
+                width: 38px;
+                padding: 8px;
+            }
+        }
+    .msTextContainer{
+        max-width: 333px;
+        p{
+            padding-top: 10px
+            }
+        }
+    .msContainer{
+        gap: 10px;
+        b{
+            padding-bottom: 0px
+            }
+        img{
+            width: 50px;
+        }
+        }
+        button{
+            width: 107px;
+            padding: 14px 20px;
+        }
+    }
+}
+
+
+                                            /* small screen */
+@media screen and (max-width: 992px) {
+    .Card{
+        gap: 24px;
+        padding: 30px;
+        .starsContainer{
+            gap: 8px;
+            img{
+                width: 32px;
+                padding: 6px;
+            }
+        }
+    .msTextContainer{
+        p{
+            padding-top: 6px
+            }
+        }
+        button{
+            padding: 14px 115.5px;
+        }
+    }
+}
