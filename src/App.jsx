@@ -5,10 +5,8 @@ import About from "./pages/AboutUs/About";
 import Prperty from "./pages/Property/Property";
 import Service from "./pages/Services/Service";
 import Contact from "./pages/Contact/Contact";
-import TextContainer from "./components/TextContainer/TextContainer";
 
 import NavBar from "./components/NavBar/NavBar";
-import FormBulid from "./components/dashbord/FormBulid";
 
 import Footer from "../src/components/Footer/Footer";
 

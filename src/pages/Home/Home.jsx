@@ -1,13 +1,9 @@
 import Button from "../../components/Button/Button";
 import Title from "../../components/Title/Title";
-import TextContainer from "../../components/TextContainer/TextContainer";
 import "../../index.css";
 import "./Home.css";
-import ServicCard from "../../components/Servic/ServicCard";
 import ServiceSection from "../../components/ServiceSection/ServiceSection";
-import Dashboard from "../../components/service dashboard";
 import StatisticeSection from "../../components/StatisticsSection/StatisticeSection";
-import Footer from "../../components/Footer/Footer";
 function Home() {
   return (
     <div className="mf-home ">
