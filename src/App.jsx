@@ -10,6 +10,8 @@ import Contact from "./pages/Contact/Contact";
 
 import NavBar from "./componets/NavBar/NavBar";
 
+import Footer from "../../../react.node/vite-react/src/componets/Footer/Footer";
+
 function App() {
   return (
     <>
@@ -32,8 +34,16 @@ function App() {
 
        
       </Routes>
+
+    <Footer    imag="/assets/icons/logo.svg"
+                  icona="/assets/icons/facebook.svg">
+
+    </Footer>
+    
+
+
     </>
-  );
+  )
 }
 
 export default App;
