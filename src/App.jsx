@@ -5,9 +5,12 @@ import About from "./pages/AboutUs/About";
 import Prperty from "./pages/Property/Property";
 import Service from "./pages/Services/Service";
 import Contact from "./pages/Contact/Contact";
+import TextContainer from "./components/TextContainer/TextContainer";
 
 import NavBar from "./components/NavBar/NavBar";
 import FormBulid from "./components/dashbord/FormBulid";
+
+import Footer from "../../../react.node/vite-react/src/componets/Footer/Footer";
 
 function App() {
   return (
@@ -22,7 +25,7 @@ function App() {
         ]}
         btn="Contact Us"
       ></NavBar>
-      <FormBulid />
+      {/* <FormBulid /> */}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
@@ -30,8 +33,16 @@ function App() {
         <Route path="/service" element={<Service />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+
+    <Footer    imag="/assets/icons/logo.svg"
+                  icona="/assets/icons/facebook.svg">
+
+    </Footer>
+    
+
+
     </>
-  );
+  )
 }
 
 export default App;

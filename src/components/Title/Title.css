@@ -1,0 +1,41 @@
+.mf-title-width {
+  max-width: 758px;
+
+  h1 {
+    padding-bottom: 20px;
+  }
+
+  p {
+    padding-bottom: 50px;
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .mf-title-width {
+    max-width: 610px;
+
+    h1 {
+      padding-bottom: 20px;
+      font-size: 46px;
+    }
+
+    p {
+      padding-bottom: 50px;
+      font-size: 16px;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .mf-title-width {
+    h1 {
+      padding-bottom: 20px;
+      font-size: 28px;
+    }
+
+    p {
+      padding-bottom: 50px;
+      font-size: 14px;
+    }
+  }
+}
