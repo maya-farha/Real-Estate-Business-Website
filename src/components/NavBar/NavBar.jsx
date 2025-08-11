@@ -1,59 +1,48 @@
-import React from 'react'
-import './NavBar.css'
-import {Link} from "react-router-dom"; 
+import React from "react";
+import "./NavBar.css";
+import { Link } from "react-router-dom";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
-import { useState } from 'react';
+import { useState } from "react";
 
-
-function NavBar({logo , items , btn}) {
-
-          const[show , setShow]= useState(false)
-            const showHandel = () => {
-            setShow(!show);
-        }
-
-
-
+function NavBar({ logo, items, btn }) {
+  const [show, setShow] = useState(false);
+  const showHandel = () => {
+    setShow(!show);
+  };
 
   return (
     <>
-    <nav className='nav_Bar space' style={{backgroundColor : '#1A1A1A'}}>
-        <img src={logo} alt='' className='logo_Nav'/>
-        <ul className='items_Nav'>
-            {items.map((item , index) =>{
-                return(
-                    <li key={index} ><Link to={item.url}>{item.content}</Link></li>
-                )
-            })}
-            
+      <nav className="nav_Bar space" style={{ backgroundColor: "#1A1A1A" }}>
+        <img src={logo} alt="" className="logo_Nav" />
+        <ul className="items_Nav">
+          {items.map((item, index) => {
+            return (
+              <li key={index}>
+                <Link to={item.url}>{item.content}</Link>
+              </li>
+            );
+          })}
         </ul>
-        <button className='btn_Nav'><Link to={"/Contact"}>{btn}</Link></button>
-         <button className='bars' onClick={showHandel}><HiMiniBars3BottomRight /></button>
-
-
-
-
-
-
-    </nav>
-    <div className={`navMenu ${show? "show" : ""}`}>
-    <ul className='items_Bars' >
-            {items.map((item, index) =>{
-                return(
-                    <li key={index} ><Link   to={item.url}>{item.content} </Link></li>
-                )
-            })}
-            
+        <button className="btn_Nav">
+          <Link to={"/Contact"}>{btn}</Link>
+        </button>
+        <button className="bars" onClick={showHandel}>
+          <HiMiniBars3BottomRight />
+        </button>
+      </nav>
+      <div className={`navMenu ${show ? "show" : ""}`}>
+        <ul className="items_Bars">
+          {items.map((item, index) => {
+            return (
+              <li key={index}>
+                <Link to={item.url}>{item.content} </Link>
+              </li>
+            );
+          })}
         </ul>
-        
-       
-       
-
-    </div>
-      
+      </div>
     </>
-  )
+  );
 }
 
-export default NavBar
-
+export default NavBar;

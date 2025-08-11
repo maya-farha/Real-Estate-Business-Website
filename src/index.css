@@ -9,6 +9,9 @@
 /* general classes */
 
 /* font size */
+.msFontSize18 {
+  font-size: 18px;
+}
 
 .msFontSize20 {
   font-size: 20px;
