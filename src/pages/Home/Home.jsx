@@ -7,6 +7,7 @@ import ServicCard from "../../components/Servic/ServicCard";
 import ServiceSection from "../../components/ServiceSection/ServiceSection";
 import Dashboard from "../../components/service dashboard";
 import StatisticeSection from "../../components/StatisticsSection/StatisticeSection";
+import Footer from "../../components/Footer/Footer";
 function Home() {
   return (
     <div className="mf-home ">

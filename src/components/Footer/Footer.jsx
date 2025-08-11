@@ -1,5 +1,5 @@
 import "./Footer.css";
-import Footer from "../NavBar/FooterCard/FooterCard";
+import FooterCard from "../FooterCard/FooterCard";
 
 function Footer(props) {
   return (

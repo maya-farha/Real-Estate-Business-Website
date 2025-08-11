@@ -10,7 +10,7 @@ import TextContainer from "./components/TextContainer/TextContainer";
 import NavBar from "./components/NavBar/NavBar";
 import FormBulid from "./components/dashbord/FormBulid";
 
-import Footer from "../../../react.node/vite-react/src/componets/Footer/Footer";
+import Footer from "../src/components/Footer/Footer";
 
 function App() {
   return (
@@ -34,15 +34,12 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
 
-    <Footer    imag="/assets/icons/logo.svg"
-                  icona="/assets/icons/facebook.svg">
-
-    </Footer>
-    
-
-
+      <Footer
+        imag="/assets/icons/logo.svg"
+        icona="/assets/icons/facebook.svg"
+      ></Footer>
     </>
-  )
+  );
 }
 
 export default App;

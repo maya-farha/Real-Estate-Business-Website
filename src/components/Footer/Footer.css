@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.RJ_WhiteSpacing {
+  padding-left: 162px;
+  padding-right: 162px;
+}
+.RJ_LogoFooter {
+  max-width: 160px;
+}
+.RJ_SubFooter {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 558px;
+  display: flex;
+  /* justify-content:center;*/
+  background-color: black;
+  gap: 195px;
+}
+.RJ_CardsFooter {
+  display: flex;
+  /*  justify-content: ;*/
+  gap: 100.5px;
+}
+.RJ_FinalFooter {
+  height: 104px;
+  background-color: #1a1a1a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.RJ_DisFooter {
+  display: flex;
+  gap: 38px;
+  color: #ffffff;
+}
+.RJ_MediaFooter {
+  display: flex;
+  padding-right: 162px;
+  border-radius: 58px;
+  max-width: 52px;
+  gap: 10px;
+}
+.RJ_InputFooter {
+  position: relative;
+  margin-top: 30px;
+}
+.RJ_IconVector {
+  position: absolute;
+  left: 24px;
+  pointer-events: none;
+  width: 24px;
+  padding-top: 18px;
+  transform: translateX(-50%);
+}
+.RJ_FormInput {
+  height: 66px;
+  border-radius: 12px;
+  border: 1px solid #1a1a1a;
+  background-color: #1a1a1a;
+  padding-left: 40px;
+  padding-right: 24px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  color: #ffffff;
+  font-size: 18px;
+}
+.RJ_IconSend {
+  position: absolute;
+  right: 18px;
+  pointer-events: none;
+  width: 30px;
+  padding-top: 18px;
+}
+@media screen and (max-width: 1440px) {
+  .RJ_WhiteSpacing {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+  .RJ_LogoFooter {
+    max-width: 113.33px;
+  }
+  .RJ_SubFooter {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    height: 460px;
+    gap: 101px;
+  }
+  .RJ_SubFooter {
+    gap: 90.25px;
+  }
+  .RJ_FormInput {
+    height: 52px;
+    font-size: 14px;
+    border-radius: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .RJ_WhiteSpacing {
+    padding: 0px 16px;
+  }
+  .RJ_LogoFooter {
+    max-width: 113.33px;
+  }
+  .RJ_SubFooter {
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: 918px;
+  }
+  .RJ_CardsFooter {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .RJ_FinalFooter {
+    flex-direction: column-reverse;
+    height: 178px;
+  }
+  .RJ_Footer {
+    flex-direction: column;
+  }
+  .RJ_DisFooter {
+    flex-direction: column;
+  }
+  .RJ_MediaFooter {
+    align-items: center;
+    max-width: 60px;
+    gap: 8px;
+  }
+  .RJ_InputFooter {
+    margin-top: 20px;
+  }
+  .RJ_FormInput {
+    height: 52px;
+    font-size: 14px;
+    border-radius: 8px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .RJ_IconVector {
+    width: 20px;
+  }
+  .RJ_IconSend {
+    width: 24px;
+  }
+}
