@@ -10,7 +10,6 @@ function ServicCard({ logo, titleService }) {
       ></img>
       <div className="outer-circle">
         <div className="inner-circle">
-          {/* {logo} */}
           <img src={logo} className="service-logo" />
         </div>
       </div>
