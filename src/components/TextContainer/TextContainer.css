@@ -33,7 +33,8 @@
   .textContainer {
     /* width: 133px; */
     padding: 16px;
-    p {
+    b,
+    span {
       text-align: center;
     }
   }
