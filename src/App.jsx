@@ -23,7 +23,7 @@ function App() {
         ]}
         btn="Contact Us"
       ></NavBar>
-      {/* <FormBulid /> */}
+
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>

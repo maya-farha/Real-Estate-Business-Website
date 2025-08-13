@@ -1,18 +1,15 @@
-import React from "react";
 import "./ServiceCard.css";
-function ServicCard({ logo, titleService }) {
+function ServicCard({ logo, alt, titleService }) {
   return (
-    <div className="mf-servic-card">
+    <div className="MF-serviceCard">
       <img
         src="/assets/icons/arrowTop.svg"
         alt="arrowTop"
-        className="arrow-top"
+        className="MF-arrowTop"
       ></img>
-      <div className="outer-circle">
-        <div className="inner-circle">
-          <img src={logo} className="service-logo" />
-        </div>
-      </div>
+
+      <img src={logo} alt={alt} className="MF-serviceLogo" />
+
       <p className="mswhiteColor">{titleService}</p>
     </div>
   );

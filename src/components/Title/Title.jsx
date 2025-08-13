@@ -1,7 +1,7 @@
 import "./Title.css";
 function Title({ title, description, fsDifference }) {
   return (
-    <div className='mf-title-width'>
+    <div className='AM-titleWidth'>
       <h1 className={`msFontSize${fsDifference} msFontWeight600 mswhiteColor `}>
         {title}
       </h1>
