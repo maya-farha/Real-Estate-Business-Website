@@ -4,7 +4,6 @@ import "../../index.css";
 import "./Home.css";
 import ServiceSection from "../../components/ServiceSection/ServiceSection";
 import StatisticeSection from "../../components/StatisticsSection/StatisticeSection";
-import ClientCard from "../../components/ClientCard/ClientCard";
 function Home() {
   return (
     <div className="MF-home ">
@@ -37,15 +36,6 @@ function Home() {
         <ServiceSection></ServiceSection>
       </div>
 
-      {/* <div className="white-spacing">
-        <ClientCard
-          date="2003"
-          companyName="ABC Corporation"
-          category="Luxury Home Development"
-          quote="Estatein's expertise in finding the perfect office space for our expanding operations was invaluable.
-                They truly understand our business needs."
-        ></ClientCard>
-      </div> */}
     </div>
   );
 }
