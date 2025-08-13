@@ -1,0 +1,44 @@
+.MF-serviceCard {
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 10px;
+}
+
+.MF-arrowTop {
+  display: block;
+  margin-left: auto;
+}
+
+.MF-serviceCard {
+  p {
+    text-align: center;
+    margin-top: 20px;
+  }
+}
+.MF-serviceLogo {
+  display: block;
+  margin: auto;
+}
+@media screen and (max-width: 1440px) {
+
+  .MF-serviceCard {
+    p {
+      margin-top: 16px;
+    }
+  }
+  .MF-serviceLogo {
+    width: 60px;
+    height: 60px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .MF-serviceCard {
+    p {
+      margin-top: 14px;
+    }
+  }
+  .MF-serviceLogo {
+    width: 48px;
+    height: 48px;
+  }
+}

@@ -11,7 +11,9 @@ node_modules
 dist
 dist-ssr
 *.local
-
+src/components/footer/
+src/components/footerCard/
+src/components/ClientCard/
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

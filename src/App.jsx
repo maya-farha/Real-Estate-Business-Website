@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Form, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Home from "./pages/Home/Home";
 import About from "./pages/AboutUs/About";
@@ -8,6 +8,8 @@ import Contact from "./pages/Contact/Contact";
 import TextContainer from "./components/TextContainer/TextContainer";
 
 import NavBar from "./components/NavBar/NavBar";
+
+import Footer from "../src/components/Footer/Footer";
 
 function App() {
   return (
@@ -30,6 +32,11 @@ function App() {
         <Route path="/service" element={<Service />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+
+      <Footer
+        imag="/assets/icons/logo.svg"
+        icona="/assets/icons/facebook.svg"
+      ></Footer>
     </>
   );
 }
