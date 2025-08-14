@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import ServicCard from "../Servic/ServicCard";
 import "./ServiceSection.css";
 import { FaHome, FaKey, FaBuilding, FaChartLine } from "react-icons/fa";
@@ -6,28 +5,33 @@ import { FaHome, FaKey, FaBuilding, FaChartLine } from "react-icons/fa";
 function ServiceSection() {
   const items = [
     {
-      logo: "/assets/icons/home-Icon.svg",
+      logo: "/assets/icons/home-icon.png",
+      alt: "home-Icon",
       titleService: "Find Your Dream Home",
     },
     {
-      logo: "/assets/icons/lock-Icon.svg",
+      logo: "/assets/icons/lock-icon.png",
+      alt: "lock-Icon",
       titleService: "Unlock Property Value",
     },
     {
-      logo: "/assets/icons/build-Icon.svg",
+      logo: "/assets/icons/bulding-icon.png",
+      alt: "build-Icon",
       titleService: "Effortless Property Management",
     },
     {
-      logo: "/assets/icons/sun-Icon.svg",
+      logo: "/assets/icons/smart-icon.png",
+      alt: "sun-Icon",
       titleService: "Smart Investments, Informed Decisions",
     },
   ];
   return (
-    <section className="mf-service-section">
+    <section className="MF-serviceContainer">
       {items.map((item, index) => (
         <ServicCard
           key={index}
           logo={item.logo}
+          alt={item.alt}
           titleService={item.titleService}
         />
       ))}

@@ -19,7 +19,7 @@ function StatisticeSection() {
   ];
 
   return (
-    <section className="statistics-section ">
+    <section className="MF-statisticsSection ">
       {items.map((item, index) => (
         <TextContainer
           className="item"

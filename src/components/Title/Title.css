@@ -1,4 +1,4 @@
-.mf-title-width {
+.AM-titleWidth {
   max-width: 758px;
   img {
     position: relative;
@@ -14,7 +14,7 @@
 }
 
 @media screen and (max-width: 1440px) {
-  .mf-title-width {
+  .AM-titleWidth {
     max-width: 610px;
     img {
       width: 54.72px;
@@ -25,23 +25,22 @@
     }
 
     p {
-      padding-bottom: 50px;
       font-size: 16px;
     }
   }
 }
 @media screen and (max-width: 992px) {
-  .mf-title-width {
+  .AM-titleWidth  {
     img {
       width: 45.6px;
     }
-    h1 {
+
+  h1 {
       padding-bottom: 20px;
       font-size: 28px;
     }
 
     p {
-      padding-bottom: 50px;
       font-size: 14px;
     }
   }

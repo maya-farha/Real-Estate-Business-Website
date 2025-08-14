@@ -12,6 +12,9 @@
   background-color: #1a1a1a;
   border: 1px solid #262626;
   border-radius: 10px;
+  b {
+    display: block;
+  }
 }
 
 /* medium screen */
@@ -33,7 +36,9 @@
   .textContainer {
     /* width: 133px; */
     padding: 16px;
-    p {
+    b,
+    span {
+      display: block;
       text-align: center;
     }
   }
