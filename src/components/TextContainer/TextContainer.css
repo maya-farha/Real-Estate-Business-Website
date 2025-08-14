@@ -1,0 +1,40 @@
+/* hero : subContainer */
+
+.subContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.textContainer {
+  /* width: 192.67px; */
+  padding: 14px 20px;
+  background-color: #1a1a1a;
+  border: 1px solid #262626;
+  border-radius: 10px;
+}
+
+/* medium screen */
+@media screen and (max-width: 1440px) {
+  .subContainer {
+    gap: 16px;
+  }
+  .textContainer {
+    /* width: 192.6666px; */
+    padding: 14px 20px;
+  }
+}
+
+/* small screen */
+@media screen and (max-width: 992px) {
+  .subContainer {
+    gap: 12px;
+  }
+  .textContainer {
+    /* width: 133px; */
+    padding: 16px;
+    p {
+      text-align: center;
+    }
+  }
+}

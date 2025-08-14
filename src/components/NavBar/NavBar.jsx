@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
-import { Link } from "react-router-dom";
+import "../../index.css";
+import { Link, NavLink } from "react-router-dom";
 import { HiMiniBars3BottomRight } from "react-icons/hi2";
 import { useState } from "react";
 
