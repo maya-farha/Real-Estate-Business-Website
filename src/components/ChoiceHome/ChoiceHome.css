@@ -1,0 +1,78 @@
+.amCardBorder {
+  width: 512px;
+  border: 1px solid #262626;
+  padding: 40px;
+
+  max-width: 100%;
+  box-sizing: border-box;
+
+  .amImage {
+    margin-bottom: 30px;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  .desc {
+    margin: 6px 0 30px 0;
+  }
+  .amInformation {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    .amInfo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 4px;
+      border: 1px solid #262626;
+      border-radius: 28px;
+      padding: 8px 14px;
+    }
+  }
+  .amDetails {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 30px;
+    .msGrayColor {
+      margin-bottom: 2px;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .amCardBorder {
+    width: 412;
+    padding: 30px;
+    .amImage {
+      margin-bottom: 20px;
+
+      .desc {
+        margin: 4px 0 24px 0;
+      }
+    }
+    .amInformation {
+      gap: 6px;
+      margin-bottom: 24px;
+      .amInfo {
+        padding: 6px 14px;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .amCardBorder {
+    width: 358px;
+    padding: 24px;
+    .amImage {
+      margin-bottom: 16px;
+    }
+    .amDetails {
+      margin-top: 20px;
+    }
+  }
+}

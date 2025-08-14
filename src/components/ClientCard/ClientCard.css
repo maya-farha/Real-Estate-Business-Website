@@ -1,0 +1,156 @@
+.MF-clientCard {
+  /* width: fit-content; */
+  padding: 50px;
+  border: 1px solid #262626;
+  box-shadow: 0px 0px 0px 8px #191919;
+}
+.MF-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  h2 {
+    color: #ffffff;
+    font-size: 30px;
+  }
+  .MF-buttonVisit {
+    background: #1a1a1a;
+  }
+}
+.MF-flex {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+  position: relative;
+}
+.MF-iconContainer {
+  display: flex;
+  gap: 6px;
+}
+.MF-type {
+  font-size: 18px;
+}
+.MF-domain,
+.MF-category {
+  p {
+    line-height: 150%;
+  }
+}
+.MF-category::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  background-color: #262626;
+  transform: translateX(-50%);
+}
+.MF-quote {
+  width: 35vw;
+  padding: 30px;
+  border-radius: 12px;
+  border: 1px solid #262626;
+  p {
+    font-size: 18px;
+  }
+  p:nth-child(1) {
+    margin-bottom: 10px;
+  }
+}
+.MF-pargraph {
+  font-size: 20px;
+}
+/* meduim screen */
+@media screen and (max-width: 1440px) {
+  .MF-clientCard {
+    padding: 40px;
+  }
+  .MF-quote {
+    width: 37.46vw;
+  }
+  .MF-flex {
+    gap: 20px;
+  }
+  .MF-details {
+    p {
+      font-size: 16px;
+    }
+    h2 {
+      font-size: 24px;
+    }
+  }
+  .MF-pargraph {
+    font-size: 16px;
+  }
+  .MF-type {
+    font-size: 16px;
+  }
+  .MF-iconContainer {
+    img {
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .MF-quote {
+    p {
+      font-size: 16px;
+    }
+  }
+}
+/* small screen */
+@media screen and (max-width: 992px) {
+  .MF-clientCard {
+    padding: 24px;
+  }
+  .MF-details {
+    flex-direction: column;
+    align-items: start;
+    /* justify-content: start; */
+  }
+  .MF-quote {
+    padding: 20px;
+    width: 100%;
+  }
+  .MF-flex {
+    gap: 16px;
+  }
+  .MF-buttonVisit {
+    margin-top: 20px;
+  }
+  .MF-details {
+    p {
+      font-size: 14px;
+    }
+    h2 {
+      font-size: 20px;
+    }
+  }
+  .MF-pargraph {
+    font-size: 14px !important;
+  }
+  .MF-category::before {
+    left: 45%;
+  }
+  .MF-type {
+    font-size: 14px;
+  }
+  .MF-iconContainer {
+    img {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  .MF-quote {
+    p {
+      font-size: 14px;
+    }
+  }
+}

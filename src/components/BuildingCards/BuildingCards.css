@@ -1,0 +1,19 @@
+.amAllCards {
+  .amContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+.slick-slide > div {
+  padding: 0 15px;
+}
+@media screen and (max-width: 1440px) {
+  .amAllCards {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 992px) {
+}

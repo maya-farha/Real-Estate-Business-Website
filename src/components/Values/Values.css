@@ -1,0 +1,21 @@
+.AM-valuesAb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+
+  .AM-valueAb {
+    max-width: 517px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .AM-valuesAb {
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .AM-valuesAb {
+    flex-direction: column;
+    gap: 40px;
+  }
+}
