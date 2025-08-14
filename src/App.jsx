@@ -11,8 +11,6 @@ import TextContainer from "./components/TextContainer/TextContainer";
 import NavBar from "./components/NavBar/NavBar";
 
 import ExProperty from "./components/ExProperty/ExProperty";
-import BuildingCards from "./components/BuildingCards/BuildingCards";
->>>>>>>>> Temporary merge branch 2
 
 function App() {
   return (
@@ -36,10 +34,7 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
 
-      {/* <Footer
-        imag="/assets/icons/logo.svg"
-        icona="/assets/icons/facebook.svg"
-      ></Footer> */}
+      <ExProperty></ExProperty>
     </>
   );
 }
