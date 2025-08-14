@@ -1,13 +1,13 @@
+import "./TextContainer.css";
+// import "../../index.css";
 
-import './TextContainer.css'
+const TextContainer = ({ heading, Paragraph }) => {
+  return (
+    <div className="textContainer">
+      <p className="msFontSize40 msFontWeight700 mswhiteColor">{heading}</p>
+      <p className="msFontSize18 msFontWeight500 msGrayColor">{Paragraph}</p>
+    </div>
+  );
+};
 
-const TextContainer = ({heading , Paragraph}) => {
-    return (
-            <div className='textContainer msBgGrey10'>
-                <b className='msFontSize40 msFontWeight700 mswhiteColor'>{heading}</b>
-                <span className='msFontSize18 msFontWeight500 msGrayColor'>{Paragraph} </span>
-            </div>
-    )
-}
-
-export default TextContainer
+export default TextContainer;

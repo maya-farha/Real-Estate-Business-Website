@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Form, Route, Routes } from "react-router-dom";
 import "./App.css";
 
 import Home from "./pages/Home/Home";
@@ -9,8 +9,8 @@ import Contact from "./pages/Contact/Contact";
 import TextContainer from "./components/TextContainer/TextContainer";
 
 import NavBar from "./components/NavBar/NavBar";
-import ExProperty from "./components/ExProperty/ExProperty";
-import BuildingCards from "./components/BuildingCards/BuildingCards";
+
+// import Footer from "../src/components/Footer/Footer";
 
 function App() {
   return (
@@ -25,7 +25,7 @@ function App() {
         ]}
         btn="Contact Us"
       ></NavBar>
-
+      {/* <FormBulid /> */}
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
@@ -33,7 +33,11 @@ function App() {
         <Route path="/service" element={<Service />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
-      <ExProperty />
+
+      {/* <Footer
+        imag="/assets/icons/logo.svg"
+        icona="/assets/icons/facebook.svg"
+      ></Footer> */}
     </>
   );
 }

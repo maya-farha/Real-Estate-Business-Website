@@ -23,6 +23,7 @@
   color: #ffffff;
   font-size: 14px medium;
   line-height: 150%;
+  letter-spacing: 0%;
   font-weight: 500;
 }
 .space {
@@ -36,10 +37,13 @@
 }
 .navMenu {
   transform: translateX(-100%);
-  transition: 0.5s all;
+  transition: 1s all;
+  display: none;
 }
 .navMenu.show {
   transform: translateX(0);
+  display: block;
+  transition: 1s all;
 }
 .btn_Nav {
   max-width: 109px;
@@ -50,6 +54,7 @@
   padding: 14px 20px;
   font-size: 14px medium;
   line-height: 150%;
+  letter-spacing: 0%;
   font-weight: 500;
   a {
     color: #ffffff;

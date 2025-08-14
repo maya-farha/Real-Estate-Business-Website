@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #141414;
+  /* background-color: #141414; */
   font-family: "Urbanist", sans-serif;
 }
 
 /* general classes */
-
+/* font size*/
 .msFontSize20 {
   font-size: 20px;
 }
