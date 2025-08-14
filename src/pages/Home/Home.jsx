@@ -4,6 +4,7 @@ import "../../index.css";
 import "./Home.css";
 import ServiceSection from "../../components/ServiceSection/ServiceSection";
 import StatisticeSection from "../../components/StatisticsSection/StatisticeSection";
+import Slider from "../../components/Slider/Slider";
 function Home() {
   return (
     <div className="MF-home ">
@@ -35,7 +36,7 @@ function Home() {
       <div className="MF-serviceSection">
         <ServiceSection></ServiceSection>
       </div>
-
+      <Slider></Slider>
     </div>
   );
 }
