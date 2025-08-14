@@ -1,0 +1,72 @@
+.AM-valuesCardAb {
+  display: flex;
+  flex-direction: column;
+  padding: 60px;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  box-shadow: 0px 0px 0px 10px #191919;
+  .AM-twoCardsAb {
+    display: flex;
+    gap: 30px;
+  }
+
+  .AM-borderAb {
+    width: 1px;
+    height: 148px;
+    background-color: #262626;
+  }
+
+  .AM-twoCardsAb.first {
+    border-bottom: 1px solid #262626;
+    padding-bottom: 30px;
+  }
+
+  .AM-twoCardsAb.second {
+    padding-top: 30px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .AM-valuesCardAb {
+    padding: 50px;
+
+    .AM-twoCardsAb {
+      gap: 24px;
+    }
+
+    .AM-borderAb {
+      height: 124px;
+    }
+
+    .AM-twoCardsAb.first {
+      padding-bottom: 24px;
+    }
+
+    .AM-twoCardsAb.second {
+      padding-top: 24px;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .AM-valuesCardAb {
+    padding: 24px;
+
+    .AM-twoCardsAb {
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .AM-borderAb {
+      width: 100%;
+      height: 1px;
+    }
+
+    .AM-twoCardsAb.first {
+      padding-bottom: 20px;
+    }
+
+    .AM-twoCardsAb.second {
+      padding-top: 20px;
+    }
+  }
+}

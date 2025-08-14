@@ -1,5 +1,5 @@
 import "./TextContainer.css";
-import "../../index.css";
+// import "../../index.css";
 
 const TextContainer = ({ heading, Paragraph }) => {
   return (

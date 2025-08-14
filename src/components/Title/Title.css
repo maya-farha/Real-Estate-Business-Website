@@ -1,6 +1,9 @@
 .AM-titleWidth {
   max-width: 758px;
-
+  img {
+    position: relative;
+    right: 2%;
+  }
   h1 {
     padding-bottom: 20px;
   }
@@ -13,7 +16,9 @@
 @media screen and (max-width: 1440px) {
   .AM-titleWidth {
     max-width: 610px;
-
+    img {
+      width: 54.72px;
+    }
     h1 {
       padding-bottom: 20px;
       font-size: 46px;
@@ -25,8 +30,12 @@
   }
 }
 @media screen and (max-width: 992px) {
-  .AM-titleWidth {
-    h1 {
+  .AM-titleWidth  {
+    img {
+      width: 45.6px;
+    }
+
+  h1 {
       padding-bottom: 20px;
       font-size: 28px;
     }
