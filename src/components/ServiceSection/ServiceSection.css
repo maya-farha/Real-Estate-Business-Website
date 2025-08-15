@@ -1,4 +1,4 @@
-.mf-service-section {
+.MF-serviceContainer {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
@@ -9,14 +9,14 @@
 }
 
 @media (max-width: 1440px) {
-  .mf-service-section {
+  .MF-serviceContainer {
     gap: 10px;
     padding: 10px;
   }
 }
 
 @media (max-width: 992px) {
-  .mf-service-section {
+  .MF-serviceContainer {
     grid-template-columns: repeat(2, 1fr);
   }
 }
