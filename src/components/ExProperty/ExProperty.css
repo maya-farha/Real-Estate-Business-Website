@@ -1,6 +1,11 @@
 .amInformations {
+<<<<<<< HEAD
   background-image: url("/assets/imgs/Abstract-Design2.png"),
     url("/assets/imgs/Abstract-Design1.png");
+=======
+  background: url("/assets/imgs/Abstract-Design2.png"),
+    url("/assets/imgs/Abstract-Design1.png"), #141414;
+>>>>>>> master
   background-repeat: no-repeat;
   background-position: left center, right center;
   padding-top: 100px;

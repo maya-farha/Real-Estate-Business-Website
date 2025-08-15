@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -13,10 +14,26 @@
     text-decoration: none;
   }
 }
+=======
+
+.nav_Bar {
+  height: 99px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1a1a1a;
+  ul a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+
+>>>>>>> master
 .items_Nav {
   display: flex;
   justify-content: center;
   list-style: none;
+<<<<<<< HEAD
   gap: 12px;
   padding-top: 16px;
   padding-bottom: 16px;
@@ -41,6 +58,45 @@
 .navMenu.show {
   transform: translateX(0);
 }
+=======
+  gap: 30px;
+  /* padding-top: 16px; */
+  /* padding-bottom: 16px; */
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  font-weight: 500;
+}
+.link.active {
+  padding: 12px 20px;
+  background-color: #141414;
+  border-radius: 8px;
+  border: 1px solid #262626;
+}
+
+.space {
+  padding: 25.5px 162px;
+}
+
+.logo_Nav {
+  width: 160px;
+}
+
+.bars {
+  display: none;
+}
+
+.navMenu {
+  background-color: #141414;
+  display: none;
+}
+
+.navMenu.show {
+  display: block;
+}
+
+>>>>>>> master
 .btn_Nav {
   max-width: 109px;
   color: #ffffff;
@@ -50,17 +106,26 @@
   padding: 14px 20px;
   font-size: 14px medium;
   line-height: 150%;
+<<<<<<< HEAD
+=======
+  letter-spacing: 0%;
+>>>>>>> master
   font-weight: 500;
   a {
     color: #ffffff;
     text-decoration: none;
   }
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 @media screen and (max-width: 992px) {
   nav {
     .items_Nav,
     .btn_Nav {
       display: none;
+<<<<<<< HEAD
     }
     .bars {
       display: block;
@@ -70,4 +135,21 @@
       border: 2px solid #141414;
     }
   }
+=======
+    }
+  }
+
+  .bars {
+    font-size: 28px;
+    display: block;
+    min-width: 28px;
+    color: #ffffff;
+    background-color: unset;
+    border: unset;
+  }
+
+  .space {
+    padding: 20px 16px;
+  }
+>>>>>>> master
 }

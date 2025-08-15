@@ -8,7 +8,14 @@
   display: inline-block;
   text-align: center;
   color: white;
+<<<<<<< HEAD
   min-width: 192px;
+=======
+
+  min-width: 192px;
+
+  background-color: #141414;
+>>>>>>> master
 }
 /* button-black */
 .mf-btn-black {
