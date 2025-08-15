@@ -8,7 +8,6 @@ import Service from "./pages/Services/Service";
 import Contact from "./pages/Contact/Contact";
 
 import NavBar from "./components/NavBar/NavBar";
-import ExProperty from "./components/ExProperty/ExProperty";
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
         <Route path="/service" element={<Service />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
-      <ExProperty />
     </>
   );
 }
