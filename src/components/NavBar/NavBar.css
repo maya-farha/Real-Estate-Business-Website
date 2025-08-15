@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav_Bar {
+  height: 77px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  ul a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}
+=======
 
 .nav_Bar {
   height: 99px;
@@ -11,10 +28,37 @@
   }
 }
 
+>>>>>>> master
 .items_Nav {
   display: flex;
   justify-content: center;
   list-style: none;
+<<<<<<< HEAD
+  gap: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #ffffff;
+  font-size: 14px medium;
+  line-height: 150%;
+  font-weight: 500;
+}
+.space {
+  padding: 21.5px 80px 21.5px 80px;
+}
+.logo_Nav {
+  max-width: 113.33px;
+}
+.bars {
+  display: none;
+}
+.navMenu {
+  transform: translateX(-100%);
+  transition: 0.5s all;
+}
+.navMenu.show {
+  transform: translateX(0);
+}
+=======
   gap: 30px;
   /* padding-top: 16px; */
   /* padding-bottom: 16px; */
@@ -52,6 +96,7 @@
   display: block;
 }
 
+>>>>>>> master
 .btn_Nav {
   max-width: 109px;
   color: #ffffff;
@@ -61,19 +106,36 @@
   padding: 14px 20px;
   font-size: 14px medium;
   line-height: 150%;
+<<<<<<< HEAD
+=======
   letter-spacing: 0%;
+>>>>>>> master
   font-weight: 500;
   a {
     color: #ffffff;
     text-decoration: none;
   }
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> master
 @media screen and (max-width: 992px) {
   nav {
     .items_Nav,
     .btn_Nav {
       display: none;
+<<<<<<< HEAD
+    }
+    .bars {
+      display: block;
+      min-width: 28px;
+      color: #ffffff;
+      background-color: #141414;
+      border: 2px solid #141414;
+    }
+  }
+=======
     }
   }
 
@@ -89,4 +151,5 @@
   .space {
     padding: 20px 16px;
   }
+>>>>>>> master
 }

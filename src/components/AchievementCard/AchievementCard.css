@@ -1,0 +1,85 @@
+.RJ-outContainer {
+    max-width: 505.67px;
+    max-height: 256px;
+    padding: 50px;
+    border: 1px solid #262626;
+    background-color: #141414;
+    border-radius: 12px; 
+    box-shadow: 0px 0px 0px  8px #191919;    
+}
+
+.RJ-outContainer .RJ-outDis{
+    max-width: 405.67px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color:#999999;
+    margin-top: 30px;
+
+   }
+.RJ-outContainer .RJ-outTitle {
+
+    max-width: 405.67px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+
+}
+@media screen and (max-width: 1440px){
+    .RJ-outContainer{
+        max-width: 406.33px;
+        max-height: 212px;
+        padding: 40px;
+        border-radius: 10px; 
+        box-shadow: 0px 0px 0px 6px #191919;
+
+        
+
+
+    }
+    .RJ-outContainer .RJ-outTitle{
+        max-width: 326.33px;
+        font-size: 24px;
+    }
+    .RJ-outContainer .RJ-outDis{
+        max-width: 326.33px;
+        font-size: 16px;
+    }
+
+
+
+
+}
+@media screen and (max-width: 992px){
+    .RJ-outContainer{
+        max-width: 357px;
+        max-height: 169px;
+        padding: 30px;
+        border-radius: 10px; 
+        box-shadow: 0px 0px 0px 4px #191919;
+
+
+    }
+    .RJ-outContainer .RJ-outTitle{
+        max-width: 297px;
+        font-size: 20px;
+    }
+    .RJ-outContainer .RJ-outDis{
+        max-width: 297px;
+        font-size: 14px;
+    }
+
+
+
+
+}
+
+
+    
+
+
+
+

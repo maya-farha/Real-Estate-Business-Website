@@ -7,7 +7,16 @@
 }
 
 /* general classes */
+<<<<<<< HEAD
+
+/* font size */
+.msFontSize18 {
+  font-size: 18px;
+}
+
+=======
 /* font size*/
+>>>>>>> master
 .msFontSize20 {
   font-size: 20px;
 }
