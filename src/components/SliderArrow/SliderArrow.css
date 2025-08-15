@@ -17,3 +17,18 @@
 .MF-arrow:hover {
   background-color: #703bf7;
 }
+
+@media screen and (max-width: 1440px) {
+  .MF-arrow {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .MF-swiperNav {
+    justify-content: space-between;
+  }
+  .MF-arrow {
+    padding: 10px;
+  }
+}

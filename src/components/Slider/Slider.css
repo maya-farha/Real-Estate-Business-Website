@@ -1,0 +1,18 @@
+.MF-paddingSlider {
+  padding: 8px;
+}
+
+.swiper-wrapper {
+  display: flex;
+  align-items: stretch;
+}
+
+.swiper-slide {
+  height: auto;
+}
+@media screen and (max-width: 992px) {
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+}
