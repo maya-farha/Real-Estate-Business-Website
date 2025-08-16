@@ -13,7 +13,8 @@ function About() {
       <div className="sectionSpace">
         <Values />
       </div>
-      <div className="RJ-sectionOut">
+      
+      <div className="sectionSpace">
         <SectionOut />
       </div>
 
