@@ -30,12 +30,12 @@
   }
 }
 @media screen and (max-width: 992px) {
-  .AM-titleWidth  {
+  .AM-titleWidth {
     img {
       width: 45.6px;
     }
 
-  h1 {
+    h1 {
       padding-bottom: 20px;
       font-size: 28px;
     }

@@ -1,7 +1,11 @@
-import React from "react";
+import MonthlyCosts from "../../components/MonthyCosts/MonthlyCosts";
 
 function property() {
-  return <div></div>;
+  return (
+    <div>
+      <MonthlyCosts />
+    </div>
+  );
 }
 
 export default property;

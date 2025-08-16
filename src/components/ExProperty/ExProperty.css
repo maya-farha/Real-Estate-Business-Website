@@ -31,7 +31,7 @@
     flex-direction: column;
     gap: 30px;
     .mf-btn-purble-p54 {
-      width: 357px;
+      min-width: 268px;
     }
   }
 }

@@ -1,5 +1,6 @@
 import Button from "../Button/Button";
 import Title from "../Title/Title";
+
 import "./ExProperty.css";
 
 function ExProperty() {
