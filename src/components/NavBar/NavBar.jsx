@@ -13,19 +13,23 @@ function NavBar({ logo, items, btn }) {
 
   return (
     <>
-      <nav className="nav_Bar space" style={{ backgroundColor: "#1A1A1A" }}>
-        <img src={logo} alt="" className="logo_Nav" />
+      <nav className="nav_Bar space">
+        <img src={logo} alt="logo" className="logo_Nav" />
         <ul className="items_Nav">
           {items.map((item, index) => {
             return (
               <li key={index}>
-                <Link to={item.url}>{item.content}</Link>
+                <NavLink to={item.url} className="link">
+                  {item.content}
+                </NavLink>
               </li>
             );
           })}
         </ul>
         <button className="btn_Nav">
-          <Link to={"/Contact"}>{btn}</Link>
+          <NavLink to={"/Contact"} className="link">
+            {btn}
+          </NavLink>
         </button>
         <button className="bars" onClick={showHandel}>
           <HiMiniBars3BottomRight />
@@ -36,7 +40,7 @@ function NavBar({ logo, items, btn }) {
           {items.map((item, index) => {
             return (
               <li key={index}>
-                <Link to={item.url}>{item.content} </Link>
+                <NavLink to={item.url}>{item.content} </NavLink>
               </li>
             );
           })}

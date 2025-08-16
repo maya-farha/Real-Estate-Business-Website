@@ -4,8 +4,10 @@ import "./TextContainer.css";
 const TextContainer = ({ heading, Paragraph }) => {
   return (
     <div className="textContainer">
-      <p className="msFontSize40 msFontWeight700 mswhiteColor">{heading}</p>
-      <p className="msFontSize18 msFontWeight500 msGrayColor">{Paragraph}</p>
+      <b className="msFontSize40 msFontWeight700 mswhiteColor">{heading}</b>
+      <span className="msFontSize18 msFontWeight500 msGrayColor">
+        {Paragraph}
+      </span>
     </div>
   );
 };

@@ -1,0 +1,34 @@
+.MF-swiperNav {
+  margin-top: 40px;
+  padding-top: 16px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 10px;
+  border-top: 1px solid #262626;
+}
+
+.MF-arrow {
+  padding: 14px;
+  background-color: unset;
+  border-radius: 50%;
+  border: 1px solid #262626;
+}
+.MF-arrow:hover {
+  background-color: #703bf7;
+}
+
+@media screen and (max-width: 1440px) {
+  .MF-arrow {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .MF-swiperNav {
+    justify-content: space-between;
+  }
+  .MF-arrow {
+    padding: 10px;
+  }
+}
