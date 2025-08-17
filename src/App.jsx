@@ -1,15 +1,15 @@
 import { Form, Route, Routes } from "react-router-dom";
 import "./App.css";
-
 import Home from "./pages/Home/Home";
 import About from "./pages/AboutUs/About";
 import Property from "./pages/Property/Property";
 import Service from "./pages/Services/Service";
 import Contact from "./pages/Contact/Contact";
+import TextContainer from "./components/TextContainer/TextContainer";
+
 import NavBar from "./components/NavBar/NavBar";
 import ExProperty from "./components/ExProperty/ExProperty";
 import Footer from "./components/Footer/Footer";
-
 function App() {
   return (
     <>
