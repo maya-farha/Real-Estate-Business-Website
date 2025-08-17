@@ -7,7 +7,12 @@
 }
 
 /* general classes */
-/* font size*/
+
+/* font size */
+.msFontSize18 {
+  font-size: 18px;
+}
+
 .msFontSize20 {
   font-size: 20px;
 }

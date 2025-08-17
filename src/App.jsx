@@ -1,6 +1,5 @@
 import { Form, Route, Routes } from "react-router-dom";
 import "./App.css";
-
 import Home from "./pages/Home/Home";
 import About from "./pages/AboutUs/About";
 import Property from "./pages/Property/Property";
@@ -11,6 +10,8 @@ import TextContainer from "./components/TextContainer/TextContainer";
 import NavBar from "./components/NavBar/NavBar";
 
 import ExProperty from "./components/ExProperty/ExProperty";
+
+import Footer from "../src/components/Footer/Footer";
 
 function App() {
   return (
@@ -35,6 +36,11 @@ function App() {
       </Routes>
 
       <ExProperty></ExProperty>
+
+      <Footer
+        imag="/assets/icons/logo.svg"
+        icona="/assets/icons/facebook.svg"
+      ></Footer>
     </>
   );
 }
