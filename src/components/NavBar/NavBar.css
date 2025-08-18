@@ -1,10 +1,11 @@
-
 .nav_Bar {
   height: 99px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1a1a1a;
+  /* position: fixed; */
+  width: 100%;
   ul a {
     color: #ffffff;
     text-decoration: none;
@@ -68,9 +69,9 @@
     text-decoration: none;
   }
 }
-
 @media screen and (max-width: 992px) {
-  nav {
+  .nav_Bar {
+    height: 68px;
     .items_Nav,
     .btn_Nav {
       display: none;
