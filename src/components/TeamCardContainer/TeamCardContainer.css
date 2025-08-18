@@ -1,0 +1,22 @@
+.MS-teamCardContainer{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 80px;
+}
+
+
+                                            /* medium screen */
+@media screen and (max-width: 1440px) {
+    .MS-teamCardContainer{
+        gap: 10px;
+    }
+}
+
+                                            /* small screen */
+@media screen and (max-width: 992px) {
+    .MS-teamCardContainer{
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -2,17 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #141414; */
+  /* background-color: #141414;  */
   font-family: "Urbanist", sans-serif;
 }
 
-/* general classes */
-
-/* font size */
-.msFontSize18 {
-  font-size: 18px;
-}
-
+                                          /* general classes */
+                      /* font size*/
 .msFontSize20 {
   font-size: 20px;
 }
@@ -29,7 +24,7 @@
   font-size: 60px;
 }
 
-/*  font weight */
+                      /*  font weight */
 .msFontWeight500 {
   font-weight: 500;
 }
@@ -40,7 +35,7 @@
   font-weight: 700;
 }
 
-/*  line height */
+                      /*  line height */
 .msLineHeight120 {
   line-height: 120%;
 }
@@ -48,8 +43,7 @@
   line-height: 150%;
 }
 
-/* colors */
-
+                      /* colors */
 .mswhiteColor {
   color: #ffffff;
 }
@@ -63,39 +57,41 @@
   background-color: #1a1a1a;
 }
 
-/* white_spacing */
+                      /* white_spacing */
 .white-spacing {
   padding: 0 162px;
 }
 
-/* medium screen */
+                                          /* medium screen */
 @media screen and (max-width: 1440px) {
   .white-spacing {
     padding: 0 80px;
   }
-  /* font size */
+                        /* font size */
   .msFontSize18 {
-    /* 18 => 16 */
-    font-size: 16px;
+    font-size: 16px; /* 18 => 16 */
   }
+  .msFontSize24 {    
+  font-size: 20px;  /* 24 => 20 */
+}
   .msFontSize40 {
-    /* 40 => 30 */
-    font-size: 30px;
+    font-size: 30px; /* 40 => 30 */
   }
 }
 
-/* small screen */
+                                          /* small screen */
 @media screen and (max-width: 992px) {
   .white-spacing {
     padding: 0 16px;
   }
-  /* font size */
+                        /* font size */
   .msFontSize18 {
-    /* 16 => 14 */
-    font-size: 14px;
+    font-size: 14px; /* 18 => 16 => 14 */
   }
+  .msFontSize24 {    
+  font-size: 18px;  /* 24 => 20 => 18 */
+}
   .msFontSize40 {
-    /* 30 => 24 */
-    font-size: 24px;
+    font-size: 24px; /* 40 => 30 => 24 */
   }
 }
