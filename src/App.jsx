@@ -7,10 +7,11 @@ import Property from "./pages/Property/Property";
 import Service from "./pages/Services/Service";
 import Contact from "./pages/Contact/Contact";
 import NavBar from "./components/NavBar/NavBar";
-<<<<<<< HEAD
-=======
+
+
 import ExProperty from "./components/ExProperty/ExProperty";
->>>>>>> master
+import Footer from "./components/Footer/Footer";
+
 
 function App() {
   return (
@@ -25,10 +26,7 @@ function App() {
         ]}
         btn="Contact Us"
       ></NavBar>
-<<<<<<< HEAD
-=======
 
->>>>>>> master
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
@@ -37,6 +35,10 @@ function App() {
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
       <ExProperty></ExProperty>
+      <Footer  imag="/assets/icons/logo.svg">
+
+      </Footer>
+      
     </>
   );
 }
