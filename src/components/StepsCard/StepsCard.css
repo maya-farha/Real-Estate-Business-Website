@@ -1,0 +1,67 @@
+
+
+.MS-StepsCard{
+    display: flex;
+    flex-direction: column;
+    .MS-HeadContainer{
+        padding: 16px 20px;
+        border-left: 1px solid #703BF7;
+    }
+    .MS-TextContainer{
+        max-width: 512.3333px;
+        padding: 50px;
+        border:  1px solid #262626;
+        border-radius: 12px;
+        position: relative;
+        flex-grow: 1;
+        p{
+            padding-bottom: 20px;
+            position: relative;
+        }
+        span{
+            position: relative;
+        }
+        .MS-LinarGradiant{
+            border-left: 1px solid #703BF7;
+            border-top: 1px solid #703BF7;
+            opacity: 0.6;
+            width: 90px;
+            height: 90px;
+            background-image: linear-gradient(to right bottom , rgba(112, 59, 247, 0.377)10% , rgba(112, 59, 247, 0) 45%);
+            position: absolute;
+            top: -1px;
+            left: -1px;
+        }
+    }
+}
+
+
+
+                                          /* medium screen */
+@media screen and (max-width: 1440px) {
+    .MS-StepsCard{
+        .MS-HeadContainer{
+            padding: 14px 16px;
+        }
+        .MS-TextContainer{
+            max-width: 413px;
+            padding: 40px;
+        p{
+            padding-bottom: 16px;
+            }
+        }
+    }
+}
+
+                                          /* small screen */
+@media screen and (max-width: 992px) {
+    .MS-StepsCard{
+        .MS-TextContainer{
+            max-width: 357px;
+            padding: 30px;
+        p{
+            padding-bottom: 14px;
+            }
+        }
+    }
+}

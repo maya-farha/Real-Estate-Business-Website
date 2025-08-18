@@ -47,6 +47,7 @@ function ClientReview() {
           }}
           data={clientsData}
           renderItem={(card) => (
+            
             <ClientCard
               date={card.date}
               companyName={card.companyName}

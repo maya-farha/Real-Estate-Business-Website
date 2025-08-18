@@ -8,8 +8,11 @@ import Contact from "./pages/Contact/Contact";
 import TextContainer from "./components/TextContainer/TextContainer";
 
 import NavBar from "./components/NavBar/NavBar";
+
 import ExProperty from "./components/ExProperty/ExProperty";
-import Footer from "./components/Footer/Footer";
+
+import Footer from "../src/components/Footer/Footer";
+
 function App() {
   return (
     <>
@@ -30,8 +33,13 @@ function App() {
         <Route path="/service" element={<Service />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
       </Routes>
+
       <ExProperty></ExProperty>
-      <Footer imag="/assets/icons/logo.svg"></Footer>
+
+      <Footer
+        imag="/assets/icons/logo.svg"
+        icona="/assets/icons/facebook.svg"
+      ></Footer>
     </>
   );
 }
