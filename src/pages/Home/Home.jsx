@@ -3,8 +3,13 @@ import "./Home.css";
 import ServiceSection from "../../components/ServiceSection/ServiceSection";
 
 import HeroHome from "../../components/HeroHome/HeroHome";
+
 import ClientSays from "../../components/ClientSays/ClientSays";
 import AskedQuestions from "../../components/AskedQuestions/AskedQuestions";
+
+
+import BuildingCards from "../../components/BuildingCards/BuildingCards";
+import Title from "../../components/Title/Title";
 
 
 function Home() {
@@ -15,6 +20,14 @@ function Home() {
         <ServiceSection></ServiceSection>
         <ClientSays/>
         <AskedQuestions/>
+      </div>
+      <div className="AM-FeaturedHo white-spacing">
+        <Title
+          title="Featured Properties"
+          description='Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.'
+          fsDifference="48"
+        />
+        <BuildingCards />
       </div>
     </div>
   );
