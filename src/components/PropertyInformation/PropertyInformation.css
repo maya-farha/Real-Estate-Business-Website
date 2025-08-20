@@ -1,0 +1,33 @@
+
+
+.MS-propertyInformation{
+    span{
+        padding-bottom: 10px;
+        img{
+            padding-right: 6px;
+        }
+    }
+}
+
+                                          /* medium screen */
+@media screen and (max-width: 1440px) {
+    .MS-propertyInformation{
+        span{
+            padding-bottom: 4px;
+            img{
+                padding-right: 8px;
+            }
+        }
+    }
+}
+
+                                          /* small screen */
+@media screen and (max-width: 992px) {
+    .MS-propertyInformation{
+        span{
+            img{
+                padding-right: 6px;
+            }
+        }
+    }
+}

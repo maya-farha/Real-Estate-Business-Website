@@ -3,8 +3,14 @@ import "./Home.css";
 import ServiceSection from "../../components/ServiceSection/ServiceSection";
 import HeroHome from "../../components/HeroHome/HeroHome";
 import ChoiceHome from "../../components/ChoiceHome/ChoiceHome";
+
+import ClientSays from "../../components/ClientSays/ClientSays";
+import AskedQuestions from "../../components/AskedQuestions/AskedQuestions";
+
+
 import BuildingCards from "../../components/BuildingCards/BuildingCards";
 import Title from "../../components/Title/Title";
+
 
 function Home() {
   return (
@@ -12,6 +18,8 @@ function Home() {
       <HeroHome></HeroHome>
       <div className="MF-serviceSection">
         <ServiceSection></ServiceSection>
+        <ClientSays/>
+        <AskedQuestions/>
       </div>
       <div className="AM-FeaturedHo white-spacing">
         <Title

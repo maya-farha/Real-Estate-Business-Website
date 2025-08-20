@@ -1,4 +1,9 @@
 import { useParams, Link } from "react-router-dom";
+
+import DescriptionProperty from "../../components/DescriptionProperty/DescriptionProperty";
+
+import GuaranteeSection from "../../components/GuaranteeSection/GuaranteeSection";
+
 import MonthlyCosts from "../../components/MonthyCosts/MonthlyCosts";
 import properties from "../../components/data";
 import PricingDetails from "../../components/PricingDetails/PricingDetails";
@@ -18,8 +23,9 @@ function Property() {
   return (
     <div className="MF-properyPage white-spacing">
       <PricingDetails id={parseInt(property.id)}></PricingDetails>
+      <MonthlyCosts />
+      <GuaranteeSection />
     </div>
   );
 }
-
 export default Property;
