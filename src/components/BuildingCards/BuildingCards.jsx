@@ -1,6 +1,4 @@
-import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+import Slider from "../Slider/Slider";
 import ChoiceHome from "../ChoiceHome/ChoiceHome";
 import "./BuildingCards.css";
 import { useEffect } from "react";
@@ -47,27 +45,6 @@ function BuildingCards() {
       price: "550,000",
     },
   ];
-  const settings = {
-    dots: true,
-    infinite: false,
-    speed: 500,
-    slidesToScroll: 1,
-    slidesToShow: 3,
-    responsive: [
-      {
-        breakpoint: 1440,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 992,
-        settings: {
-          slidesToShow: 1,
-        },
-      },
-    ],
-  };
 
   useEffect(() => {
     const cardsData = JSON.stringify(cards);
@@ -75,25 +52,33 @@ function BuildingCards() {
   }, []);
 
   return (
-    <div className="amAllCards white-spacing">
-      {/* <div className="amContainer"> */}
-      <Slider {...settings}>
-        {cards.map((card, index) => {
-          return (
-            <ChoiceHome
-              key={index}
-              image={card.image}
-              title={card.title}
-              descreption={card.descreption}
-              bedroom={card.bedroom}
-              bathroom={card.bathroom}
-              type={card.type}
-              price={card.price}
-            />
-          );
-        })}
-      </Slider>
-      {/* </div> */}
+    <div className="amAllCards">
+      <Slider
+        spaceBetween={20}
+        slidesPerView={1}
+        breakpoints={{
+          992: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          1440: {
+            slidesPerView: 3,
+            spaceBetween: 30,
+          },
+        }}
+        data={cards}
+        renderItem={(card) => (
+          <ChoiceHome
+            image={card.image}
+            title={card.title}
+            descreption={card.descreption}
+            bedroom={card.bedroom}
+            bathroom={card.bathroom}
+            type={card.type}
+            price={card.price}
+          />
+        )}
+      />
     </div>
   );
 }

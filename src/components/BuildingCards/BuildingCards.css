@@ -7,9 +7,9 @@
     gap: 30px;
   }
 }
-.slick-slide > div {
+/* .slick-slide > div {
   padding: 0 15px;
-}
+} */
 @media screen and (max-width: 1440px) {
   .amAllCards {
     gap: 20px;
