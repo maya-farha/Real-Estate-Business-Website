@@ -6,11 +6,13 @@ import Property from "./pages/Property/Property";
 import Service from "./pages/Services/Service";
 import Contact from "./pages/Contact/Contact";
 
+
 import NavBar from "./components/NavBar/NavBar";
 
 import ExProperty from "./components/ExProperty/ExProperty";
 
 import Footer from "../src/components/Footer/Footer";
+
 
 function App() {
 
