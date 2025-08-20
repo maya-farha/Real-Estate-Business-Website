@@ -2,7 +2,7 @@ const properties = [
   {
     id: 1,
     price: 650000,
-    image: "/images/nyc.jpg",
+    image: "/images/Seaside-Serenity-Villa",
     description: "Modern apartment in the heart of New York City",
     type: "Apartment",
     location: "New York, USA",

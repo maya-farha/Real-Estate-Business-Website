@@ -1,0 +1,24 @@
+
+
+.MS-connectContainer{
+
+}
+
+
+                                            /* medium screen */
+@media screen and (max-width: 1440px) {
+    .MS-connectContainer{
+    }
+}
+
+
+
+                                            /* small screen */
+@media screen and (max-width: 992px) {
+    .MS-connectContainer{
+        .MS-formPlace{
+            display: flex;
+            justify-content: center;
+        }
+    }
+}
