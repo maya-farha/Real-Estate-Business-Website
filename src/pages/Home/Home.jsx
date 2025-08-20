@@ -1,8 +1,8 @@
 import "../../index.css";
 import "./Home.css";
 import ServiceSection from "../../components/ServiceSection/ServiceSection";
-
 import HeroHome from "../../components/HeroHome/HeroHome";
+import ChoiceHome from "../../components/ChoiceHome/ChoiceHome";
 import BuildingCards from "../../components/BuildingCards/BuildingCards";
 import Title from "../../components/Title/Title";
 

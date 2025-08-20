@@ -1,0 +1,93 @@
+.MF-pricingCard {
+  width: 100%;
+  background-color: #141414;
+  padding: 50px;
+  border: 2px solid #262626;
+  border-radius: 12px;
+  margin-bottom: 50px;
+  .header {
+    h2 {
+      color: #ffffff;
+    }
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #262626;
+  }
+}
+.MF-feesTitle {
+  margin-bottom: 16px;
+}
+.MF-subPrice {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+  p {
+    padding: 8px 14px;
+    border-radius: 28px;
+    background-color: #191919;
+    border: 1px solid #262626;
+  }
+}
+.MF-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.MF-grid .fee-item {
+  margin-top: 40px;
+}
+.MF-grid .fee-item:nth-child(even) {
+  position: relative;
+  padding-left: 20px;
+}
+.MF-grid .fee-item:nth-child(even)::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 20%;
+  left: 0;
+  border-left: 1px solid #262626;
+}
+.fee-item:not(:last-child) {
+  border-bottom: 1px solid #262626;
+}
+.fee-item:nth-last-child(-n + 1) {
+  .fee-item:nth-child(odd) {
+    border-bottom: unset;
+  }
+  .fee-item:nth-child(even) {
+    border-bottom: 1px solid #262626;
+  }
+}
+.fee-item:nth-child(odd) {
+  .fee-item:nth-last-child(-n + 1) {
+    border-bottom: unset;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .MF-grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .MF-grid .fee-item:nth-child(even)::before {
+    display: none;
+  }
+  .MF-grid .fee-item:nth-child(even) {
+    padding-left: unset;
+  }
+  .MF-pricingCard {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .MF-subPrice {
+    margin-bottom: 20px;
+  }
+  .MF-subPrice {
+    p {
+      border-radius: 6px;
+    }
+  }
+}
