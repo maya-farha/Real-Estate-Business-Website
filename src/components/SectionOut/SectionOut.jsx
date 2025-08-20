@@ -5,9 +5,9 @@ import Title from '../Title/Title'
 import './SectionOut.css'
 
 
-function SectionOut(props) {
+function SectionOut() {
   return (
-    <div className='RJ-sectionContainer' style={{backgroundColor: "#141414"}}>
+    <div className='RJ-sectionContainer' >
         <div className='RJ-textContainer'>
                 <Title
                         title="Our Achievements"
