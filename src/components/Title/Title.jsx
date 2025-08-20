@@ -1,8 +1,8 @@
 import "./Title.css";
-function Title({ title, description, fsDifference }) {
+function Title({ title, description, fsDifference, image = true }) {
   return (
-    <div className='AM-titleWidth'>
-      <img src="/assets/icons/stars-design.svg" alt="stars design" />
+    <div className="AM-titleWidth">
+      {image && <img src="/assets/icons/stars-design.svg" alt="stars design" />}
       <h1 className={`msFontSize${fsDifference} msFontWeight600 mswhiteColor `}>
         {title}
       </h1>

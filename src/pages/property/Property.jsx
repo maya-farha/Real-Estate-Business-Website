@@ -1,13 +1,10 @@
-import GuaranteeSection from '../../components/GuaranteeSection/GuaranteeSection';
-import './property.css'
+import GuaranteeSection from "../../components/GuaranteeSection/GuaranteeSection";
+import MonthlyCosts from "../../components/MonthyCosts/MonthlyCosts";
 
 function property() {
-  return <div className="RJ-guaratee"> 
-  <GuaranteeSection></GuaranteeSection>
-      
-  
-
-
+  return <div>
+    <MonthlyCosts/>
+    <GuaranteeSection/>
   </div>;
 }
 

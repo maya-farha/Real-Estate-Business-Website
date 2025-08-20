@@ -6,7 +6,6 @@
   background-color: #141414;
   .AM-heroAb {
     padding-top: 100px;
-    padding-bottom: 150px;
   }
 }
 @media screen and (max-width: 1440px) {
@@ -17,19 +16,17 @@
   .AM-about {
     .AM-heroAb {
       padding-top: 70px;
-      padding-bottom: 120px;
     }
   }
 }
 
 @media screen and (max-width: 992px) {
   .sectionSpace {
-    margin-top: 40px;
+    margin-top: 60px;
   }
   .AM-about {
     .AM-heroAb {
       padding-top: 50px;
-      padding-bottom: 61px;
     }
   }
 }
