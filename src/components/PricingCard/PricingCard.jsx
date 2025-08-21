@@ -1,6 +1,6 @@
 import React from "react";
 import Button from "../Button/Button";
-import properties from "../data";
+import properties from "../Data/data";
 import "./PricingCard.css";
 
 function PricingCard({ propertyId, title, dataPath }) {

@@ -1,8 +1,12 @@
+import DiscoverContainer from "../../components/DiscoverContainer/DiscoverContainer";
+import "./Contact.css";
 import React from "react";
 import ConnectContainer from "../../components/ConnectContainer/ConnectContainer";
 function Contact() {
   return (
-    <div>
+    <div className="RJ-discoverCards">
+      <DiscoverContainer />
+
       <ConnectContainer />
     </div>
   );

@@ -3,7 +3,7 @@ import Title from "../Title/Title";
 import PricingCard from "../PricingCard/PricingCard";
 import MonthlyCosts from "../MonthyCosts/MonthlyCosts";
 import "./PricingDetails.css";
-import properties from "../data";
+import properties from "../Data/data";
 function PricingDetails({ id }) {
   const property = properties.find((p) => p.id === id);
   return (
