@@ -1,11 +1,15 @@
+
+import DescriptionProperty from "../../components/DescriptionProperty/DescriptionProperty";
+
+import GuaranteeSection from "../../components/GuaranteeSection/GuaranteeSection";
+
 import MonthlyCosts from "../../components/MonthyCosts/MonthlyCosts";
 
 function property() {
-  return (
-    <div>
-      <MonthlyCosts />
-    </div>
-  );
+  return <div>
+    <MonthlyCosts/>
+    <GuaranteeSection/>
+  </div>;
 }
 
 export default property;

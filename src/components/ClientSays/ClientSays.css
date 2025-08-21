@@ -1,0 +1,15 @@
+.MS-sliderContainer {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 1440px) {
+    .MS-sliderContainer {
+        margin-top: 60px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .MS-sliderContainer {
+        margin-top: 40px;
+    }
+}

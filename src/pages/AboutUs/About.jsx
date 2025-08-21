@@ -3,6 +3,9 @@ import HeroAbout from "../../components/HeroAbout/HeroAbout";
 import Values from "../../components/Values/Values";
 import ClientReview from "../../components/ClientReview/clientReview";
 import SectionOut from "../../components/SectionOut/SectionOut";
+import EstateinTeam from "../../components/EstateinTeam/EstateinTeam";
+import EstateinExperience from "../../components/EstateinExperience/EstateinExperience";
+
 function About() {
   return (
     <div className="AM-about white-spacing">
@@ -20,6 +23,15 @@ function About() {
       <div className="sectionSpace">
         <ClientReview></ClientReview>
       </div>
+
+      <div className="MS-EstateinExperience">
+        <EstateinExperience/>
+      </div>
+
+      <div className="MS-EstateinTeam">
+        <EstateinTeam/>
+      </div>
+
     </div>
   );
 }

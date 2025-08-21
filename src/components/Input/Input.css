@@ -1,0 +1,38 @@
+
+.MS-input{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    max-width: 432.3333px;
+    input{
+        margin-top: 16px;
+        padding: 24px 20px;
+        background-color: #1A1A1A;
+        border: 1px solid #262626;
+        border-radius: 8px;
+    }
+}
+
+                                            /* medium screen */
+@media screen and (max-width: 1440px) {
+    .MS-input{
+        width: 21vw;
+        max-width: 353.3333px;
+        input{
+            margin-top: 14px;
+            padding: 16px 20px;
+            border-radius: 6px;
+        }
+    }
+}
+
+                                            /* small screen */
+@media screen and (max-width: 992px) {
+    .MS-input{
+        width: 90vw;
+        max-width: 317px;
+        input{
+            margin-top: 10px;
+        }
+    }
+}

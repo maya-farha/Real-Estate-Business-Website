@@ -1,0 +1,85 @@
+
+.MS-descriptionProperty{
+    max-width: 783px;
+    padding: 50px;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    p{
+        padding-bottom: 14px;
+    }
+    span{
+        padding-bottom: 50px;
+    }
+    .MS-informationContainer{
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 20px;
+        border-top: 1px solid #262626;
+        .MS-paddingRight{
+            padding-right: 20px;
+        }
+        .MS-borderPaddingLeft{
+            padding-left: 20px;
+            border-left: 1px solid #262626;
+        }
+    }
+}
+
+                                          /* medium screen */
+@media screen and (max-width: 1440px) {
+    .MS-descriptionProperty{
+        max-width: 630px;
+        padding: 40px;
+        p{
+            padding-bottom: 10px;
+        }
+        span{
+            padding-bottom: 40px;
+        }
+        .MS-informationContainer{
+            padding-top: 16px;
+            .MS-paddingRight{
+                padding-right: 10px;
+            }
+            .MS-borderPaddingLeft{
+                padding-left: 10px;
+            }
+        }
+    }
+}
+
+                                          /* small screen */
+@media screen and (max-width: 992px) {
+    .MS-descriptionProperty{
+        max-width: 358px;
+        padding: 20px;
+        p{
+            padding-bottom: 6px;
+        }
+        span{
+            padding-bottom: 20px;
+        }
+        .MS-informationContainer{
+            padding-top: 20px;
+            .MS-paddingRight{
+                padding-right: 0;
+            }
+            .MS-paddingRightSmallScreen{
+                padding-right: 20px;
+            }
+            .MS-borderPaddingLeft{
+                padding-left: 0px;
+                border: none;
+            }
+            .MS-paddingBorderLeftSmallScreen{
+                padding-left: 20px;
+                border-left: 1px solid #262626;
+            }
+            .MS-width{
+                width: 100%;
+                margin-top: 20px;
+                border-top: 1px solid #262626;
+            }
+        }
+    }
+}
