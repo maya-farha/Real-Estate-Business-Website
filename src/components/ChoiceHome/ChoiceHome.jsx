@@ -2,6 +2,7 @@ import "./ChoiceHome.css";
 import Button from "../Button/Button";
 
 function ChoiceHome({
+  id,
   image,
   title,
   descreption,
@@ -48,7 +49,7 @@ function ChoiceHome({
         </div>
         <Button
           children="View Property Details"
-          to="/property"
+          to={`/property/${id}`}
           className="mf-btn-purble-p54"
         />
       </div>
