@@ -6,7 +6,6 @@ import "./PricingDetails.css";
 import properties from "../data";
 function PricingDetails({ id }) {
   const property = properties.find((p) => p.id === id);
-  console.log(property);
   return (
     <div>
       <Title
@@ -15,6 +14,7 @@ function PricingDetails({ id }) {
         We want you to have a clear understanding of all costs associated with your property investment. Below, we break down the pricing for Seaside Serenity Villa to help you make an informed decision"
         fsDifference="48"
       />
+
       <div className="MF-note">
         <h2 className="mswhiteColor">Note</h2>
         <p className="msGrayColor">
@@ -22,11 +22,13 @@ function PricingDetails({ id }) {
           property, location, and individual circumstances.
         </p>
       </div>
+
       <div className="MF-pricingSection">
         <div>
           <span className="msGrayColor">Listing Price</span>
           <h2 className="mswhiteColor">${property.price}</h2>
         </div>
+
         <div>
           <PricingCard
             propertyId={id}
@@ -34,7 +36,7 @@ function PricingDetails({ id }) {
             dataPath="fees"
           />
 
-          <MonthlyCosts />
+          <MonthlyCosts propertyId={id} dataPath="monthly" />
 
           <PricingCard
             propertyId={id}

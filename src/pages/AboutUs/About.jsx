@@ -30,15 +30,6 @@ function About() {
       <div className="sectionSpace">
         <ClientReview></ClientReview>
       </div>
-
-      <div className="MS-EstateinExperience">
-        <EstateinExperience/>
-      </div>
-
-      <div className="MS-EstateinTeam">
-        <EstateinTeam/>
-      </div>
-
     </div>
   );
 }

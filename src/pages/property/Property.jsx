@@ -1,15 +1,12 @@
-import { useParams, Link } from "react-router-dom";
-
+import { useParams } from "react-router-dom";
 import DescriptionProperty from "../../components/DescriptionProperty/DescriptionProperty";
-
 import GuaranteeSection from "../../components/GuaranteeSection/GuaranteeSection";
-
-import MonthlyCosts from "../../components/MonthyCosts/MonthlyCosts";
-import properties from "../../components/data";
+import properties from "../../components/Data/data";
 import PricingDetails from "../../components/PricingDetails/PricingDetails";
-import "./Property.css";
 import HeroProperty from "../../components/HeroProperty/HeroProperty";
 import BuildingCards from "../../components/BuildingCards/BuildingCards";
+import "./Property.css";
+
 function Property() {
   const { id } = useParams();
 
