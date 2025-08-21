@@ -47,5 +47,11 @@
   .AM-MonthlyCostsPr {
     padding: 20px;
     gap: 20px;
+    .AM-taxPr,
+    .AM-feePr {
+      p {
+        border-radius: 6px;
+      }
+    }
   }
 }

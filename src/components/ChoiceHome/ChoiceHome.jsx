@@ -48,7 +48,7 @@ function ChoiceHome({
         </div>
         <Button
           children="View Property Details"
-          to="/property"
+          to="/property/"
           className="mf-btn-purble-p54"
         />
       </div>
