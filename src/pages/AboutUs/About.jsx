@@ -5,6 +5,7 @@ import ClientReview from "../../components/ClientReview/clientReview";
 import SectionOut from "../../components/SectionOut/SectionOut";
 import EstateinTeam from "../../components/EstateinTeam/EstateinTeam";
 import EstateinExperience from "../../components/EstateinExperience/EstateinExperience";
+import EstateinsWorld from "../../components/EstateinsWorld/EstateinsWorld";
 
 function About() {
   return (
@@ -32,6 +33,7 @@ function About() {
         <EstateinTeam/>
       </div>
 
+    <dir><EstateinsWorld/></dir>
     </div>
   );
 }
