@@ -2,17 +2,19 @@ const properties = [
   {
     id: 1,
     price: 650000,
-    image: "/images/Seaside-Serenity-Villa",
+    image: "/assets/imgs/heroProperty.png",
     description: "Modern apartment in the heart of New York City",
     type: "Apartment",
     location: "New York, USA",
     rooms: 2,
     baths: 1,
-    area: "1,000 Sq Ft",
+    area: "1,000 Square Feet",
     features: [
-      "Balcony with skyline view",
-      "Open kitchen layout",
-      "Near subway and restaurants",
+      "Expansive oceanfront terrace for outdoor entertaining",
+      "Gourmet kitchen with top-of-the-line appliances",
+      "Private beach access for morning strolls and sunset views",
+      "Master suite with a spa-inspired bathroom and ocean-facing balcony",
+      "Private garage and ample storage space",
     ],
     fees: [
       {
@@ -87,13 +89,8 @@ const properties = [
         note: "",
       },
       {
-        label: "HOA Fee",
+        label: "Homeowners' Association Fee",
         value: 300,
-        note: "",
-      },
-      {
-        label: "Insurance",
-        value: 150,
         note: "",
       },
       {
@@ -101,12 +98,17 @@ const properties = [
         value: "Varies based on terms and interest rate",
         note: "",
       },
+      {
+        label: "Property Insurance",
+        value: 150,
+        note: "",
+      },
     ],
   },
   {
     id: 2,
     price: 480000,
-    image: "/images/la.jpg",
+    image: "/assets/imgs/Seaside-Serenity-Villa.png",
     description: "Cozy family home located in Los Angeles suburb",
     type: "House",
     location: "Los Angeles, USA",
@@ -191,18 +193,18 @@ const properties = [
         note: "",
       },
       {
-        label: "HOA Fee",
+        label: "Homeowners' Association Fee",
         value: 0,
-        note: "",
-      },
-      {
-        label: "Insurance",
-        value: 180,
         note: "",
       },
       {
         label: "Mortgage Payment",
         value: "Varies based on terms and interest rate",
+        note: "",
+      },
+      {
+        label: "Property Insurance",
+        value: 180,
         note: "",
       },
     ],
@@ -295,18 +297,18 @@ const properties = [
         note: "",
       },
       {
-        label: "HOA Fee",
+        label: "Homeowners' Association Fee",
         value: 400,
-        note: "",
-      },
-      {
-        label: "Insurance",
-        value: 130,
         note: "",
       },
       {
         label: "Mortgage Payment",
         value: "Varies based on terms and interest rate",
+        note: "",
+      },
+      {
+        label: "Property Insurance",
+        value: 130,
         note: "",
       },
     ],
@@ -399,18 +401,18 @@ const properties = [
         note: "",
       },
       {
-        label: "HOA Fee",
+        label: "Homeowners' Association Fee",
         value: 150,
-        note: "",
-      },
-      {
-        label: "Insurance",
-        value: 250,
         note: "",
       },
       {
         label: "Mortgage Payment",
         value: "Varies based on terms and interest rate",
+        note: "",
+      },
+      {
+        label: "Property Insurance",
+        value: 250,
         note: "",
       },
     ],

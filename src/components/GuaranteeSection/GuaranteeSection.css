@@ -1,54 +1,39 @@
-.RJ-guaranteeSection{
-    max-width: 783px;
-    padding: 50px;
-    border-radius: 12px;
-    border: 1px solid  #999999;
-   /* background-color: #262626;*/
-    
-    
-
-
+.RJ-guaranteeSection {
+  max-width: 783px;
+  padding: 50px;
+  border-radius: 12px;
+  border: 1px solid #262626;
+  /* background-color: #262626;*/
 }
-.RJ-guaranteeTitle{
-    max-width: 683px;
-    font-size: 24px;
-    line-height: 150%;
-    letter-spacing: 0%;
-    font-weight: 600;
-    color: #FFFFFF;
-    margin-bottom: 50px;
-
+.RJ-guaranteeTitle {
+  max-width: 683px;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 50px;
 }
-@media screen and (max-width: 1440px){
-    .RJ-guaranteeSection{
-        max-width: 630px;
-        padding: 40px;
-    }
-    .RJ-guaranteeTitle{
-        max-width: 550px;
-        font-size: 20px;
-        margin-bottom: 40px;
-       
-    
-    }
-
-
-
-
+@media screen and (max-width: 1440px) {
+  .RJ-guaranteeSection {
+    max-width: 630px;
+    padding: 40px;
+  }
+  .RJ-guaranteeTitle {
+    max-width: 550px;
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
 }
-@media screen and (max-width: 992px){
-    .RJ-guaranteeSection{
-        max-width: 358px;
-        padding: 20px;
-    }
+@media screen and (max-width: 992px) {
+  .RJ-guaranteeSection {
+    max-width: 358px;
+    padding: 20px;
+  }
 
-
-    .RJ-guaranteeTitle{
-        max-width: 318px;
-        font-size: 18px;
-        margin-bottom: 20px;
-       
-    
-    }
-
+  .RJ-guaranteeTitle {
+    max-width: 318px;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
 }

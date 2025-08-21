@@ -4,6 +4,7 @@
     padding: 50px;
     border: 1px solid #262626;
     border-radius: 12px;
+    height: max-content;
     p{
         padding-bottom: 14px;
     }

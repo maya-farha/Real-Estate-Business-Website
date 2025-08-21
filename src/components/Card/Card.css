@@ -97,19 +97,19 @@
         padding-top: 6px;
       }
     }
-    button {
+    /* button {
       width: 100%;
       min-width: 200px;
       padding: 14px 115.5px;
       margin: auto;
-    }
+    } */
   }
   .MS-textContainer {
     p {
       padding-top: 6px;
     }
   }
-  button {
+  /* button {
     padding: 14px 115.5px;
-  }
+  } */
 }

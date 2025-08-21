@@ -5,7 +5,7 @@ import { useEffect } from "react";
 function BuildingCards() {
   const cards = [
     {
-      image: "assets/imgs/Seaside-Serenity-Villa.png",
+      image: "/assets/imgs/Seaside-Serenity-Villa.png",
       title: "Seaside Serenity Villa",
       descreption:
         "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood... Read More",
@@ -15,7 +15,7 @@ function BuildingCards() {
       price: "550,000",
     },
     {
-      image: "assets/imgs/Metropolitan-Haven.png",
+      image: "/assets/imgs/Metropolitan-Haven.png",
       title: "Metropolitan Haven",
       descreption:
         "A chic and fully-furnished 2-bedroom apartment with panoramic city views... Read More",
@@ -25,7 +25,7 @@ function BuildingCards() {
       price: "550,000",
     },
     {
-      image: "assets/imgs/Rustic-Retreat-Cottage.png",
+      image: "/assets/imgs/Rustic-Retreat-Cottage.png",
       title: "Rustic Retreat Cottage",
       descreption:
         "An elegant 3-bedroom, 2.5-bathroom townhouse in a gated community... Read More",
@@ -35,7 +35,7 @@ function BuildingCards() {
       price: "550,000",
     },
     {
-      image: "assets/imgs/Seaside-Serenity-Villa.png",
+      image: "/assets/imgs/Seaside-Serenity-Villa.png",
       title: "Seaside Serenity Villa",
       descreption:
         "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood... Read More",

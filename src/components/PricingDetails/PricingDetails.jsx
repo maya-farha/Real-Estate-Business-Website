@@ -1,6 +1,7 @@
 import React from "react";
 import Title from "../Title/Title";
 import PricingCard from "../PricingCard/PricingCard";
+import MonthlyCosts from "../MonthyCosts/MonthlyCosts";
 import "./PricingDetails.css";
 import properties from "../data";
 function PricingDetails({ id }) {
@@ -24,20 +25,28 @@ function PricingDetails({ id }) {
       <div className="MF-pricingSection">
         <div>
           <span className="msGrayColor">Listing Price</span>
-          <h2 className="mswhiteColor">$ {property.price}</h2>
+          <h2 className="mswhiteColor">${property.price}</h2>
         </div>
         <div>
           <PricingCard
             propertyId={id}
-            title="Initial Costs"
+            title="Additional Fees"
+            dataPath="fees"
+          />
+
+          <MonthlyCosts />
+
+          <PricingCard
+            propertyId={id}
+            title="Total Initial Costs"
             dataPath="initialCosts"
           />
+
           <PricingCard
             propertyId={id}
             title="Monthly Expenses"
             dataPath="monthlyExpenses"
           />
-          <PricingCard propertyId={id} title="Fees Breakdown" dataPath="fees" />
         </div>
       </div>
     </div>
