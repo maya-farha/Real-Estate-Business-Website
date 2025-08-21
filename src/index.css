@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* background-color: #141414; */
+  /* background-color: #141414;  */
   font-family: "Urbanist", sans-serif;
 }
 
@@ -13,6 +13,9 @@
 }
 .msFontSize24 {
   font-size: 24px;
+}
+.msFontSize30 {
+  font-size: 30px;
 }
 .msFontSize40 {
   font-size: 40px;
@@ -44,7 +47,6 @@
 }
 
 /* colors */
-
 .mswhiteColor {
   color: #ffffff;
 }
@@ -70,12 +72,19 @@
   }
   /* font size */
   .msFontSize18 {
-    /* 18 => 16 */
-    font-size: 16px;
+    font-size: 16px; /* 18 => 16 */
+  }
+  .msFontSize24 {
+    font-size: 20px; /* 24 => 20 */
+  }
+  .msFontSize30 {
+    font-size: 24px;
   }
   .msFontSize40 {
-    /* 40 => 30 */
-    font-size: 30px;
+    font-size: 30px; /* 40 => 30 */
+  }
+  .msFontSize48 {
+    font-size: 38px;
   }
 }
 
@@ -86,11 +95,18 @@
   }
   /* font size */
   .msFontSize18 {
-    /* 16 => 14 */
-    font-size: 14px;
+    font-size: 14px; /* 18 => 16 => 14 */
+  }
+  .msFontSize24 {
+    font-size: 18px; /* 24 => 20 => 18 */
+  }
+  .msFontSize30 {
+    font-size: 18px;
   }
   .msFontSize40 {
-    /* 30 => 24 */
-    font-size: 24px;
+    font-size: 24px; /* 40 => 30 => 24 */
+  }
+  .msFontSize48 {
+    font-size: 28px;
   }
 }

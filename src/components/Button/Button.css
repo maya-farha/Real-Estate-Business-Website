@@ -8,15 +8,15 @@
   display: inline-block;
   text-align: center;
   color: white;
-
-  min-width: 192px;
-
-  background-color: #141414;
+  /* min-width: 192px; */
 }
+
 /* button-black */
 .mf-btn-black {
+  background-color: #141414;
   border: 1px solid #262626;
 }
+
 /* button-purble */
 .mf-btn-purble,
 .mf-btn-purble-p54 {

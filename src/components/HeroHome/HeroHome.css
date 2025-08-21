@@ -8,6 +8,7 @@
 
 .MF-heroContent {
   padding-left: 162px;
+  width: 772px;
 }
 
 .mf-hero-title {
@@ -44,6 +45,7 @@
   }
   .MF-heroContent {
     padding-left: 80px;
+    width: unset;
   }
   .MF-heroImg {
     img {

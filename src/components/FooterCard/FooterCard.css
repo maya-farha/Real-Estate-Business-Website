@@ -1,0 +1,52 @@
+
+.RJ_ItemsFooter {
+    margin-top: 30px;
+    list-style: none;
+    li {
+      margin-bottom: 20px;
+    }
+    a {
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 500;
+      color: #ffffff;
+    }
+  }
+  .RJ_TitleFooter {
+    a {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 500;
+      color: #999999;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    .RJ_ItemsFooter {
+      margin-top: 24px;
+      a {
+        font-size: 16px;
+      }
+    }
+  
+    .RJ_TitleFooter {
+      a {
+        font-size: 18px;
+      }
+    }
+    .RJ_ItemsFooter {
+      li {
+        margin-bottom: 16px;
+      }
+    }
+  }
+  @media screen and (max-width: 992px) {
+    .RJ_FooterCard {
+      border-bottom: 1px solid #262626;
+    }
+    .RJ_ItemsFooter {
+      li {
+        margin-bottom: 8px;
+      }
+    }
+  }
+  
