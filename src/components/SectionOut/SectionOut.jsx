@@ -1,6 +1,6 @@
-import AchievementCard from '../AchievementCard/AchievementCard'
-import OutContainer  from '../OutContainer/OutContainer'
-import Title from '../Title/Title'
+import AchievementCard from "../AchievementCard/AchievementCard";
+import OutContainer from "../OutContainer/OutContainer";
+import Title from "../Title/Title";
 
 import './SectionOut.css'
 
@@ -27,20 +27,13 @@ function SectionOut() {
 
             </AchievementCard>
 
-            <AchievementCard  htitle="Industry Recognition" 
-                    pdis="We've earned the respect of our peers and industry leaders, with accolades and awards that reflect our commitment to excellence." >
-
-            </AchievementCard>
-            </OutContainer>
-
-
-
-
-       
-
-      
+        <AchievementCard
+          htitle="Industry Recognition"
+          pdis="We've earned the respect of our peers and industry leaders, with accolades and awards that reflect our commitment to excellence."
+        ></AchievementCard>
+      </OutContainer>
     </div>
-  )
+  );
 }
 
-export default SectionOut
+export default SectionOut;

@@ -3,16 +3,17 @@
    /*max-width: 1597px;*/
    /*padding-left: 162px;
    padding-right: 162px;*/
-   padding-bottom: 150px;
-   padding-top: 80px;
-   display: flex;
-   justify-content: center;
-   gap: 40px;
+  height: fit-content;
+  padding-bottom: 150px;
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
   /* margin-left: 162px;
    margin-right: 162px;*/
-   
-    
 }
+@media screen and (max-width: 1440px) {
+  .container {
 @media screen and (max-width: 1440px){
   .container{
     
@@ -21,6 +22,8 @@
     margin-left: 81px;
     margin-right: 81px;
     gap: 30px;
+  }
+}
     
     
   }
@@ -31,6 +34,8 @@
 
 
 
+@media screen and (max-width: 992px) {
+  .container {
 @media screen and (max-width: 992px){
   .container{
     
@@ -44,5 +49,4 @@
    
     
   }
-
 }

@@ -1,7 +1,7 @@
 import "./About.css";
 import HeroAbout from "../../components/HeroAbout/HeroAbout";
 import Values from "../../components/Values/Values";
-import ClientReview from "../../components/ClientReview/clientReview";
+import ClientReview from "../../components/ClientReview/ClientReview";
 import SectionOut from "../../components/SectionOut/SectionOut";
 import EstateinTeam from "../../components/EstateinTeam/EstateinTeam";
 import EstateinExperience from "../../components/EstateinExperience/EstateinExperience";
@@ -16,22 +16,20 @@ function About() {
       <div className="sectionSpace">
         <Values />
       </div>
-      <div className="RJ-sectionOut">
+
+      <div className="sectionSpace">
         <SectionOut />
       </div>
 
       <div className="sectionSpace">
+        <EstateinExperience></EstateinExperience>
+      </div>
+
+      <EstateinTeam></EstateinTeam>
+
+      <div className="sectionSpace">
         <ClientReview></ClientReview>
       </div>
-
-      <div className="MS-EstateinExperience">
-        <EstateinExperience/>
-      </div>
-
-      <div className="MS-EstateinTeam">
-        <EstateinTeam/>
-      </div>
-
     </div>
   );
 }

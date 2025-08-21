@@ -1,15 +1,7 @@
-
-import './OutContainer.css'
-
+import "./OutContainer.css";
 
 function Container(props) {
-  return (
-    <div className='container'>
-        {props.children}
-      
-    </div>
-    
-  )
+  return <div className="container">{props.children}</div>;
 }
 
-export default Container
+export default Container;

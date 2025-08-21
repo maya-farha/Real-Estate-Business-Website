@@ -1,111 +1,115 @@
+/* Card */
+.MS-card {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 50px;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  background-color: #141414;
 
-                                            /* Card */
-.MS-card{
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    padding: 50px;
+  .MS_maxWidth {
+    max-width: 360px;
+  }
+  .MS-starsContainer {
+    img {
+      padding: 10px;
+      margin-right: 10px;
+      border: 1px solid #262626;
+      border-radius: 50%;
+      background-color: #1a1a1a;
+    }
+  }
+  .MS-textContainer {
+    max-width: 412px;
+    p {
+      padding-top: 14px;
+    }
+  }
+  .MS-informationContainer {
+    .MS-container {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+
+    b {
+      padding-bottom: 2px;
+    }
+  }
+  button {
+    width: 134px;
+    padding: 18px 24px;
     border: 1px solid #262626;
-    border-radius: 12px;
-    background-color: #141414; 
-    
-    .MS_maxWidth{
-        max-width: 360px;
-    }
-    .MS-starsContainer{
-        img{
-            padding: 10px;
-            margin-right: 10px;
-            border: 1px solid #262626;
-            border-radius: 50%;
-            background-color: #1A1A1A;
-        }
-    }
-    .MS-textContainer{
-        max-width: 412px;
-        p{
-            padding-top: 14px
-        }
-    }
-    .MS-informationContainer{
-        .MS-container{
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            
-        }
-        
-        b{
-            padding-bottom: 2px;
-        }
-    }
-    button{
-        width: 134px;
-        padding: 18px 24px;
-        border: 1px solid #262626;
-    }
+  }
 }
 
-
-                                            /* medium screen */
+/* medium screen */
 @media screen and (max-width: 1440px) {
-    .MS-card{
-        gap: 30px;
-        padding: 40px;
-    .MS-starsContainer{
-            gap: 8px;
-            img{
-                width: 38px;
-                padding: 8px;
-            }
-        }
-    .MS-textContainer{
-        max-width: 333px;
-        p{
-            padding-top: 10px
-            }
-        }
-    .MS-informationContainer{
-        .MS-container{
-            gap: 10px;
-            }
-        b{
-            padding-bottom: 0px
-            }
-        img{
-            width: 50px;
-        }
-        }
-        button{
-            width: 107px;
-            padding: 14px 20px;
-        }
+  .MS-card {
+    gap: 30px;
+    padding: 40px;
+    .MS-starsContainer {
+      gap: 8px;
+      img {
+        width: 38px;
+        padding: 8px;
+      }
     }
+    .MS-textContainer {
+      max-width: 333px;
+      p {
+        padding-top: 10px;
+      }
+    }
+    .MS-informationContainer {
+      .MS-container {
+        gap: 10px;
+      }
+      b {
+        padding-bottom: 0px;
+      }
+      img {
+        width: 50px;
+      }
+    }
+    button {
+      width: 107px;
+      padding: 14px 20px;
+    }
+  }
 }
 
-
-                                            /* small screen */
+/* small screen */
 @media screen and (max-width: 992px) {
-    .MS-card{
-        gap: 24px;
-        padding: 30px;
-        .MS-starsContainer{
-            gap: 8px;
-            img{
-                width: 32px;
-                padding: 6px;
-            }
-        }
-    .MS-textContainer{
-        p{
-            padding-top: 6px
-            }
-        }
-        button{
-            width: 100%;
-            min-width: 200px;
-            padding: 14px 115.5px;
-            margin: auto;
-        }
+  .MS-card {
+    gap: 24px;
+    padding: 30px;
+    .MS-starsContainer {
+      gap: 8px;
+      img {
+        width: 32px;
+        padding: 6px;
+      }
     }
+    .MS-textContainer {
+      p {
+        padding-top: 6px;
+      }
+    }
+    /* button {
+      width: 100%;
+      min-width: 200px;
+      padding: 14px 115.5px;
+      margin: auto;
+    } */
+  }
+  .MS-textContainer {
+    p {
+      padding-top: 6px;
+    }
+  }
+  /* button {
+    padding: 14px 115.5px;
+  } */
 }
