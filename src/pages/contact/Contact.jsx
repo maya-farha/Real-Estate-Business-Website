@@ -1,8 +1,11 @@
-import React from 'react'
+import DiscoverContainer from '../../components/DiscoverContainer/DiscoverContainer'
+import './Contact.css'
 
 function Contact() {
   return (
-    <div>
+    <div className='RJ-discoverCards'> 
+    <DiscoverContainer/>
+
       
     </div>
   )
