@@ -1,0 +1,34 @@
+.AM-branchTitle2Se {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 50px;
+  background: url("../../../public/assets/imgs/background-services.png"),
+    #191919;
+  border-radius: 12px;
+  p {
+    color: #e4e4e7;
+  }
+  .mf-btn-black {
+    max-width: 417px;
+  }
+}
+@media screen and (max-width: 1440px) {
+  .AM-branchTitle2Se {
+    max-width: 357px;
+    gap: 20px;
+    padding: 40px;
+    h2 {
+      font-size: 22px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .AM-branchTitle2Se {
+    padding: 24px;
+    h2 {
+      font-size: 20px !important;
+    }
+  }
+}

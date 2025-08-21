@@ -1,5 +1,5 @@
 .AM-titleWidth {
-  max-width: 758px;
+  /* max-width: 758px; */
   img {
     position: relative;
     right: 2%;
@@ -21,7 +21,6 @@
     }
     h1 {
       padding-bottom: 20px;
-      font-size: 46px;
     }
 
     p {
