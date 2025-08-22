@@ -5,6 +5,7 @@ import ClientReview from "../../components/ClientReview/ClientReview";
 import SectionOut from "../../components/SectionOut/SectionOut";
 import EstateinTeam from "../../components/EstateinTeam/EstateinTeam";
 import EstateinExperience from "../../components/EstateinExperience/EstateinExperience";
+import EstateinsWorld from "../../components/EstateinsWorld/EstateinsWorld";
 
 function About() {
   return (
@@ -30,6 +31,10 @@ function About() {
       <div className="sectionSpace">
         <ClientReview></ClientReview>
       </div>
+
+
+    <dir><EstateinsWorld/></dir>
+
     </div>
   );
 }
