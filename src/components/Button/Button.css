@@ -37,6 +37,6 @@
 @media screen and (max-width: 992px) {
   .mf-button {
     padding: 14px 0;
-    width: 100%;
+    max-width: 400px;
   }
 }

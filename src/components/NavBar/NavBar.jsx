@@ -40,7 +40,9 @@ function NavBar({ logo, items, btn }) {
           {items.map((item, index) => {
             return (
               <li key={index}>
-                <NavLink to={item.url}>{item.content} </NavLink>
+                <NavLink to={item.url} onClick={showHandel}>
+                  {item.content}{" "}
+                </NavLink>
               </li>
             );
           })}

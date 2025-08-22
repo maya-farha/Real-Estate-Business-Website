@@ -76,6 +76,9 @@
     }
     .amDetails {
       margin-top: 20px;
+      .mf-btn-purble-p54 {
+        padding: 18px 20px;
+      }
     }
   }
 }

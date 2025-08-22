@@ -12,7 +12,7 @@ function HeroHome() {
           <Title
             title="Discover Your Dream Property with Estatein"
             description="Your journey to finding the perfect property begins here. Explore our listings to find the home that matches your dreams."
-            fsDifference="60"
+            fsDifference="48"
             image={false}
           />
         </div>

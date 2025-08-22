@@ -4,6 +4,7 @@
 
 .AM-about {
   background-color: #141414;
+  padding-top: 99px;
   .AM-heroAb {
     padding-top: 100px;
   }
@@ -25,6 +26,7 @@
     margin-top: 60px;
   }
   .AM-about {
+    padding-top: 68px;
     .AM-heroAb {
       padding-top: 50px;
     }
