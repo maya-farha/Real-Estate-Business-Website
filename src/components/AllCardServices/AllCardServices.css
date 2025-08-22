@@ -1,0 +1,71 @@
+.AM-investmentSe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  .AM-informationSe {
+    max-width: 519px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    .AM-branchTitleSe {
+      .AM-infoSe {
+        flex-direction: column;
+        .mf-btn-black {
+          max-width: 419px;
+        }
+      }
+    }
+  }
+  .AM-AllCardsSe {
+    background-color: #191919;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5px;
+    border-radius: 12px;
+    .AM-cardSe {
+      margin: 5px;
+
+      background-color: #141414;
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .AM-investmentSe {
+    gap: 50px;
+    .AM-informationSe {
+      max-width: 412px;
+      gap: 40px;
+    }
+    .AM-informationSe {
+      max-width: 418px;
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+    }
+    .AM-AllCardsSe {
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .AM-investmentSe {
+    flex-direction: column;
+    gap: 40px;
+    .AM-titleWidth {
+      max-width: 357px;
+    }
+    .AM-informationSe {
+      gap: 30px;
+    }
+    .AM-AllCardsSe {
+      grid-template-columns: 1fr;
+      background-color: unset;
+      gap: 20px;
+      max-width: unset;
+      .AM-cardSe {
+        height: unset;
+      }
+    }
+  }
+}

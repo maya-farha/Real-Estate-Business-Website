@@ -13,7 +13,7 @@ function NavBar({ logo, items, btn }) {
 
   return (
     <>
-      <nav className="nav_Bar space">
+      <nav className="nav_Bar white-spacing">
         <img src={logo} alt="logo" className="logo_Nav" />
         <ul className="items_Nav">
           {items.map((item, index) => {
@@ -27,9 +27,9 @@ function NavBar({ logo, items, btn }) {
           })}
         </ul>
         <button className="btn_Nav">
-          <NavLink to={"/Contact"} className="link">
+          <Link to={"/Contact"} className="link">
             {btn}
-          </NavLink>
+          </Link>
         </button>
         <button className="bars" onClick={showHandel}>
           <HiMiniBars3BottomRight />
@@ -40,7 +40,9 @@ function NavBar({ logo, items, btn }) {
           {items.map((item, index) => {
             return (
               <li key={index}>
-                <NavLink to={item.url}>{item.content} </NavLink>
+                <NavLink to={item.url} onClick={showHandel}>
+                  {item.content}{" "}
+                </NavLink>
               </li>
             );
           })}

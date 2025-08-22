@@ -1,0 +1,59 @@
+.MF-heroProperty {
+  padding-top: 150px;
+  /* height: calc(100vh - 99px); */
+  /* margin-top: 150px;*/
+  margin-bottom: 30px;
+}
+.MF-propertyFlex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .MF-propertyFlex {
+    gap: 20px;
+  }
+}
+.MF-location {
+  gap: 6px !important;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #262626;
+}
+.MF-heroProperty {
+  .MF-heroImgProperty {
+    border-radius: 12px;
+    padding: 50px;
+    background-color: #1a1a1a;
+    margin-top: 50px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .MF-heroProperty {
+    padding-top: 110px;
+
+    .MF-heroImgProperty {
+      padding: 40px;
+    }
+  }
+  .MF-heroProperty {
+    padding-top: 110px;
+  }
+  @media screen and (max-width: 992px) {
+    .MF-heroProperty {
+      padding-top: 75px;
+
+      .MF-heroImgProperty {
+        padding: 20px;
+      }
+    }
+    .MF-location {
+      padding: 8px;
+    }
+    .MF-propertyFlex.second {
+      display: block;
+    }
+  }
+}

@@ -1,10 +1,12 @@
-
 .nav_Bar {
   height: 99px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1a1a1a;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
   ul a {
     color: #ffffff;
     text-decoration: none;
@@ -16,8 +18,7 @@
   justify-content: center;
   list-style: none;
   gap: 30px;
-  /* padding-top: 16px; */
-  /* padding-bottom: 16px; */
+
   color: #ffffff;
   font-size: 18px;
   line-height: 150%;
@@ -46,6 +47,11 @@
 .navMenu {
   background-color: #141414;
   display: none;
+
+  ul a {
+    color: #ffffff;
+    text-decoration: none;
+  }
 }
 
 .navMenu.show {
@@ -53,7 +59,7 @@
 }
 
 .btn_Nav {
-  max-width: 109px;
+  /* max-width: 109px; */
   color: #ffffff;
   background-color: black;
   border: 1px solid #141414;
@@ -68,8 +74,19 @@
     text-decoration: none;
   }
 }
+.items_Bars {
+  padding-top: 68px;
+  width: 80px;
+
+  li a {
+    display: block;
+    padding: 2px 20px !important;
+  }
+}
+
 @media screen and (max-width: 992px) {
-  nav {
+  .nav_Bar {
+    height: 68px;
     .items_Nav,
     .btn_Nav {
       display: none;

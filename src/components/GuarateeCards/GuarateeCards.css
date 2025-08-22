@@ -1,0 +1,67 @@
+.RJ-guaranteeCards{
+    display: flex;
+    gap: 10px;
+    max-width: 683px;
+    padding: 18px 24px 18px 24px;
+    background: linear-gradient(90deg, #1A1A1A 0%, rgba(26, 26, 26, 0) 100%);
+    border-left: 1px solid #703BF7;
+    margin-bottom: 30px;
+    
+
+    
+
+
+}
+.RJ-guaratee-Icon{
+    width: 24px;
+}
+.RJ-guarateeParaghraf{
+    max-width: 601px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    color: #999999;
+}
+
+@media screen and (max-width: 1440px){
+    .RJ-guaranteeCards{
+        max-width: 550px;
+        padding: 14px 16px 14px 16px;
+        margin-bottom: 20px;
+    }
+    .RJ-guaratee-Icon{
+        width: 20px;
+    }
+    .RJ-guarateeParaghraf{
+        max-width: 488px; 
+        font-size: 16px;
+       
+    }
+
+
+
+
+
+
+}
+
+
+@media screen and (max-width: 992px){
+    .RJ-guaranteeCards{
+        max-width: 318px;
+        padding: 10px 12px 10px 12px;
+        margin-bottom: 18px;
+    }
+    .RJ-guaratee-Icon{
+        width: 18px;
+    }
+    .RJ-guarateeParaghraf{
+        max-width: 266px; 
+        font-size: 14px;
+       
+    }
+
+
+
+}

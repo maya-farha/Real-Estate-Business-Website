@@ -1,0 +1,46 @@
+.MF-note {
+  display: flex;
+  align-items: center;
+  padding: 50px 30px;
+  margin-top: 80px;
+  margin-bottom: 50px;
+  border-radius: 12px;
+  border: 1px solid #262626;
+  background-color: #191919;
+
+  h2 {
+    padding-right: 20px;
+    border-right: 1px solid #262626;
+  }
+  p {
+    margin-left: 20px;
+  }
+}
+.MF-pricingSection {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+}
+@media screen and (max-width: 992px) {
+  .MF-note {
+    padding: 20px;
+    display: block;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    h2 {
+      padding-bottom: 10px;
+      padding-right: unset;
+      border-right: unset;
+      border-bottom: 1px solid #262626;
+    }
+    p {
+      margin: 10px 0 0 0;
+    }
+  }
+  .MF-pricingSection {
+    flex-direction: column;
+  }
+  .MF-pricingSection {
+    gap: 20px;
+  }
+}

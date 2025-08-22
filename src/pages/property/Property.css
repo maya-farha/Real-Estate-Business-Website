@@ -1,0 +1,27 @@
+.MF-properyPage {
+  padding-top: 99px;
+  background-color: #141414;
+}
+.MF-contentProperty {
+  display: flex;
+  justify-content: space-between;
+}
+.MF-contentProperty:nth-child(1) {
+  height: max-content;
+}
+.MF-pricingDetails {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 992px) {
+  .MF-properyPage {
+    padding-top: 68px;
+  }
+  .MF-contentProperty {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .MF-pricingDetails {
+    margin-top: 75px;
+  }
+}

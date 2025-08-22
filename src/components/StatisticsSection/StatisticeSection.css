@@ -8,6 +8,7 @@
   .MF-statisticsSection {
     gap: 16px;
     grid-template-columns: repeat(2, 1fr);
+    max-width: 400px;
   }
 
   .MF-statisticsSection > :nth-child(3) {

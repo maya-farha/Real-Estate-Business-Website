@@ -1,0 +1,47 @@
+.AM-branchTitleSe {
+  background: url("../../../public/assets/imgs/background-services.png"),
+    #191919;
+  background-size: cover;
+  max-width: 1080px;
+  padding: 59.5px 50px;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  .AM-infoSe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 30px;
+    .mf-btn-black {
+      max-width: 139px;
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .AM-branchTitleSe {
+    max-width: 846px;
+    padding: 57.5px 40px;
+    .AM-infoSe {
+      padding-bottom: 20px;
+      .mf-btn-black {
+        max-width: 111px;
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .AM-branchTitleSe {
+    max-width: 357px;
+    padding: 24px;
+    .AM-infoSe {
+      flex-direction: column;
+      gap: 20px;
+
+      .mf-btn-black {
+        max-width: 309px !important;
+      }
+    }
+  }
+}

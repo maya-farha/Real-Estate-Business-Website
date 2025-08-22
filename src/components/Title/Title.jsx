@@ -6,7 +6,7 @@ function Title({ title, description, fsDifference, image = true }) {
       <h1 className={`msFontSize${fsDifference} msFontWeight600 mswhiteColor `}>
         {title}
       </h1>
-      <p className="msFontWeight500 msGrayColor ">{description}</p>
+      <p className="msFontSize18 msFontWeight500 msGrayColor ">{description}</p>
     </div>
   );
 }

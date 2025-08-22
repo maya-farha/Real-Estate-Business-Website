@@ -13,7 +13,7 @@
 
 /* button-black */
 .mf-btn-black {
-  background-color: unset;
+  background-color: #141414;
   border: 1px solid #262626;
 }
 
@@ -37,6 +37,6 @@
 @media screen and (max-width: 992px) {
   .mf-button {
     padding: 14px 0;
-    width: 100%;
+    max-width: 400px;
   }
 }

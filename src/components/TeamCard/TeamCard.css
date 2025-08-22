@@ -1,141 +1,134 @@
+.MS-teamCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+  padding: 30px;
+  background-color: #141414;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  .MS-information {
+    position: relative;
+    .MS-profile {
+      max-width: 316.75px;
+      min-width: 200px;
+      width: 14.2vw;
+    }
+    .MS-xButton {
+      position: absolute;
+      bottom: 0px;
+      left: 50%;
+      transform: translate(-50%, 45%);
+      background-color: #703bf7;
+      border-radius: 43px;
+      padding: 16px 26px;
+      border: none;
+      img {
+        background-color: #703bf7;
+      }
+    }
+  }
 
-
-.MS-teamCard{
+  .MS-container {
+    width: 100%;
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px;
-    padding: 30px;
-    background-color: #141414;
-    border: 1px solid #262626;
-    border-radius: 12px;
-    .MS-information{
-        position: relative;
-        .MS-profile{
-            max-width: 316.75px;
-            min-width: 200px;
-            width: 14.2vw;
+    .MS-contactBtn {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 316.75px;
+      min-width: 160px;
+      width: 14vw;
+      padding: 14px;
+      margin-top: 24px;
+      background-color: #1a1a1a;
+      border: 1px solid #262626;
+      border-radius: 100px;
+      p {
+        background-color: #1a1a1a;
+      }
+      a {
+        border-radius: 50%;
+      }
+      button {
+        padding: 12px;
+        border: none;
+        border-radius: 50%;
+        background-color: #703bf7;
+        img {
+          width: 19px;
+          background-color: #703bf7;
         }
-        .MS-xButton{
-            position: absolute;
-            bottom: 0px;
-            left: 50%;
-            transform: translate(-50% , 45%);
-            background-color: #703BF7;
-            border-radius: 43px;
-            padding: 16px 26px;
-            border: none;
-            img{
-                background-color: #703BF7;
-            }
-        }
+      }
     }
-
-
-    .MS-container{
-        width: 100%;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        .MS-contactBtn{
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            max-width: 316.75px;
-            min-width: 160px;
-            width: 14vw;
-            padding: 14px;
-            margin-top: 24px;
-            background-color: #1a1a1a;
-            border: 1px solid #262626;
-            border-radius: 100px;
-            p{
-                background-color: #1a1a1a;
-            }
-            a{
-            border-radius: 50%;
-            }
-            button{
-                padding: 12px;
-                border: none;
-                border-radius: 50%;
-                background-color: #703BF7;
-                img{
-                    width: 19px;
-                    background-color: #703BF7;
-                }
-            }    
-        }
-    }
+  }
 }
 
-
-
-                                            /* medium screen */
+/* medium screen */
 @media screen and (max-width: 1440px) {
-    .MS-teamCard{
-        padding: 24px;
-        .MS-information{
-            .MS-profile{
-                max-width: 257px;
-                min-width: 150px;
-            }
-            .MS-xButton{
-                padding: 12px 20px;
-                img{
-                    width: 20px;
-                }
-            }
+  .MS-teamCard {
+    padding: 24px;
+    .MS-information {
+      .MS-profile {
+        max-width: 257px;
+        min-width: 150px;
+      }
+      .MS-xButton {
+        padding: 12px 20px;
+        img {
+          width: 20px;
         }
-
-
-        .MS-container{
-            .MS-contactBtn{
-                padding: 10px;
-                margin-top: 20px;
-                max-width: 257px;
-                min-width: 150px;
-                width: 15vw;
-                button{
-                    padding: 9px;
-                    img{
-                        width: 16px;
-                    }
-                }
-            }
-        }
+      }
     }
+
+    .MS-container {
+      .MS-contactBtn {
+        padding: 10px;
+        margin-top: 20px;
+        max-width: 257px;
+        min-width: 150px;
+        width: 15vw;
+        button {
+          padding: 9px;
+          img {
+            width: 16px;
+          }
+        }
+      }
+    }
+  }
 }
 
-
-
-                                            /* small screen */
+/* small screen */
 @media screen and (max-width: 992px) {
-    .MS-teamCard{
-        gap: 40px;
-        padding: 20px;
-        .MS-information{
-            .MS-profile{
-                width: 50vw;
-                max-width: 318px;
-                min-width: 220px;
-            }
-        }
-
-
-        .MS-container{
-            .MS-contactBtn{
-                padding: 8px;
-                margin-top: 16px;
-                max-width: 318px;
-                min-width: 220px;
-                width: 50vw;
-                gap: 50px;
-                button{
-                    padding: 16px;
-                    }
-                }
-        }
+  .MS-teamCard {
+    /* width: 100%;
+    max-width: 500px; */
+    gap: 40px;
+    padding: 20px;
+    .MS-information {
+      .MS-profile {
+        width: 50vw;
+        max-width: 318px;
+        min-width: 220px;
+      }
     }
+
+    .MS-container {
+      .MS-contactBtn {
+        padding: 8px;
+        margin-top: 16px;
+        max-width: 318px;
+        min-width: 220px;
+        width: 50vw;
+        gap: 50px;
+        button {
+          padding: 16px;
+        }
+      }
+    }
+  }
 }

@@ -1,0 +1,32 @@
+.AM-unlockPropertySe {
+  .AM-cardsSe {
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    .AM-branchTitleSe {
+      grid-column: 2 / 4;
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .AM-unlockPropertySe {
+    .AM-cardsSe {
+      gap: 20px;
+      margin-top: 60px;
+    }
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .AM-unlockPropertySe {
+    .AM-cardsSe {
+      place-items: center;
+      margin-top: 40px;
+      grid-template-columns: 1fr;
+      .AM-branchTitleSe {
+        grid-column: 1 / -1;
+      }
+    }
+  }
+}
