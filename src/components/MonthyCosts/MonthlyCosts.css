@@ -47,6 +47,11 @@
   .AM-MonthlyCostsPr {
     padding: 20px;
     gap: 20px;
+    .AM-costsPr {
+      .mf-btn-black {
+        max-width: 111px;
+      }
+    }
     .AM-taxPr,
     .AM-feePr {
       p {
