@@ -105,8 +105,8 @@
 /* small screen */
 @media screen and (max-width: 992px) {
   .MS-teamCard {
-    /* width: 100%;
-    max-width: 500px; */
+    width: 100%;
+    max-width: 500px;
     gap: 40px;
     padding: 20px;
     .MS-information {

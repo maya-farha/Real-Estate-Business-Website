@@ -35,9 +35,4 @@ function Form() {
         </form>
     )
 }
-/*           <Button
-            children="Explore Properties"
-            to="/property"
-            className=".mf-btn-purble"
-          /> */
 export default Form

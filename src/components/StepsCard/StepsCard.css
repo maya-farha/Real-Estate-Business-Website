@@ -57,7 +57,7 @@
 @media screen and (max-width: 992px) {
     .MS-StepsCard{
         .MS-TextContainer{
-            max-width: 357px;
+            max-width: 500px;
             padding: 30px;
         p{
             padding-bottom: 14px;

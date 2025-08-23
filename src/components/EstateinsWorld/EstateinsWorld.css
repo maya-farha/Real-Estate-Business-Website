@@ -20,6 +20,9 @@
         max-width: 344.25px;
         width: 49%;
     }
+    .MS-maxWidth{
+        max-width: 708.5px;
+    }
 }
 .MS-estateinsWorld img:nth-child(1){
     grid-column: 1/2;

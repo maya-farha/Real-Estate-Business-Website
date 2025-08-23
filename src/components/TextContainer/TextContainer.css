@@ -1,4 +1,4 @@
-/* hero : subContainer */
+                        /* hero : subContainer */
 
 .subContainer {
   display: flex;
@@ -6,7 +6,7 @@
   gap: 20px;
 }
 
-.textContainer {
+.MS-textContainer {
   /* width: 192.67px; */
   padding: 14px 20px;
   background-color: #1a1a1a;
@@ -22,7 +22,7 @@
   .subContainer {
     gap: 16px;
   }
-  .textContainer {
+  .MS-textContainer {
     /* width: 192.6666px; */
     padding: 14px 20px;
   }
@@ -33,7 +33,7 @@
   .subContainer {
     gap: 12px;
   }
-  .textContainer {
+  .MS-textContainer {
     /* width: 133px; */
     padding: 16px;
     b,
