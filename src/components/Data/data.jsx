@@ -3,12 +3,13 @@ const properties = [
     id: 1,
     price: 650000,
     image: "/assets/imgs/heroProperty.png",
-    description: "Modern apartment in the heart of New York City",
+    description:
+      "Discover your own piece of paradise with the Seaside Serenity Villa. T With an open floor plan, breathtaking ocean views from every room, and direct access to a pristine sandy beach, this property is the epitome of coastal living.",
     type: "Apartment",
     location: "New York, USA",
-    rooms: 2,
-    baths: 1,
-    area: "1,000 Square Feet",
+    rooms: 4,
+    baths: 3,
+    area: "2,500 Square Feet",
     features: [
       "Expansive oceanfront terrace for outdoor entertaining",
       "Gourmet kitchen with top-of-the-line appliances",
@@ -40,7 +41,7 @@ const properties = [
       {
         label: "Mortgage Fees",
         value: "Varies",
-        note: "Consult with lender for specific details",
+        note: "If applicable, consult with your lender for specific details",
       },
     ],
     monthly: [
@@ -63,7 +64,7 @@ const properties = [
     initialCosts: [
       {
         label: "Listing Price",
-        value: 650000,
+        value: 1250000,
         note: "",
       },
       {
@@ -96,12 +97,12 @@ const properties = [
       {
         label: "Mortgage Payment",
         value: "Varies based on terms and interest rate",
-        note: "",
+        note: "If applicable",
       },
       {
         label: "Property Insurance",
-        value: 150,
-        note: "",
+        value: 100,
+        note: "Approximate monthly cost",
       },
     ],
   },
@@ -112,7 +113,7 @@ const properties = [
     description: "Cozy family home located in Los Angeles suburb",
     type: "House",
     location: "Los Angeles, USA",
-    rooms: 3,
+    rooms: 2,
     baths: 2,
     area: "1,400 Sq Ft",
     features: [
@@ -212,7 +213,7 @@ const properties = [
   {
     id: 3,
     price: 950000,
-    image: "/images/miami.jpg",
+    image: "/assets/imgs/Metropolitan-Haven.png",
     description: "Luxury villa with private pool in Miami Beach",
     type: "Villa",
     location: "Miami, USA",
@@ -316,7 +317,7 @@ const properties = [
   {
     id: 4,
     price: 320000,
-    image: "/images/chicago.jpg",
+    image: "/assets/imgs/Rustic-Retreat-Cottage.png",
     description: "Affordable condo in downtown Chicago",
     type: "Condo",
     location: "Chicago, USA",
@@ -414,6 +415,113 @@ const properties = [
         label: "Property Insurance",
         value: 250,
         note: "",
+      },
+    ],
+  },
+  {
+    id: 5,
+    price: 850000,
+    image: "/assets/imgs/Seaside-Serenity-Villa.png",
+    description:
+      "Experience unparalleled luxury at the Highland Haven Estate. Nestled in a secluded mountain community, this home offers panoramic views, state-of-the-art smart home technology, and an infinity pool that seems to blend with the sky.",
+    type: "Villa",
+    location: "Aspen, USA",
+    rooms: 6,
+    baths: 5,
+    area: "4,200 Square Feet",
+    features: [
+      "Heated infinity pool with stunning mountain views",
+      "Home theater with surround sound system",
+      "Integrated smart home automation for lights, security, and climate",
+      "Private gym with commercial-grade equipment",
+      "Spacious outdoor kitchen and entertaining area",
+    ],
+    fees: [
+      {
+        label: "Property Transfer Tax",
+        value: 34000,
+        note: "Based on the sale price and local regulations",
+      },
+      {
+        label: "Legal Fees",
+        value: 4500,
+        note: "Approximate cost for legal services, including title transfer",
+      },
+      {
+        label: "Home Inspection",
+        value: 600,
+        note: "Recommended for due diligence",
+      },
+      {
+        label: "Property Insurance",
+        value: 1800,
+        note: "Annual cost for comprehensive property insurance",
+      },
+      {
+        label: "Mortgage Fees",
+        value: "Varies",
+        note: "If applicable, consult with your lender for specific details",
+      },
+    ],
+    monthly: [
+      {
+        label: "Property Taxes",
+        value: 2100,
+        note: "Approximate monthly property tax based on local rates",
+      },
+      {
+        label: "Homeowners Association Fee",
+        value: 550,
+        note: "Monthly fee for common area maintenance",
+      },
+      {
+        label: "Monthly Insurance",
+        value: 200,
+        note: "Covers property damage and liability",
+      },
+    ],
+    initialCosts: [
+      {
+        label: "Listing Price",
+        value: 1800000,
+        note: "",
+      },
+      {
+        label: "Additional Fees",
+        value: 40900,
+        note: "Property transfer tax, legal fees, inspection, insurance",
+      },
+      {
+        label: "Down Payment",
+        value: "$360,000",
+        note: "20%",
+      },
+      {
+        label: "Mortgage Amount",
+        value: 650000,
+        note: "If applicable",
+      },
+    ],
+    monthlyExpenses: [
+      {
+        label: "Property Taxes",
+        value: 2100,
+        note: "",
+      },
+      {
+        label: "Homeowners' Association Fee",
+        value: 550,
+        note: "",
+      },
+      {
+        label: "Mortgage Payment",
+        value: "Varies based on terms and interest rate",
+        note: "If applicable",
+      },
+      {
+        label: "Property Insurance",
+        value: 150,
+        note: "Approximate monthly cost",
       },
     ],
   },

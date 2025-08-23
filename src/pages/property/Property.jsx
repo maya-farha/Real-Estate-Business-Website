@@ -16,12 +16,14 @@ function Property() {
 
   return (
     <div className="MF-properyPage white-spacing">
-      <HeroProperty
-        propertyImg={property.image}
-        propertyLocation={property.location}
-        propertyPrice={property.price}
-        propertyName={property.type}
-      ></HeroProperty>
+      <header>
+        <HeroProperty
+          propertyImg={property.image}
+          propertyLocation={property.location}
+          propertyPrice={property.price}
+          propertyName={property.type}
+        ></HeroProperty>
+      </header>
 
       <div className="MF-contentProperty">
         <DescriptionProperty
@@ -35,9 +37,8 @@ function Property() {
         <GuaranteeSection features={property.features}></GuaranteeSection>
       </div>
 
-      <div className="MF-pricingDetails">
+      {/* <div className="MF-pricingDetails"> */}
         <PricingDetails id={parseInt(property.id)}></PricingDetails>
-      </div>
 
       <BuildingCards></BuildingCards>
     </div>

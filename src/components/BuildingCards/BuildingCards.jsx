@@ -5,7 +5,7 @@ import { useEffect } from "react";
 function BuildingCards() {
   const cards = [
     {
-      id: 1,
+      id: 2,
       image: "/assets/imgs/Seaside-Serenity-Villa.png",
       title: "Seaside Serenity Villa",
       descreption:
@@ -16,7 +16,7 @@ function BuildingCards() {
       price: "550,000",
     },
     {
-      id: 2,
+      id: 3,
       image: "/assets/imgs/Metropolitan-Haven.png",
       title: "Metropolitan Haven",
       descreption:
@@ -27,7 +27,7 @@ function BuildingCards() {
       price: "550,000",
     },
     {
-      id: 3,
+      id: 4,
       image: "/assets/imgs/Rustic-Retreat-Cottage.png",
       title: "Rustic Retreat Cottage",
       descreption:
@@ -38,7 +38,7 @@ function BuildingCards() {
       price: "550,000",
     },
     {
-      id: 4,
+      id: 5,
       image: "/assets/imgs/Seaside-Serenity-Villa.png",
       title: "Seaside Serenity Villa",
       descreption:
