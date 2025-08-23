@@ -82,6 +82,9 @@
     display: block;
     padding: 2px 20px !important;
   }
+  .logo_Nav{
+    max-width: 113.33px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -104,5 +107,8 @@
 
   .space {
     padding: 20px 16px;
+  }
+  .logo_Nav{
+   width: 93.33px;
   }
 }
