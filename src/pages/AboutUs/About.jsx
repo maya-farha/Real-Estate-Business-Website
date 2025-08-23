@@ -33,7 +33,6 @@ function About() {
       </div>
 
 
-    <dir><EstateinsWorld/></dir>
 
     </div>
   );
