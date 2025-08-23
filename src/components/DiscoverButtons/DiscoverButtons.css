@@ -1,9 +1,12 @@
 .RJ-imgBtn{
     width: 24px;
-    margin-right: 3px;
+   
    
 }
 .RJ-discoverBtn{
+    display: flex;
+    align-items: center;
+    gap: 6px;
     border-radius: 28px;
     border: 1px solid #1A1A1A;
     background: #1A1A1A;
@@ -23,6 +26,7 @@
     .RJ-discoverBtn{
         padding: 10px 16px 10px 16px;
         font-size: 14px;
+        gap: 4px;
 
 
     }
@@ -36,6 +40,7 @@
     .RJ-discoverBtn{
         padding: 10px 16px 10px 16px;
         font-size: 14px;
+        gap: 4px;
        
 
     }
