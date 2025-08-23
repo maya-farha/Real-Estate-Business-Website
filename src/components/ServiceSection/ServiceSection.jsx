@@ -1,38 +1,73 @@
+import { useState, useEffect } from "react";
 import ServicCard from "../Servic/ServicCard";
 import "./ServiceSection.css";
-import { FaHome, FaKey, FaBuilding, FaChartLine } from "react-icons/fa";
 
 function ServiceSection() {
-  const items = [
+  const [items, setItems] = useState([]);
+  const defaultServices = [
     {
-      logo: "/assets/icons/home-icon.png",
+      id: crypto.randomUUID(),
+      icon: "/assets/icons/home-icon.png",
       alt: "home-Icon",
-      titleService: "Find Your Dream Home",
+      serviceName: "Find Your Dream Home",
     },
     {
-      logo: "/assets/icons/lock-icon.png",
+      id: crypto.randomUUID(),
+      icon: "/assets/icons/lock-icon.png",
       alt: "lock-Icon",
-      titleService: "Unlock Property Value",
+      serviceName: "Unlock Property Value",
     },
     {
-      logo: "/assets/icons/bulding-icon.png",
+      id: crypto.randomUUID(),
+      icon: "/assets/icons/bulding-icon.png",
       alt: "build-Icon",
-      titleService: "Effortless Property Management",
+      serviceName: "Effortless Property Management",
     },
     {
-      logo: "/assets/icons/smart-icon.png",
+      id: crypto.randomUUID(),
+      icon: "/assets/icons/smart-icon.png",
       alt: "sun-Icon",
-      titleService: "Smart Investments, Informed Decisions",
+      serviceName: "Smart Investments, Informed Decisions",
     },
   ];
+
+  useEffect(() => {
+    const fetchItems = () => {
+      try {
+        let storedItems = localStorage.getItem("services");
+        if (!storedItems) {
+          localStorage.setItem("services", JSON.stringify(defaultServices));
+          storedItems = JSON.stringify(defaultServices);
+        }
+        setItems(JSON.parse(storedItems));
+      } catch (error) {
+        console.error("Error reading from localStorage:", error);
+      }
+    };
+
+    fetchItems();
+
+    const handleStorageChange = (event) => {
+      if (event.key === "services") {
+        fetchItems();
+      }
+    };
+
+    window.addEventListener("storage", handleStorageChange);
+
+    return () => {
+      window.removeEventListener("storage", handleStorageChange);
+    };
+  }, []);
+  console.log(items);
   return (
     <section className="MF-serviceContainer">
       {items.map((item, index) => (
         <ServicCard
           key={index}
-          logo={item.logo}
+          logo={item.icon}
           alt={item.alt}
-          titleService={item.titleService}
+          titleService={item.serviceName}
         />
       ))}
     </section>
