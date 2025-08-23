@@ -8,29 +8,18 @@ import EstateinExperience from "../../components/EstateinExperience/EstateinExpe
 
 function About() {
   return (
-    <div className="AM-about white-spacing">
-      <div className="AM-heroAb">
+    <section className="AM-allSectionAb white-spacing">
+      <header className="AM-heroAb">
         <HeroAbout />
-      </div>
-
-      <div className="sectionSpace">
+      </header>
+      <main className="AM-MainContentAb">
         <Values />
-      </div>
-
-      <div className="sectionSpace">
         <SectionOut />
-      </div>
-
-      <div className="sectionSpace">
-        <EstateinExperience></EstateinExperience>
-      </div>
-
-      <EstateinTeam></EstateinTeam>
-
-      <div className="sectionSpace">
-        <ClientReview></ClientReview>
-      </div>
-    </div>
+        <EstateinExperience />
+        <EstateinTeam />
+        <ClientReview />
+      </main>
+    </section>
   );
 }
 

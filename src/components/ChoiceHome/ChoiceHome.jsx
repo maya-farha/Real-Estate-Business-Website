@@ -16,10 +16,13 @@ function ChoiceHome({
       <div className="amImage">
         <img src={image} alt="home" />
       </div>
-      <h2 className="msFontSize24 msFontWeight600 mswhiteColor">{title}</h2>
-      <p className="desc msFontWeight500 msFontSize18 msGrayColor ">
-        {descreption}
-      </p>
+      <div className="amInfoInner">
+        <h2 className="msFontSize24 msFontWeight600 mswhiteColor">{title}</h2>
+        <p className="desc msFontWeight500 msFontSize18 msGrayColor ">
+          {descreption}
+        </p>
+      </div>
+
       <div className="amInformation ">
         <div className="amInfo ">
           <img src="/assets/icons/bedroom-Icon.svg" alt="bedroom-icon" />
