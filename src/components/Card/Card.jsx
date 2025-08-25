@@ -2,14 +2,14 @@
 import './Card.css'
 
 const Card = ({ showHead, SecondHeading, showStars ,Heading , Paragraph ,Name , Text , showImg ,profileImg , showBtn}) => {
-    return (
+    return ( 
         <div className='MS-card'>
             <b className='msFontSize24 msFontWeight600 mswhiteColor MS_maxWidth'style={{display : showHead ? "inline-block" : "none"}}>{SecondHeading}</b>
             <div className='MS-starsContainer'style={{display : showStars ? "block" : "none"}}>
-                <img src="/assets/icons/star-icon.svg" alt="star"/>
-                <img src="/assets/icons/star-icon.svg" alt="star"/>
-                <img src="/assets/icons/star-icon.svg" alt="star"/>
-                <img src="/assets/icons/star-icon.svg" alt="star"/>
+                <img src="/assets/icons/star-icon.svg" className='MS-marginRight' alt="star"/>
+                <img src="/assets/icons/star-icon.svg" className='MS-marginRight' alt="star"/>
+                <img src="/assets/icons/star-icon.svg" className='MS-marginRight' alt="star"/>
+                <img src="/assets/icons/star-icon.svg" className='MS-marginRight' alt="star"/>
                 <img src="/assets/icons/star-icon.svg" alt="star"/>
                 
             </div>
