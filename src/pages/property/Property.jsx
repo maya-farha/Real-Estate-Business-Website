@@ -25,7 +25,7 @@ function Property() {
         ></HeroProperty>
       </header>
 
-      <div className="MF-contentProperty">
+      <section className="MF-contentProperty">
         <DescriptionProperty
           Heading={"description"}
           Paragraph={property.description}
@@ -33,14 +33,16 @@ function Property() {
           Bathrooms={property.baths}
           SquareFeet={property.area}
         ></DescriptionProperty>
-
         <GuaranteeSection features={property.features}></GuaranteeSection>
-      </div>
+      </section>
 
-      {/* <div className="MF-pricingDetails"> */}
+      <section>
         <PricingDetails id={parseInt(property.id)}></PricingDetails>
+      </section>
 
-      <BuildingCards></BuildingCards>
+      <section>
+        <BuildingCards></BuildingCards>
+      </section>
     </div>
   );
 }

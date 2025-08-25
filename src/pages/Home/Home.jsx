@@ -13,9 +13,9 @@ import Title from "../../components/Title/Title";
 function Home() {
   return (
     <section className="MF-allSectionHo ">
-      <header>
+      <section id="HeroHome">
         <HeroHome />
-      </header>
+      </section>
       <div className="AM-MainContentHo">
         <ServiceSection />
         <div className="AM-FeaturedHo white-spacing">
