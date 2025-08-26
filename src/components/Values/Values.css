@@ -17,5 +17,8 @@
   .AM-valuesAb {
     flex-direction: column;
     gap: 40px;
+    .AM-valueAb {
+      max-width: 100%;
+    }
   }
 }

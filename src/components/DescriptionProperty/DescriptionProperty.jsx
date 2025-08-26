@@ -44,4 +44,4 @@ function DescriptionProperty({
 export default DescriptionProperty;
 
 /*       <DescriptionProperty Heading="Description"  
-      Paragraph="Discover your own piece of paradise with the Seaside Serenity Villa. T With an open floor plan, breathtaking ocean views from every room, and direct access to a pristine sandy beach, this property is the epitome of coastal living."/> */
+    Paragraph="Discover your own piece of paradise with the Seaside Serenity Villa. T With an open floor plan, breathtaking ocean views from every room, and direct access to a pristine sandy beach, this property is the epitome of coastal living."/> */

@@ -1,46 +1,30 @@
-import { Form, Route, Routes } from "react-router-dom";
-import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import About from "./pages/AboutUs/About";
 import Property from "./pages/Property/Property";
 import Service from "./pages/Services/Service";
 import Contact from "./pages/Contact/Contact";
+import Dashboard from "./pages/Dashboard/Dashboard";
 
-import NavBar from "./components/NavBar/NavBar";
-
-import ExProperty from "./components/ExProperty/ExProperty";
-
-import Footer from "../src/components/Footer/Footer";
+import PublicLayout from "./layouts/PublicLayout";
+import DashboardLayout from "./layouts/DashboardLayout";
 
 function App() {
   return (
-    <>
-      <NavBar
-        logo="/assets/icons/logo.svg"
-        items={[
-          { url: "/", content: "Home" },
-          { url: "/about", content: "About" },
-          { url: "/property", content: "Property" },
-          { url: "/service", content: "Service" },
-        ]}
-        btn="Contact Us"
-      ></NavBar>
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/about" element={<About />}></Route>
-        <Route path="/property" element={<Property />}></Route>
-        <Route path="/property/:id" element={<Property />}></Route>
-        <Route path="/service" element={<Service />}></Route>
-        <Route path="/contact" element={<Contact />}></Route>
-      </Routes>
+    <Routes>
+      <Route element={<PublicLayout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/property" element={<Property />} />
+        <Route path="/property/:id" element={<Property />} />
+        <Route path="/service" element={<Service />} />
+        <Route path="/contact" element={<Contact />} />
+      </Route>
 
-      <ExProperty></ExProperty>
-
-      <Footer
-        imag="/assets/icons/logo.svg"
-        icona="/assets/icons/facebook.svg"
-      ></Footer>
-    </>
+      <Route element={<DashboardLayout />}>
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Route>
+    </Routes>
   );
 }
 

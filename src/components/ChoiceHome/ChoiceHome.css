@@ -73,7 +73,7 @@
 }
 @media screen and (max-width: 992px) {
   .amCardBorder {
-    width: 358px;
+    width: 500px;
     padding: 24px;
 
     .amDetails {
