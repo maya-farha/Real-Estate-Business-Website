@@ -97,7 +97,9 @@
   }
 
   .MF-pricingCard {
+    max-width: 500px;
     padding: 20px;
+    margin: auto;
     margin-bottom: 20px;
   }
 

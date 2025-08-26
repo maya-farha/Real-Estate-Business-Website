@@ -6,8 +6,11 @@ import SectionOut from "../../components/SectionOut/SectionOut";
 import EstateinTeam from "../../components/EstateinTeam/EstateinTeam";
 import EstateinExperience from "../../components/EstateinExperience/EstateinExperience";
 import EstateinsWorld from "../../components/EstateinsWorld/EstateinsWorld";
+import useScrollToHash from "../../hooks/scroll";
 
 function About() {
+  useScrollToHash();
+
   return (
     <section className="AM-allSectionAb white-spacing">
       <header className="AM-heroAb">
