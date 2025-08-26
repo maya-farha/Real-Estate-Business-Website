@@ -14,7 +14,7 @@ function EstateinsWorld() {
                 <img src="/assets/imgs/second-team.png" alt="team" className='MS-smallPicture'/>
                 <img src="/assets/imgs/third-team.png" alt="team" className='MS-smallPicture'/>
             </div>
-            <div> <Title title ="Explore Estatein's World"
+            <div className='MS-maxWidth'> <Title title ="Explore Estatein's World"
             description = "Step inside the world of Estatein, where professionalism meets warmth, and expertise meets passion. Our gallery offers a glimpse into our team and workspaces, inviting you to get to know us better."
             fsDifference = "48px"/>
             </div>

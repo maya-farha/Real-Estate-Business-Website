@@ -1,9 +1,11 @@
-/* Card */
+                /* Card of slider in Testimonials and FAQ’s (home) */
 .MS-card {
+  height: 100%;
+  max-width: 512px;
   display: flex;
   flex-direction: column;
-  gap: 40px;
-  padding: 50px;
+  gap: 35px;
+  padding: 40px;
   border: 1px solid #262626;
   border-radius: 12px;
   background-color: #141414;
@@ -12,9 +14,11 @@
     max-width: 360px;
   }
   .MS-starsContainer {
+    .MS-marginRight{
+      margin-right: 8px;
+    }
     img {
       padding: 10px;
-      margin-right: 10px;
       border: 1px solid #262626;
       border-radius: 50%;
       background-color: #1a1a1a;
@@ -48,12 +52,14 @@
 @media screen and (max-width: 1440px) {
   .MS-card {
     gap: 30px;
-    padding: 40px;
+    padding: 25px;
     .MS-starsContainer {
-      gap: 8px;
+    .MS-marginRight{
+      margin-right: 6px;
+    }
       img {
-        width: 38px;
-        padding: 8px;
+        width: 32px;
+        padding: 6px;
       }
     }
     .MS-textContainer {
@@ -83,6 +89,8 @@
 /* small screen */
 @media screen and (max-width: 992px) {
   .MS-card {
+    width: 100%;
+    max-width: 500px;
     gap: 24px;
     padding: 30px;
     .MS-starsContainer {
@@ -93,16 +101,17 @@
       }
     }
     .MS-textContainer {
+      max-width: 100%;
       p {
         padding-top: 6px;
       }
     }
-    /* button {
+    button {
       width: 100%;
       min-width: 200px;
       padding: 14px 115.5px;
       margin: auto;
-    } */
+    }
   }
   .MS-textContainer {
     p {

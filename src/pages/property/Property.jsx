@@ -6,8 +6,11 @@ import PricingDetails from "../../components/PricingDetails/PricingDetails";
 import HeroProperty from "../../components/HeroProperty/HeroProperty";
 import BuildingCards from "../../components/BuildingCards/BuildingCards";
 import "./Property.css";
+import useScrollToHash from "../../hooks/scroll";
 
 function Property() {
+  useScrollToHash(); 
+
   const { id } = useParams();
 
   localStorage.setItem("properties", JSON.stringify(properties));
@@ -16,7 +19,7 @@ function Property() {
 
   return (
     <div className="MF-properyPage white-spacing">
-      <header>
+      <header id="portfolio">
         <HeroProperty
           propertyImg={property.image}
           propertyLocation={property.location}
@@ -25,7 +28,7 @@ function Property() {
         ></HeroProperty>
       </header>
 
-      <section className="MF-contentProperty">
+      <section className="MF-contentProperty" id="categories">
         <DescriptionProperty
           Heading={"description"}
           Paragraph={property.description}

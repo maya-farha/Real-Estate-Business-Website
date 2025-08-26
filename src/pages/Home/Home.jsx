@@ -9,8 +9,11 @@ import AskedQuestions from "../../components/AskedQuestions/AskedQuestions";
 
 import BuildingCards from "../../components/BuildingCards/BuildingCards";
 import Title from "../../components/Title/Title";
+import useScrollToHash from "../../hooks/scroll";
 
 function Home() {
+  useScrollToHash();
+
   return (
     <section className="MF-allSectionHo ">
       <section id="HeroHome">
@@ -18,7 +21,7 @@ function Home() {
       </section>
       <div className="AM-MainContentHo">
         <ServiceSection />
-        <div className="AM-FeaturedHo white-spacing">
+        <div className="AM-FeaturedHo white-spacing" id="featured">
           <Title
             title="Featured Properties"
             description='Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.'
@@ -27,8 +30,12 @@ function Home() {
           <BuildingCards />
         </div>
         <div className="MF-serviceSection white-spacing">
-          <ClientSays />
-          <AskedQuestions />
+          <div id="testimonials">
+            <ClientSays />
+          </div>
+          <div>
+            <AskedQuestions />
+          </div>
         </div>
       </div>
     </section>

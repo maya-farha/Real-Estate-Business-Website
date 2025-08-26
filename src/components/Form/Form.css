@@ -11,6 +11,7 @@
         .MS-inputsContainer{
             display: flex;
             justify-content: space-between;
+            align-items: flex-end;
             gap: 50px;
         }
         textarea{

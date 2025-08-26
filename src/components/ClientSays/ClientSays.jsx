@@ -5,7 +5,7 @@ import Card from '../Card/Card'
 
 
 function ClientSays() {
-    const fSliderCards =[{
+    const msFSliderCards =[{
     showStars:true,
     Heading:"Exceptional Service!" ,
     Paragraph :"Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
@@ -31,6 +31,15 @@ function ClientSays() {
     profileImg :"/assets/imgs/john-Profile.png",
     Name :"John Mans",
     Text :"USA, Nevada",
+    },
+    {
+    showStars:true ,
+    Heading :"Efficient and Reliable" ,
+    Paragraph :"Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results",
+    showImg :true,
+    profileImg :"/assets/imgs/emelie-Profile.png",
+    Name :"Emelie Thomson",
+    Text :"USA, Florida"
     }
     
 ]
@@ -46,7 +55,7 @@ function ClientSays() {
             spaceBetween={20}
             slidesPerView={1}
             breakpoints={{992: {slidesPerView: 3,spaceBetween: 50,},}}
-            data={fSliderCards}
+            data={msFSliderCards}
             renderItem={(card) => (
                 <Card
                     showStars = {card.showStars}
