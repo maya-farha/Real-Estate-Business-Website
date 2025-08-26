@@ -5,6 +5,7 @@
 .MF-contentProperty {
   display: flex;
   justify-content: space-between;
+  gap: 30px;
 }
 .MF-contentProperty:nth-child(1) {
   height: max-content;
@@ -17,6 +18,9 @@
 @media screen and (max-width: 1440px) {
   .MF-gapProperty {
     gap: 110px;
+  }
+  .MF-contentProperty {
+    gap: 20px;
   }
 }
 @media screen and (max-width: 992px) {
