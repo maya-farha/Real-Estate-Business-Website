@@ -55,11 +55,17 @@ function Footer(props) {
             href={"/services"}
             title={"Services"}
             items={[
-              { url: "/services#valuationMastery", cont: "Valuation Mastery" },
-              { url: "/services#strategicMarketing", cont: "Strategic Marketing" },
-              { url: "/services#", cont: "Negotiation Wizardry" },
-              { url: "/services", cont: "Closing Success" },
-              { url: "/services", cont: "Property Management" },
+              { url: "/service#valuationMastery", cont: "Valuation Mastery" },
+              {
+                url: "/service#strategicMarketing",
+                cont: "Strategic Marketing",
+              },
+              { url: "/service#", cont: "Negotiation Wizardry" },
+              { url: "/service", cont: "Closing Success" },
+              {
+                url: "/service#propertyManagement",
+                cont: "Property Management",
+              },
             ]}
           ></FooterCard>
 

@@ -100,17 +100,20 @@ function Service() {
         <ServiceSection />
       </header>
 
-      <section className="AM-mainContentSe white-spacing" >
+      <section className="AM-mainContentSe white-spacing">
         <UnlockProperty
           informations={info_1}
           title={title1}
           branchTitle={branchT1}
         />
-        <UnlockProperty
-          informations={info_2}
-          title={title2}
-          branchTitle={branchT2}
-        />
+        <div id="propertyManagement">
+          <UnlockProperty
+            informations={info_2}
+            title={title2}
+            branchTitle={branchT2}
+          />
+        </div>
+
         <AllCardServices />
       </section>
     </section>

@@ -15,11 +15,11 @@ function Home() {
   useScrollToHash();
 
   return (
-    <section className="MF-allSectionHo ">
-      <section id="HeroHome">
+    <section className="MF-allSectionHo">
+      <header>
         <HeroHome />
-      </section>
-      <div className="AM-MainContentHo">
+      </header>
+      <main className="AM-MainContentHo">
         <ServiceSection />
         <div className="AM-FeaturedHo white-spacing" id="featured">
           <Title
@@ -30,14 +30,10 @@ function Home() {
           <BuildingCards />
         </div>
         <div className="MF-serviceSection white-spacing">
-          <div id="testimonials">
-            <ClientSays />
-          </div>
-          <div>
-            <AskedQuestions />
-          </div>
+          <ClientSays />
+          <AskedQuestions />
         </div>
-      </div>
+      </main>
     </section>
   );
 }

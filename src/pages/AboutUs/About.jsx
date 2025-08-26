@@ -12,30 +12,18 @@ function About() {
   useScrollToHash();
 
   return (
-    <div className="AM-about white-spacing">
-      <div className="AM-heroAb" id="ourStory">
+    <section className="AM-allSectionAb white-spacing">
+      <header className="AM-heroAb">
         <HeroAbout />
-      </div>
-
-      <div className="sectionSpace" id="ourWork">
+      </header>
+      <main className="AM-MainContentAb">
         <Values />
-      </div>
-
-      <div className="sectionSpace" id="howWork">
         <SectionOut />
-      </div>
-
-      <div className="sectionSpace">
-        <EstateinExperience></EstateinExperience>
-      </div>
-      <div id="ourTeam">
-        <EstateinTeam></EstateinTeam>
-      </div>
-
-      <div className="sectionSpace" id="ourClient">
-        <ClientReview></ClientReview>
-      </div>
-    </div>
+        <EstateinExperience />
+        <EstateinTeam />
+        <ClientReview />
+      </main>
+    </section>
   );
 }
 

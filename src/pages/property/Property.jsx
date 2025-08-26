@@ -9,7 +9,7 @@ import "./Property.css";
 import useScrollToHash from "../../hooks/scroll";
 
 function Property() {
-  useScrollToHash(); 
+  useScrollToHash();
 
   const { id } = useParams();
 
@@ -18,7 +18,7 @@ function Property() {
   const property = properties.find((p) => p.id === selectedId);
 
   return (
-    <div className="MF-properyPage white-spacing">
+    <div className="MF-propertyPage white-spacing">
       <header id="portfolio">
         <HeroProperty
           propertyImg={property.image}
@@ -27,25 +27,27 @@ function Property() {
           propertyName={property.type}
         ></HeroProperty>
       </header>
+      <main className="MF-gapProperty">
+        <section className="MF-contentProperty" id="categories">
+          <DescriptionProperty
+            Heading={"description"}
+            Paragraph={property.description}
+            Bedrooms={property.rooms}
+            Bathrooms={property.baths}
+            SquareFeet={property.area}
+          ></DescriptionProperty>
 
-      <section className="MF-contentProperty" id="categories">
-        <DescriptionProperty
-          Heading={"description"}
-          Paragraph={property.description}
-          Bedrooms={property.rooms}
-          Bathrooms={property.baths}
-          SquareFeet={property.area}
-        ></DescriptionProperty>
-        <GuaranteeSection features={property.features}></GuaranteeSection>
-      </section>
+          <GuaranteeSection features={property.features}></GuaranteeSection>
+        </section>
 
-      <section>
-        <PricingDetails id={parseInt(property.id)}></PricingDetails>
-      </section>
+        <section>
+          <PricingDetails id={parseInt(property.id)}></PricingDetails>
+        </section>
 
-      <section>
-        <BuildingCards></BuildingCards>
-      </section>
+        <section>
+          <BuildingCards></BuildingCards>
+        </section>
+      </main>
     </div>
   );
 }
