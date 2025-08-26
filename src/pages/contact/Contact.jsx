@@ -60,12 +60,13 @@ function Contact() {
           <ServiceSection services={defaultServices}></ServiceSection>
         </div>
       </header>
+      <main className="white-spacing">
+        <DiscoverContainer />
 
-      <DiscoverContainer />
+        <ConnectContainer />
 
-      <ConnectContainer />
-
-      <EstateinsWorld />
+        <EstateinsWorld />
+      </main>
     </div>
   );
 }

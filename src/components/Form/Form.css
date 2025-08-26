@@ -1,78 +1,76 @@
-
-    .MS-Form{
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        gap: 50px;
-        margin-top: 80px;
-        padding: 100px;
-        border: 1px solid #262626;
-        border-radius: 12px;
-        .MS-inputsContainer{
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-end;
-            gap: 50px;
-        }
-        textarea{
-            width: 100%;
-            height: 170px;
-            background-color: #1A1A1A;
-            border: 1px solid #262626;
-            border-radius: 8px;
-            margin-top: 16px;
-            padding: 24px 20px;
-        }
-        .MS-sendContainer{
-            display: flex;
-            justify-content: space-between;
-            input{
-                background-color: #1A1A1A;
-                border: 1px solid #262626;
-            }
-        }
+.MS-Form {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 80px;
+  padding: 100px;
+  border: 1px solid #262626;
+  border-radius: 12px;
+  .MS-inputsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 50px;
+  }
+  textarea {
+    width: 100%;
+    height: 170px;
+    background-color: #1a1a1a;
+    border: 1px solid #262626;
+    border-radius: 8px;
+    margin-top: 16px;
+    padding: 24px 20px;
+  }
+  .MS-sendContainer {
+    display: flex;
+    justify-content: space-between;
+    input {
+      background-color: #1a1a1a;
+      border: 1px solid #262626;
     }
-
-
-                                                /* medium screen */
-@media screen and (max-width: 1440px) {
-    .MS-Form{
-        gap: 30px;
-        margin-top: 60px;
-        padding: 80px;
-        .MS-inputsContainer{
-            gap: 20px;
-        }
-        textarea{
-            height: 122px;
-            margin-top: 14px;
-            padding: 16px 20px;
-            border-radius: 6px;
-        }
-    }
+  }
 }
 
+/* medium screen */
+@media screen and (max-width: 1440px) {
+  .MS-Form {
+    gap: 30px;
+    margin-top: 60px;
+    padding: 80px;
 
-
-                                            /* small screen */
-@media screen and (max-width: 992px) {
-    .MS-Form{
-        max-width: 357px;
-        gap: 20px;
-        margin-top: 40px;
-        padding: 20px;
-        .MS-inputsContainer{
-            flex-direction: column;
-            gap: 20px;
-        }
-        textarea{
-            height: 90px;
-            margin-top: 10px;
-        }
-        .MS-sendContainer{
-            flex-direction: column;
-            justify-content: center;
-            gap: 20px;
-        }
+    .MS-inputsContainer {
+      gap: 20px;
     }
+    textarea {
+      height: 122px;
+      margin-top: 14px;
+      padding: 16px 20px;
+      border-radius: 6px;
+    }
+  }
+}
+
+/* small screen */
+@media screen and (max-width: 992px) {
+  .MS-Form {
+    /* width: 100%; */
+    gap: 20px;
+    margin-top: 40px;
+    padding: 20px;
+    align-items: center;
+    .MS-inputsContainer {
+      flex-direction: column;
+      gap: 20px;
+    }
+    textarea {
+      height: 90px;
+      margin-top: 10px;
+    }
+    .MS-sendContainer {
+      flex-direction: column;
+      justify-content: center;
+      gap: 20px;
+    }
+  }
 }

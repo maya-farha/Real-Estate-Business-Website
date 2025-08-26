@@ -47,6 +47,9 @@
 @media screen and (max-width: 992px) {
   .MF-contactPage {
     padding-top: 68px;
+    .MS-Form {
+      max-width: 500px;
+    }
   }
   .FM-specialTitleSe {
     .AM-titleWidth {

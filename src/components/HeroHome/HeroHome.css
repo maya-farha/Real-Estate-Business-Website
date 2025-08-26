@@ -45,6 +45,10 @@
         gap: 16px;
         margin-bottom: 50px;
         margin-top: 50px;
+        .mf-btn-black,
+        .mf-btn-purble {
+          max-width: 500px;
+        }
       }
       /* .MF-statisticsSection {
         grid-template-columns: repeat(2, 1fr);
