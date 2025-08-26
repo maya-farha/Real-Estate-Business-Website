@@ -36,19 +36,18 @@ function Property() {
             Bathrooms={property.baths}
             SquareFeet={property.area}
           ></DescriptionProperty>
+        </section>
+        <div className="MS-contentProperty">
+          <DescriptionProperty
+            Heading={"description"}
+            Paragraph={property.description}
+            Bedrooms={property.rooms}
+            Bathrooms={property.baths}
+            SquareFeet={property.area}
+          ></DescriptionProperty>
 
-      <div className="MS-contentProperty">
-        <DescriptionProperty
-          Heading={"description"}
-          Paragraph={property.description}
-          Bedrooms={property.rooms}
-          Bathrooms={property.baths}
-          SquareFeet={property.area}
-        ></DescriptionProperty>
-
-        <GuaranteeSection features={property.features}></GuaranteeSection>
-      </div>
-
+          <GuaranteeSection features={property.features}></GuaranteeSection>
+        </div>
 
         <section>
           <PricingDetails id={parseInt(property.id)}></PricingDetails>

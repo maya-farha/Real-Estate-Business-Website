@@ -5,6 +5,7 @@ import EstateinsWorld from "../../components/EstateinsWorld/EstateinsWorld.jsx";
 import useScrollToHash from "../../hooks/scroll.jsx";
 import Title from "../../components/Title/Title.jsx";
 import ServiceSection from "../../components/ServiceSection/ServiceSection.jsx";
+import OfficeFilter from "../../components/FilterOffice/OfficeFilter.jsx";
 function Contact() {
   useScrollToHash();
   const defaultServices = [
@@ -48,7 +49,7 @@ function Contact() {
   ];
   return (
     <div className="MF-contactPage">
-      <header>
+      <header id="valuationMastery">
         <div className="FM-specialTitleSe">
           <Title
             title="Get in Touch with Estatein"
@@ -61,7 +62,16 @@ function Contact() {
         </div>
       </header>
 
-      <DiscoverContainer />
+      <section>
+        <Title
+          title="Discover Our Office Locations"
+          description="Estatein is here to serve you across multiple locations. Whether you're looking to meet our team, discuss real estate opportunities, or simply drop by for a chat, we have offices conveniently located to serve your needs. Explore the categories below to find the Estatein office nearest to you"
+          fsDifference="48"
+        />
+        <div className="MF-officeFilterType">
+          <OfficeFilter></OfficeFilter>
+        </div>
+      </section>
 
       <ConnectContainer />
 
