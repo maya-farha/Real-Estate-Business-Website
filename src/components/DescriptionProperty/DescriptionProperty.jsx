@@ -15,19 +15,21 @@ function DescriptionProperty({
         {Paragraph}
       </span>
       <div className="MS-informationContainer">
-        <div className="MS-paddingRight MS-paddingRightSmallScreen">
-          <PropertyInformation
-            heading="Bedrooms"
-            pictureLink="/assets/icons/bedroom-Icon.svg"
-            text={Bedrooms}
-          />
-        </div>
-        <div className="MS-borderPaddingLeft MS-paddingRight MS-paddingBorderLeftSmallScreen ">
-          <PropertyInformation
-            heading="Bathrooms"
-            pictureLink="/assets/icons/bathroom-Icon.svg"
-            text={Bathrooms}
-          />
+        <div className="MS-container">
+          <div className="MS-paddingRight MS-paddingRightSmallScreen MS-widtho">
+            <PropertyInformation
+              heading="Bedrooms"
+              pictureLink="/assets/icons/bedroom-Icon.svg"
+              text={Bedrooms}
+            />
+          </div>
+          <div className="MS-borderPaddingLeft MS-paddingRight MS-paddingBorderLeftSmallScreen MS-widtho">
+            <PropertyInformation
+              heading="Bathrooms"
+              pictureLink="/assets/icons/bathroom-Icon.svg"
+              text={Bathrooms}
+            />
+          </div>
         </div>
         <div className="MS-borderPaddingLeft MS-width">
           <PropertyInformation

@@ -6,7 +6,7 @@
     display: flex;
     flex-direction: column;
     gap: 110px;
-    .MF-serviceSection {
+    .MS-serviceSection {
       display: flex;
       flex-direction: column;
       gap: 110px;
@@ -24,7 +24,7 @@
     padding-bottom: 96px;
     .AM-MainContentHo {
       gap: 90px;
-      .MF-serviceSection {
+      .MS-serviceSection {
         gap: 90px;
       }
       .AM-FeaturedHo {
@@ -39,7 +39,7 @@
     padding-bottom: 85px;
     .AM-MainContentHo {
       gap: 66px;
-      .MF-serviceSection {
+      .MS-serviceSection {
         gap: 66px;
       }
       .AM-FeaturedHo {

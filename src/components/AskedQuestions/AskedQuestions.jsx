@@ -18,11 +18,12 @@ function AskedQuestions() {
     SecondHeading :"What documents do I need to sell my property through Estatein?" ,
     Paragraph :"Find out about the necessary documentation for listing your property with us.",
     showBtn : true
-    },
+    }
+    ,
     {
     showHead : true,
-    SecondHeading:"How can I contact an Estatein agent?" ,
-    Paragraph :"Discover the different ways you can get in touch with our experienced agents.",
+    SecondHeading :"How can I contact an Estatein agent?" ,
+    Paragraph :"Find out about the necessary documentation for listing your property with us.",
     showBtn : true
     }
 ] 

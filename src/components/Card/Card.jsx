@@ -13,14 +13,14 @@ const Card = ({ showHead, SecondHeading, showStars ,Heading , Paragraph ,Name , 
                 <img src="/assets/icons/star-icon.svg" alt="star"/>
                 
             </div>
-            <div className='MS-textContainer'>           
+            <div className='MS-titleContainer'>           
                 <b className='msFontSize24 msFontWeight600 mswhiteColor'>{Heading}</b>
                 <p className='msFontSize18 msFontWeight500 msLineHeight150 mswhiteColor'>{Paragraph}</p>
             </div>
             <div className='MS-informationContainer' style={{display : showImg ? "block" : "none"}}>
                 <div className='MS-container'>
                     <img src={profileImg} alt="profileImg" />
-                    <div className='raa'>
+                    <div >
                         <b className='msFontSize20 msFontWeight500 mswhiteColor'>{Name}</b> 
                         <p className='msFontSize18 msFontWeight500 msGrayColor'>{Text}</p>
                     </div>
