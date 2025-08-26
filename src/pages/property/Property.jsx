@@ -46,8 +46,18 @@ function Property() {
             SquareFeet={property.area}
           ></DescriptionProperty>
 
-          <GuaranteeSection features={property.features}></GuaranteeSection>
-        </div>
+          <div className="MS-contentProperty">
+            <DescriptionProperty
+              Heading={"description"}
+              Paragraph={property.description}
+              Bedrooms={property.rooms}
+              Bathrooms={property.baths}
+              SquareFeet={property.area}
+            ></DescriptionProperty>
+
+            <GuaranteeSection features={property.features}></GuaranteeSection>
+          </div>
+        </section>
 
         <section>
           <PricingDetails id={parseInt(property.id)}></PricingDetails>

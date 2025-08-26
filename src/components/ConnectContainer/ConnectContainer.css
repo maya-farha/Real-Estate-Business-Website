@@ -1,24 +1,21 @@
-
-
-.MS-connectContainer{
-    background-color: #141414;
+.MS-connectContainer {
+  background-color: #141414;
 }
 
-
-                                            /* medium screen */
+/* medium screen */
 @media screen and (max-width: 1440px) {
-    .MS-connectContainer{
-    }
+  .MS-connectContainer {
+  }
 }
 
-
-
-                                            /* small screen */
+/* small screen */
 @media screen and (max-width: 992px) {
-    .MS-connectContainer{
-        .MS-formPlace{
-            display: flex;
-            justify-content: center;
-        }
+  .MS-connectContainer {
+    .MS-formPlace {
+      display: flex;
+      justify-content: center;
+      max-width: 500px;
+      margin: 0 auto;
     }
+  }
 }
