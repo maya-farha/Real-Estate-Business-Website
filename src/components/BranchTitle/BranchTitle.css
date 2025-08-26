@@ -33,7 +33,7 @@
 
 @media screen and (max-width: 992px) {
   .AM-branchTitleSe {
-    max-width: 357px;
+    max-width: 500px;
     padding: 24px;
     .AM-infoSe {
       flex-direction: column;

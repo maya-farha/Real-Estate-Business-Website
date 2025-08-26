@@ -12,11 +12,11 @@ import Title from "../../components/Title/Title";
 
 function Home() {
   return (
-    <section className="MF-allSectionHo ">
+    <section className="MF-allSectionHo">
       <header>
         <HeroHome />
       </header>
-      <div className="AM-MainContentHo">
+      <main className="AM-MainContentHo">
         <ServiceSection />
         <div className="AM-FeaturedHo white-spacing">
           <Title
@@ -30,7 +30,7 @@ function Home() {
           <ClientSays />
           <AskedQuestions />
         </div>
-      </div>
+      </main>
     </section>
   );
 }

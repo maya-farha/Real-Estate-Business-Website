@@ -50,7 +50,10 @@
 @media screen and (max-width: 992px) {
   .AM-valuesCardAb {
     padding: 24px;
-
+    /* max-width: 500px; */
+    .AM-cardAb {
+      max-width: 450.4px;
+    }
     .AM-twoCardsAb {
       flex-direction: column;
       gap: 20px;
