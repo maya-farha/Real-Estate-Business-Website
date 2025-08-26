@@ -25,7 +25,7 @@ function Property() {
         ></HeroProperty>
       </header>
 
-      <div className="MF-contentProperty">
+      <div className="MS-contentProperty">
         <DescriptionProperty
           Heading={"description"}
           Paragraph={property.description}

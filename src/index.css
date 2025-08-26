@@ -8,6 +8,9 @@
 
                                               /* general classes */
                 /* font size*/
+.msFontSize18 {
+  font-size: 18px; 
+}
 .msFontSize20 {
   font-size: 20px;
 }
@@ -75,11 +78,23 @@
   .msFontSize18 {
     font-size: 16px; /* 18 => 16 */
   }
+  .msFontSize20 {
+    font-size: 16px; /* 20 => 16 */
+  }
   .msFontSize24 {
     font-size: 20px; /* 24 => 20 */
   }
+  .msFontSize30 {   
+    font-size: 24px; /* 30 => 24 */
+  }
   .msFontSize40 {
     font-size: 30px; /* 40 => 30 */
+  }
+  .msFontSize48 {
+    font-size: 38px; /* 48 => 38 */
+  }
+  .msFontSize60 {   
+    font-size: 46px; /* 60 => 46 */
   }
 }
 
@@ -93,10 +108,22 @@
   .msFontSize18 {
     font-size: 14px; /* 18 => 16 => 14 */
   }
+  .msFontSize20 {
+    font-size: 14px; /* 20 => 16 => 14*/
+  }
   .msFontSize24 {
     font-size: 18px; /* 24 => 20 => 18 */
   }
+  .msFontSize30 {   
+    font-size: 20px; /* 30 => 24 => 20 */
+  }
   .msFontSize40 {
     font-size: 24px; /* 40 => 30 => 24 */
+  }
+  .msFontSize48 {
+    font-size: 28px; /* 48 => 38 => 28 */
+  }
+  .msFontSize60 {    
+    font-size: 28px; /* 60 => 46 => 28 */
   }
 }

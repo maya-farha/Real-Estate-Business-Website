@@ -1,4 +1,4 @@
-                /* Card of slider in Testimonials and FAQ’s (home) */
+                                /* Card of slider in Testimonials and FAQ’s (hero) */
 .MS-card {
   height: 100%;
   max-width: 512px;
@@ -62,7 +62,7 @@
         padding: 6px;
       }
     }
-    .MS-textContainer {
+    .MS-titleContainer {
       max-width: 333px;
       p {
         padding-top: 10px;
@@ -80,7 +80,7 @@
       }
     }
     button {
-      width: 107px;
+      width: 134px;
       padding: 14px 20px;
     }
   }
@@ -100,25 +100,22 @@
         padding: 6px;
       }
     }
-    .MS-textContainer {
+    .MS-titleContainer {
       max-width: 100%;
       p {
         padding-top: 6px;
       }
     }
-    /* button {
+    button {
       width: 100%;
       min-width: 200px;
-      padding: 14px 115.5px;
+      padding: 14px 11px;
       margin: auto;
-    } */
+    }
   }
-  .MS-textContainer {
+  .MS-titleContainer {
     p {
       padding-top: 6px;
     }
   }
-  /* button {
-    padding: 14px 115.5px;
-  } */
 }

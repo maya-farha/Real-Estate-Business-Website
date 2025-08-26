@@ -26,7 +26,7 @@ function Home() {
           />
           <BuildingCards />
         </div>
-        <div className="MF-serviceSection white-spacing">
+        <div className="MS-serviceSection white-spacing">
           <ClientSays />
           <AskedQuestions />
         </div>
