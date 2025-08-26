@@ -26,7 +26,8 @@
 
 @media screen and (max-width: 992px) {
   .AM-cardSe {
-    max-width: 357px;
+    max-width: 500px;
+    width: 100%;
     padding: 24px;
     .AM-informationsSe {
       gap: 10px;

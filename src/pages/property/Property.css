@@ -1,5 +1,4 @@
-.MF-properyPage {
-  
+.MF-propertyPage {
   padding-top: 99px;
   background-color: #141414;
 }
@@ -11,26 +10,26 @@
 .MS-contentProperty:nth-child(1) {
   height: max-content;
 }
-/* .MF-pricingDetails {
-  margin-top: 150px;
-} */
-                                      /* medium screen */
-@media screen and (max-width: 1440px) {
-  .MS-contentProperty {
-  gap: 20px;
-}
-}
 
+.MF-gapProperty {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+@media screen and (max-width: 1440px) {
+  .MF-gapProperty {
+    gap: 110px;
+  }
+}
 @media screen and (max-width: 992px) {
-  .MF-properyPage {
+  .MF-propertyPage {
     padding-top: 68px;
   }
   .MS-contentProperty {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+  .MF-gapProperty {
+    gap: 75px;
   }
-  /* .MF-pricingDetails {
-    margin-top: 75px;
-  } */
 }
