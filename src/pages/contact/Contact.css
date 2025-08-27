@@ -91,4 +91,10 @@
   .RJ-discoverCards {
     padding-top: 68px;
   }
+  .MF-contactPage {
+    .MF-serviceCard {
+      font-size: 12px;
+      padding: 13px;
+    }
+  }
 }

@@ -15,8 +15,9 @@
   top: 10px;
 }
 .MF-titleDashboard {
+  font-size: 36px;
   color: #ffffff;
-  padding: 20px;
+  padding: 25px;
   text-align: center;
   text-shadow: 1px 1px 2px rgb(112, 59, 247);
 }
@@ -60,7 +61,6 @@ td {
   padding: 12px;
   border-bottom: 1px solid #ddd;
   text-align: center;
-  vertical-align: middle;
 }
 
 th {
@@ -113,5 +113,22 @@ tr:hover {
 @media screen and (max-width: 992px) {
   .MF-table {
     width: 100%;
+  }
+  .MF-bttnAdd {
+    padding: 6px 10px;
+  }
+  .MF-button {
+    padding: 8px 10px;
+    margin: 4px;
+  }
+  th,
+  td {
+    padding: 8px;
+  }
+  td img {
+    width: 48px;
+  }
+  .MF-titleDashboard {
+    font-size: 28px;
   }
 }

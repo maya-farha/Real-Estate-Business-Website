@@ -26,6 +26,9 @@
       padding: 8px 14px;
     }
   }
+  .mf-button {
+    background-color: #1a1a1a !important;
+  }
 }
 .AM-MonthlyCostsPr > div:not(:last-child) {
   border-bottom: 1px solid #262626;
@@ -54,9 +57,9 @@
       p {
         border-radius: 6px;
       }
-      .mf-btn-black {
-        max-width: 111px;
-      }
+    }
+    .mf-button {
+      width: 110px;
     }
   }
   .AM-MonthlyCostsPr > div:not(:last-child) {
