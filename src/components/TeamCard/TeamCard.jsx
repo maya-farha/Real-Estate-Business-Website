@@ -10,7 +10,7 @@ const TeamCard = ({profile , xLink , Name , Role , telegramLink }) => {
                 <img src={profile} alt="profile-picture" className='MS-profile' />
                 <a href={xLink}>
                     <button className='MS-xButton'> 
-                        <img src="/assets/icons/x-logo.svg" alt="x-logo" />
+                        <img src="assets/icons/x-logo.svg" alt="x-logo" />
                     </button>
                 </a>
             </div>
@@ -22,7 +22,7 @@ const TeamCard = ({profile , xLink , Name , Role , telegramLink }) => {
                     <p className='msFontSize18 msFontWeight500 mswhiteColor'>Say Hello 👋</p>
                     <a href={telegramLink}>
                         <button> 
-                            <img src="/assets/icons/Send.svg" alt="send-logo" />
+                            <img src="assets/icons/Send.svg" alt="send-logo" />
                         </button>
                     </a> 
                 </div>

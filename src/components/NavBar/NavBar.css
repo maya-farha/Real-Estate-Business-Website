@@ -7,12 +7,11 @@
   position: fixed;
   z-index: 2;
   width: 100%;
-  ul a {
-    color: #ffffff;
-    text-decoration: none;
-  }
 }
-
+.nav_Bar ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
 .items_Nav {
   display: flex;
   justify-content: center;
@@ -47,13 +46,11 @@
 .navMenu {
   background-color: #141414;
   display: none;
-
-  ul a {
-    color: #ffffff;
-    text-decoration: none;
-  }
 }
-
+.navMenu ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
 .navMenu.show {
   display: block;
 }
@@ -68,21 +65,20 @@
   line-height: 150%;
   letter-spacing: 0%;
   font-weight: 500;
-  a {
-    color: #ffffff;
-    text-decoration: none;
-  }
 }
-
+.btn_Nav a {
+  color: #ffffff;
+  text-decoration: none;
+}
 @media screen and (max-width: 992px) {
   .nav_Bar {
     height: 68px;
-    .items_Nav,
-    .btn_Nav {
-      display: none;
-    }
   }
-
+  .nav_Bar .items_Nav,
+  .btn_Nav {
+    display: none;
+  }
+  
   .bars {
     font-size: 28px;
     display: block;

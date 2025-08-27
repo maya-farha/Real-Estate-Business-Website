@@ -28,7 +28,7 @@ function HeroHome() {
       </div>
 
       <div className="MF-heroImg">
-        <img src="/assets/imgs/hero-img.png" alt="hero-img"></img>
+        <img src="assets/imgs/hero-img.png" alt="hero-img"></img>
       </div>
     </div>
   );

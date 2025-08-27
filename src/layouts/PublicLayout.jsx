@@ -8,7 +8,7 @@ function PublicLayout() {
   return (
     <>
       <NavBar
-        logo="/assets/icons/logo.svg"
+        logo="assets/icons/logo.svg"
         items={[
           { url: "/", content: "Home" },
           { url: "/about", content: "About" },
@@ -22,8 +22,8 @@ function PublicLayout() {
       <ExProperty/>
 
       <Footer
-        imag="/assets/icons/logo.svg"
-        icona="/assets/icons/facebook.svg"
+        imag="assets/icons/logo.svg"
+        icona="assets/icons/facebook.svg"
       />
     </>
   );

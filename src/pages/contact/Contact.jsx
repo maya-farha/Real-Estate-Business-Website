@@ -10,25 +10,25 @@ function Contact() {
   const defaultServices = [
     {
       id: crypto.randomUUID(),
-      icon: "/assets/icons/emailIcon.png",
+      icon: "assets/icons/emailIcon.png",
       alt: "email-Icon",
       serviceName: "info@estatein.com",
     },
     {
       id: crypto.randomUUID(),
-      icon: "/assets/icons/phoneIcon.png",
+      icon: "assets/icons/phoneIcon.png",
       alt: "phone-Icon",
       serviceName: "+1 (123) 456-7890",
     },
     {
       id: crypto.randomUUID(),
-      icon: "/assets/icons/locationIcon.png",
+      icon: "assets/icons/locationIcon.png",
       alt: "location-Icon",
       serviceName: "Main Headquarters",
     },
     {
       id: crypto.randomUUID(),
-      icon: "/assets/icons/linkIcons.png",
+      icon: "assets/icons/linkIcons.png",
       alt: "link-Icon",
       link: [
         {

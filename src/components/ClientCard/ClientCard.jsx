@@ -15,7 +15,7 @@ function ClientCard({ date, companyName, category, quote }) {
       <div className="MF-flex">
         <div className="MF-domain">
           <div className="MF-iconContainer">
-            <img src="/assets/icons/domain-icon.svg" alt="domain-icon"></img>
+            <img src="assets/icons/domain-icon.svg" alt="domain-icon"></img>
             <p className="msGrayColor MF-type">Domain</p>
           </div>
           <p className="msFontWeight500 mswhiteColor MF-pargraph">
@@ -26,7 +26,7 @@ function ClientCard({ date, companyName, category, quote }) {
         <div className="MF-category">
           <div className="MF-iconContainer">
             <img
-              src="/assets/icons/category-icon.svg"
+              src="assets/icons/category-icon.svg"
               alt="category-icon"
             ></img>
             <p className="msGrayColor MF-type">Category</p>

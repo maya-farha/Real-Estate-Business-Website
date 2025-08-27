@@ -9,11 +9,13 @@ function HeroProperty({
   return (
     <div className="MF-heroProperty">
       <div className="MF-propertyFlex">
-        
         <div className="MF-propertyFlex second">
           <h2 className="mswhiteColor">{propertyName}</h2>
           <div className="MF-propertyFlex MF-location">
-            <img src="/assets/icons/location-Icon.svg" alt="loctionIcon"></img>
+            <img
+              src="https://maya-farha.github.io/Real-Estate-Business-Website/assets/icons/location-Icon.svg"
+              alt="loctionIcon"
+            ></img>
             <p className="mswhiteColor">{propertyLocation}</p>
           </div>
         </div>
