@@ -1,8 +1,6 @@
-import "../../index.css";
 import "./Home.css";
 import ServiceSection from "../../components/ServiceSection/ServiceSection";
 import HeroHome from "../../components/HeroHome/HeroHome";
-import ChoiceHome from "../../components/ChoiceHome/ChoiceHome";
 
 import ClientSays from "../../components/ClientSays/ClientSays";
 import AskedQuestions from "../../components/AskedQuestions/AskedQuestions";
@@ -15,12 +13,14 @@ function Home() {
   useScrollToHash();
 
   return (
-    <section className="MF-allSectionHo">
-      <header>
+    <div className="MF-allSectionHo">
+      <header id="HeroHome">
         <HeroHome />
       </header>
+
       <main className="AM-MainContentHo">
         <ServiceSection />
+
         <div className="AM-FeaturedHo white-spacing" id="featured">
           <Title
             title="Featured Properties"
@@ -29,12 +29,17 @@ function Home() {
           />
           <BuildingCards />
         </div>
+
         <div className="MS-serviceSection white-spacing">
-          <ClientSays />
-          <AskedQuestions />
+          <div id="testimonials">
+            <ClientSays />
+          </div>
+          <div id="FAQ">
+            <AskedQuestions />
+          </div>
         </div>
       </main>
-    </section>
+    </div>
   );
 }
 

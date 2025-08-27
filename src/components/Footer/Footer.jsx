@@ -26,7 +26,7 @@ function Footer(props) {
               { url: "#featured", cont: "Features" },
               { url: "/", cont: "Properties" },
               { url: "#testimonials", cont: "Testimonials" },
-              { url: "/", cont: "FAQ’s" },
+              { url: "/#FAQ", cont: "FAQ’s" },
             ]}
           ></FooterCard>
 

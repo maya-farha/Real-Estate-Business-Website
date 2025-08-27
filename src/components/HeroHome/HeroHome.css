@@ -2,6 +2,7 @@
   height: calc(100vh - 99px);
   display: flex;
   justify-content: space-between;
+  align-items: center;
   gap: 80px;
   .MF-heroContent {
     padding: 100px 0 100px 162px;
@@ -17,9 +18,8 @@
     }
   }
   .MF-heroImg {
-    /* max-height: 100%; */
     max-width: 920px;
-
+    height: 100%;
     background-image: url("../../../public/assets/imgs/backgroundHero.png");
     img {
       display: block;
@@ -50,13 +50,6 @@
           max-width: 500px;
         }
       }
-      /* .MF-statisticsSection {
-        grid-template-columns: repeat(2, 1fr);
-        text-align: center;
-      }
-      .MF-statisticsSection > :nth-child(3) {
-        grid-column: 1 / -1;
-      } */
     }
   }
 }
@@ -65,7 +58,6 @@
     height: auto;
     flex-direction: column-reverse;
     justify-content: unset;
-    /* align-items: center; */
     padding-left: 16px;
     padding-right: 16px;
     gap: 24px;
