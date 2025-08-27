@@ -31,13 +31,6 @@
         padding-bottom: 50px;
         padding-bottom: 50px;
       }
-      /* .MF-statisticsSection {
-        grid-template-columns: repeat(2, 1fr);
-        text-align: center;
-      }
-      .MF-statisticsSection > :nth-child(3) {
-        grid-column: 1 / -1;
-      } */
     }
     .AM-imgHeroAb {
       max-width: 610px;

@@ -18,7 +18,6 @@
   }
 
   button {
-    width: fit-content;
     background-color: #1a1a1a;
   }
 }
@@ -110,6 +109,11 @@
   .MF-subPrice {
     p {
       border-radius: 6px;
+    }
+  }
+  .MF-pricingCard {
+    .mf-button {
+      width: 110px;
     }
   }
 }

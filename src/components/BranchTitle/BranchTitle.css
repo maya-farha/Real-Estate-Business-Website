@@ -40,7 +40,8 @@
       gap: 20px;
 
       .mf-btn-black {
-        max-width: 309px !important;
+        max-width: 417px !important;
+        width: 100%;
       }
     }
   }

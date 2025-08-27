@@ -1,4 +1,3 @@
-import DiscoverContainer from "../../components/DiscoverContainer/DiscoverContainer";
 import "./Contact.css";
 import ConnectContainer from "../../components/ConnectContainer/ConnectContainer";
 import EstateinsWorld from "../../components/EstateinsWorld/EstateinsWorld.jsx";
@@ -49,7 +48,7 @@ function Contact() {
   ];
   return (
     <div className="MF-contactPage">
-      <header id="valuationMastery">
+      <header>
         <div className="FM-specialTitleSe">
           <Title
             title="Get in Touch with Estatein"
@@ -61,23 +60,25 @@ function Contact() {
           <ServiceSection services={defaultServices}></ServiceSection>
         </div>
       </header>
-      <main className="white-spacing">
-        <DiscoverContainer />
 
-        <ConnectContainer />
+      <main className="MF-allSectionCo   white-spacing">
+        <section id="contactForm">
+          <ConnectContainer />
+        </section>
 
-      <section>
-        <Title
-          title="Discover Our Office Locations"
-          description="Estatein is here to serve you across multiple locations. Whether you're looking to meet our team, discuss real estate opportunities, or simply drop by for a chat, we have offices conveniently located to serve your needs. Explore the categories below to find the Estatein office nearest to you"
-          fsDifference="48"
-        />
-        <div className="MF-officeFilterType">
-          <OfficeFilter></OfficeFilter>
-        </div>
-      </section>
-
-        <EstateinsWorld />
+        <section id="ourOffices">
+          <Title
+            title="Discover Our Office Locations"
+            description="Estatein is here to serve you across multiple locations. Whether you're looking to meet our team, discuss real estate opportunities, or simply drop by for a chat, we have offices conveniently located to serve your needs. Explore the categories below to find the Estatein office nearest to you"
+            fsDifference="48"
+          />
+          <div className="MF-officeFilterType">
+            <OfficeFilter></OfficeFilter>
+          </div>
+        </section>
+        <section id="">
+          <EstateinsWorld />
+        </section>
       </main>
     </div>
   );

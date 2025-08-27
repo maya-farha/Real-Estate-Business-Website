@@ -18,6 +18,11 @@
     );
   }
 }
+.MF-allSectionCo {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
 .MF-officeFilterType {
   margin-top: 80px;
   .MF-btnsFilter {
@@ -54,6 +59,9 @@
   .RJ-discoverCards {
     padding-top: 68px;
   }
+  .MF-allSectionCo {
+    gap: 120px;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -76,6 +84,9 @@
     .MF-btnsFilter {
       margin-bottom: 30px;
     }
+  }
+  .MF-allSectionCo {
+    gap: 80px;
   }
   .RJ-discoverCards {
     padding-top: 68px;

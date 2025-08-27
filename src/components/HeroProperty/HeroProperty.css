@@ -1,7 +1,5 @@
 .MF-heroProperty {
   padding-top: 150px;
-  /* height: calc(100vh - 99px); */
-  /* margin-top: 150px;*/
   margin-bottom: 30px;
 }
 .MF-propertyFlex {
@@ -18,30 +16,7 @@
   padding: 10px;
   border: 1px solid #262626;
 }
-/* .MF-heroProperty {
-  .MF-heroImgProperty {
-    border-radius: 12px;
-    padding: 50px;
-    background-color: #1a1a1a;
-    margin-top: 50px;
-    margin: auto;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 6; 
-    overflow: hidden;
-    border-radius: 16px;
-    img {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-  }
-} */
 .MF-heroProperty {
   .MF-heroImgProperty {
     display: flex;
@@ -64,7 +39,7 @@
       width: 94%;
       height: 88%;
       object-fit: cover;
-      border-radius: inherit; 
+      border-radius: inherit;
     }
   }
 }

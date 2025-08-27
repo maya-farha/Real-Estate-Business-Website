@@ -32,7 +32,8 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
-  .MF-gapProperty {
-    gap: 75px;
+    .MF-gapProperty {
+      gap: 75px;
+    }
   }
 }

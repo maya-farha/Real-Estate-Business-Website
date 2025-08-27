@@ -5,6 +5,7 @@ import './TeamCard.css'
 const TeamCard = ({profile , xLink , Name , Role , telegramLink }) => {
     return (
         <div className='MS-teamCard'>
+
             <div className='MS-information'>
                 <img src={profile} alt="profile-picture" className='MS-profile' />
                 <a href={xLink}>
@@ -13,6 +14,7 @@ const TeamCard = ({profile , xLink , Name , Role , telegramLink }) => {
                     </button>
                 </a>
             </div>
+
             <div className='MS-container'>
                 <p className='msFontSize24 msFontWeight600 mswhiteColor'>{Name}</p>
                 <span className='msFontSize18 msFontWeight500 msGrayColor'>{Role}</span>
@@ -24,6 +26,7 @@ const TeamCard = ({profile , xLink , Name , Role , telegramLink }) => {
                         </button>
                     </a> 
                 </div>
+                
             </div>
         </div>
     )

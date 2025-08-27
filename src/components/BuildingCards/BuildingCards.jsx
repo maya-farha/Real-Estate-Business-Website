@@ -65,10 +65,6 @@ function BuildingCards() {
             slidesPerView: 3,
             spaceBetween: 20,
           },
-          // 1440: {
-          //   slidesPerView: 3,
-          //   spaceBetween: 30,
-          // },
         }}
         data={cards}
         renderItem={(card) => (
