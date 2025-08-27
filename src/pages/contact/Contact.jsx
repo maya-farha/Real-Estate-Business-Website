@@ -61,6 +61,9 @@ function Contact() {
           <ServiceSection services={defaultServices}></ServiceSection>
         </div>
       </header>
+      <main className="white-spacing">
+
+        <ConnectContainer />
 
       <section>
         <Title
@@ -73,9 +76,8 @@ function Contact() {
         </div>
       </section>
 
-      <ConnectContainer />
-
-      <EstateinsWorld />
+        <EstateinsWorld />
+      </main>
     </div>
   );
 }

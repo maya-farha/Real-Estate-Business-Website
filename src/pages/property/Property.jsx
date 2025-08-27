@@ -28,15 +28,7 @@ function Property() {
         ></HeroProperty>
       </header>
       <main className="MF-gapProperty">
-        {/* <section className="MF-contentProperty" >
-          <DescriptionProperty
-            Heading={"description"}
-            Paragraph={property.description}
-            Bedrooms={property.rooms}
-            Bathrooms={property.baths}
-            SquareFeet={property.area}
-          ></DescriptionProperty>
-        </section> */}
+        
         <div className="MS-contentProperty" id="categories">
           <DescriptionProperty
             Heading={"description"}

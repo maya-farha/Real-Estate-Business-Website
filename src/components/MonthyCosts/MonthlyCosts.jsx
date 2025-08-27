@@ -1,6 +1,5 @@
 import React from "react";
 import Button from "../Button/Button";
-// import properties from "../data";
 import properties from "../Data/data";
 import "./MonthlyCosts.css";
 
@@ -39,6 +38,7 @@ function MonthlyCosts({ propertyId, dataPath }) {
                 ? `$${item.value.toLocaleString()}`
                 : item.value}
             </h2>
+            
             {item.note && (
               <p className="msFontSize18 msGrayColor msFontWeight500">
                 {item.note}

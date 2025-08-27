@@ -12,6 +12,7 @@ function UnlockProperty({ title, informations, branchTitle }) {
         description={title.description}
         fsDifference={title.fsDifference}
       />
+      
       <div className="AM-cardsSe ">
         {informations.map((info, index) => (
           <CardServices

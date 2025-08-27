@@ -108,7 +108,6 @@
 .navMenu {
   position: fixed;
   top: 0;
-  /* right: -250px;  */
   width: 150px;
   background-color: #232323;
   overflow-y: auto;
