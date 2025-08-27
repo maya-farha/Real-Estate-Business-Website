@@ -8,7 +8,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* gap: 13.0208vw; */
   gap: 150px;
   .amInfoCard {
     max-width: 1154px;
@@ -17,6 +16,10 @@
 
 /* medium screen */
 @media screen and (max-width: 1440px) {
+  .amInformations {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
 }
 @media screen and (max-width: 992px) {
   .amInformations {
@@ -25,6 +28,7 @@
     padding-bottom: 50px;
     flex-direction: column;
     gap: 30px;
+    align-items: unset;
     .mf-btn-purble-p54 {
       min-width: 268px;
     }

@@ -1,7 +1,93 @@
+.MF-contactPage {
+  background-color: #141414;
+  padding-top: 99px;
+}
+.FM-specialTitleSe {
+  background-color: #141414;
+  padding-bottom: 150px;
+  padding-bottom: 110px;
+  .AM-titleWidth {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-left: 162px;
+    padding-right: 162px;
+    background: linear-gradient(
+      95.93deg,
+      #262626 -26.82%,
+      rgba(38, 38, 38, 0) 40.46%
+    );
+  }
+}
+.MF-allSectionCo {
+  display: flex;
+  flex-direction: column;
+  gap: 150px;
+}
+.MF-officeFilterType {
+  margin-top: 80px;
+  .MF-btnsFilter {
+    margin-bottom: 50px;
+  }
+}
+.MF-serviceCard {
+  a {
+    text-align: center;
+  }
+}
 .RJ-discoverCards {
   padding-top: 99px;
 }
+
+@media screen and (max-width: 1440px) {
+  .MF-contactPage {
+    padding-top: 77px;
+  }
+  .FM-specialTitleSe {
+    .AM-titleWidth {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      padding-left: 80px;
+      padding-right: 80px;
+    }
+  }
+  .MF-officeFilterType {
+    margin-top: 60px;
+    .MF-btnsFilter {
+      margin-bottom: 40px;
+    }
+  }
+  .RJ-discoverCards {
+    padding-top: 68px;
+  }
+  .MF-allSectionCo {
+    gap: 120px;
+  }
+}
+
 @media screen and (max-width: 992px) {
+  .MF-contactPage {
+    padding-top: 68px;
+    .MS-Form {
+      max-width: 500px;
+    }
+  }
+  .FM-specialTitleSe {
+    .AM-titleWidth {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+  }
+  .MF-officeFilterType {
+    margin-top: 40px;
+    .MF-btnsFilter {
+      margin-bottom: 30px;
+    }
+  }
+  .MF-allSectionCo {
+    gap: 80px;
+  }
   .RJ-discoverCards {
     padding-top: 68px;
   }

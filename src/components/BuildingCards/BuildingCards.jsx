@@ -62,12 +62,8 @@ function BuildingCards() {
         slidesPerView={1}
         breakpoints={{
           992: {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          1440: {
             slidesPerView: 3,
-            spaceBetween: 30,
+            spaceBetween: 20,
           },
         }}
         data={cards}

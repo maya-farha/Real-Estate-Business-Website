@@ -3,10 +3,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+
   gap: 80px;
 
   .AM-infoAb {
-    max-width: 755px;
+    max-width: 600px;
 
     .AM-titleAb {
       padding-bottom: 80px;
@@ -41,12 +42,18 @@
     flex-direction: column-reverse;
     gap: 40px;
     .AM-infoAb {
+      max-width: 100%;
       .AM-titleAb {
         padding-bottom: 40px;
+        max-width: 100%;
+      }
+      .MF-statisticsSection {
+        margin: 0 auto;
       }
     }
     .AM-imgHeroAb {
       max-width: 435px;
+      margin: 0 auto;
     }
   }
 }

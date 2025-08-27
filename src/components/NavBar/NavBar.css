@@ -59,7 +59,6 @@
 }
 
 .btn_Nav {
-  /* max-width: 109px; */
   color: #ffffff;
   background-color: black;
   border: 1px solid #141414;
@@ -72,18 +71,6 @@
   a {
     color: #ffffff;
     text-decoration: none;
-  }
-}
-.items_Bars {
-  padding-top: 68px;
-  width: 80px;
-
-  li a {
-    display: block;
-    padding: 2px 20px !important;
-  }
-  .logo_Nav{
-    max-width: 113.33px;
   }
 }
 
@@ -108,7 +95,56 @@
   .space {
     padding: 20px 16px;
   }
-  .logo_Nav{
-   width: 93.33px;
+  .logo_Nav {
+    width: 93.33px;
   }
+
+  .logo_Nav {
+    max-width: 113.33px;
+  }
+}
+
+/* Sidebar container */
+.navMenu {
+  position: fixed;
+  top: 0;
+  width: 150px;
+  background-color: #232323;
+  overflow-y: auto;
+  transition: right 0.3s ease;
+  z-index: 1000;
+  padding-top: 60px;
+}
+
+/* Show sidebar */
+.navMenu.show {
+  right: 0;
+}
+
+/* Close button */
+.closeBtn {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  background: none;
+  border: none;
+  font-size: 26px;
+  color: #ecf0f1;
+  cursor: pointer;
+}
+
+.barsLink.active {
+  background-color: #703bf7;
+}
+
+.items_Bars li a {
+  display: block;
+  padding: 15px 20px;
+  color: #ecf0f1;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.items_Bars li a:hover {
+  background-color: #703bf7;
 }

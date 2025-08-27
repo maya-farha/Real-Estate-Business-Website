@@ -1,0 +1,49 @@
+.MF-btnsFilter {
+  width: fit-content;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  .MF-btnFilter {
+    padding: 18px;
+    width: 158px;
+    color: #ffffff;
+    background-color: #1a1a1a;
+    border: 1px solid #262626;
+    border-radius: 8px;
+  }
+  .MF-btnFilter.active {
+    background-color: #141414;
+  }
+}
+.MF-officeCards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+@media screen and (max-width: 1440px) {
+  .MF-btnsFilter {
+    .MF-btnFilter {
+      width: 124px;
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .MF-officeCards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .MF-btnsFilter {
+    max-width: 500px;
+
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .MF-btnFilter {
+      width: 100%;
+    }
+  }
+}

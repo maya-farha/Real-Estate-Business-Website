@@ -4,8 +4,11 @@ import UnlockProperty from "../../components/UnlockProperty/UnlockProperty";
 import AllCardServices from "../../components/AllCardServices/AllCardServices";
 import ServiceSection from "../../components/ServiceSection/ServiceSection";
 import Title from "../../components/Title/Title";
+import useScrollToHash from "../../hooks/scroll";
 
 function Service() {
+  useScrollToHash();
+
   const title1 = {
     image: "/assets/icons/stars-design.svg",
     title: "Unlock Property Value",
@@ -84,7 +87,7 @@ function Service() {
   };
   return (
     <section className="AM-allSectionSe">
-      <header>
+      <header id="valuationMastery">
         <div className="AM-specialTitleSe">
           <Title
             title="Elevate Your Real Estate Experience"
@@ -103,11 +106,14 @@ function Service() {
           title={title1}
           branchTitle={branchT1}
         />
-        <UnlockProperty
-          informations={info_2}
-          title={title2}
-          branchTitle={branchT2}
-        />
+        <div id="propertyManagement">
+          <UnlockProperty
+            informations={info_2}
+            title={title2}
+            branchTitle={branchT2}
+          />
+        </div>
+
         <AllCardServices />
       </section>
     </section>

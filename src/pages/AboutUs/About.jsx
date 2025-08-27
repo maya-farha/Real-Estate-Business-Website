@@ -5,36 +5,34 @@ import ClientReview from "../../components/ClientReview/ClientReview";
 import SectionOut from "../../components/SectionOut/SectionOut";
 import EstateinTeam from "../../components/EstateinTeam/EstateinTeam";
 import EstateinExperience from "../../components/EstateinExperience/EstateinExperience";
-import EstateinsWorld from "../../components/EstateinsWorld/EstateinsWorld";
+import useScrollToHash from "../../hooks/scroll";
 
 function About() {
+  useScrollToHash();
+
   return (
-    <div className="AM-about white-spacing">
-      <div className="AM-heroAb">
+    <section className="AM-allSectionAb white-spacing">
+      <header className="AM-heroAb" id="ourStory">
         <HeroAbout />
-      </div>
-
-      <div className="sectionSpace">
-        <Values />
-      </div>
-
-      <div className="sectionSpace">
-        <SectionOut />
-      </div>
-
-      <div className="sectionSpace">
-        <EstateinExperience></EstateinExperience>
-      </div>
-
-      <EstateinTeam></EstateinTeam>
-
-      <div className="sectionSpace">
-        <ClientReview></ClientReview>
-      </div>
-
-
-
-    </div>
+      </header>
+      <main className="AM-MainContentAb">
+        <div id="ourWork">
+          <Values />
+        </div>
+        <div id="howWork">
+          <SectionOut />
+        </div>
+        <div>
+          <EstateinExperience />
+        </div>
+        <div id="ourTeam">
+          <EstateinTeam />
+        </div>
+        <div id="ourClient">
+          <ClientReview />
+        </div>
+      </main>
+    </section>
   );
 }
 

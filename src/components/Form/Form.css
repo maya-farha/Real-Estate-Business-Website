@@ -44,6 +44,8 @@
     }
 
 
+/*                 background-color: #1A1A1A;
+                border: 1px solid #262626; */
 
                                                 /* medium screen */
 @media screen and (max-width: 1440px) {
@@ -67,12 +69,12 @@
                 margin-right: 6px;
             }
         }
+
     }
-}
+  }
 
 
-
-                                            /* small screen */
+/* small screen */
 @media screen and (max-width: 992px) {
     .MS-Form{
         max-width: 500px;
@@ -94,4 +96,3 @@
             gap: 20px;
         }
     }
-}

@@ -1,5 +1,4 @@
 .AM-titleWidth {
-  /* max-width: 758px; */
   img {
     position: relative;
     right: 2%;
@@ -15,7 +14,6 @@
 
 @media screen and (max-width: 1440px) {
   .AM-titleWidth {
-    /* max-width: 610px; */
     img {
       width: 54.72px;
     }

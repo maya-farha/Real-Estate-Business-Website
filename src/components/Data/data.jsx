@@ -55,11 +55,6 @@ const properties = [
         value: 300,
         note: "Monthly fee for common area maintenance",
       },
-      {
-        label: "Monthly Insurance",
-        value: 150,
-        note: "Covers property damage and liability",
-      },
     ],
     initialCosts: [
       {

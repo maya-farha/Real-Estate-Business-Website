@@ -33,14 +33,15 @@
 
 @media screen and (max-width: 992px) {
   .AM-branchTitleSe {
-    max-width: 357px;
+    max-width: 500px;
     padding: 24px;
     .AM-infoSe {
       flex-direction: column;
       gap: 20px;
 
       .mf-btn-black {
-        max-width: 309px !important;
+        max-width: 417px !important;
+        width: 100%;
       }
     }
   }

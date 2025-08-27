@@ -1,111 +1,96 @@
-.RJ-discoverParagh{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 150%;
-    letter-spacing: -0.6%;
-    color: #FFFFFF;
+.RJ-discoverParagh {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.6%;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.RJ-discoverTitli {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #ffffff;
+  margin-bottom: 14px;
+}
+.RJ-discoverParagh2 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%;
+  letter-spacing: -0.6%;
+  color: #999999;
+  margin-bottom: 40px;
+}
+
+.RJ-discoverButon {
+  background: #703bf7;
+  font-weight: 500;
+  font-style: Medium;
+  font-size: 18px;
+  line-height: 131%;
+  letter-spacing: -0.6%;
+  color: #ffffff;
+  width: 100%;
+  padding: 18px 24px 18px 24px;
+  border-radius: 10px;
+}
+.RJ-discoverCard {
+  /* max-width: 783.5px; */
+  padding: 50px;
+  border: 1px solid #262626;
+  background: #141414;
+  border-radius: 12px;
+}
+.RJ-containerBtn {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 1440px) {
+  .RJ-discoverParagh {
+    font-size: 14px;
+    margin-bottom: 6px;
+  }
+  .RJ-discoverTitli {
+    font-size: 24px;
     margin-bottom: 10px;
+  }
+  .RJ-discoverParagh2 {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .RJ-discoverCard {
+    padding: 40px;
+    border-radius: 8px;
+  }
+  .RJ-containerBtn {
+    margin-bottom: 30px;
+  }
 }
-.RJ-discoverTitli{
-    font-size: 30px;
-    font-weight: 600;
-    line-height: 150%;
-    letter-spacing: 0%;
-    color: #FFFFFF;
-    margin-bottom: 14px;
-
-}
-.RJ-discoverParagh2{
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 150%;
-    letter-spacing: -0.6%;
-    color: #999999;
-    margin-bottom: 40px;
-
-}
-
-.RJ-discoverButon{
-    background: #703BF7;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 18px;
-    line-height: 131%;
-    letter-spacing: -0.6%;
-    color: #FFFFFF;
-    width: 100%;
-    padding: 18px 24px 18px 24px;
-    border-radius: 10px;
-   
-
-
-
-}
-.RJ-discoverCard{
-    max-width: 783.5px;
-    padding: 50px;
-    border: 1px solid #262626;
-    background: #141414;
-    border-radius: 12px;
-
-}
-.RJ-containerBtn{
-    display: flex;
-    gap: 6px;
-    margin-bottom: 40px;
-}
-@media screen and (max-width: 1440px){
-    .RJ-discoverParagh{
-
-        font-size: 14px;
-        margin-bottom: 6px;
-    }
-    .RJ-discoverTitli{
-        font-size: 24px;
-        margin-bottom: 10px;
-
-    }
-    .RJ-discoverParagh2{
-        font-size: 16px;
-        margin-bottom: 30px;
-
-    }
-    .RJ-discoverCard{
-        padding: 40px;
-        border-radius: 8px;
-
-    }
-    .RJ-containerBtn{
-        margin-bottom: 30px;
-    }
-
-}
-@media screen and (max-width: 992px){
-    .RJ-discoverParagh{
-        font-size: 14px;
-        margin-bottom: 4px;
-
-    }
-    .RJ-discoverTitli{
-        font-size: 20px;
-        margin-bottom: 8px;
-
-
-    }
-    .RJ-discoverParagh2{
-        font-size: 14px;
-        margin-bottom: 24px;
-
-    }
-    .RJ-discoverCard{
-        border-radius: 8px;
-        padding: 24px;
-
-    }
-    .RJ-containerBtn{
-        margin-bottom: 24px;
-        max-width: 309px;
-       flex-wrap: wrap;
-    }
-
+@media screen and (max-width: 992px) {
+  .RJ-discoverCard {
+    max-width: 500px;
+  }
+  .RJ-discoverParagh {
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+  .RJ-discoverTitli {
+    font-size: 20px;
+    margin-bottom: 8px;
+  }
+  .RJ-discoverParagh2 {
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .RJ-discoverCard {
+    border-radius: 8px;
+    padding: 24px;
+  }
+  .RJ-containerBtn {
+    margin-bottom: 24px;
+    flex-wrap: wrap;
+  }
 }

@@ -9,6 +9,7 @@ function HeroProperty({
   return (
     <div className="MF-heroProperty">
       <div className="MF-propertyFlex">
+        
         <div className="MF-propertyFlex second">
           <h2 className="mswhiteColor">{propertyName}</h2>
           <div className="MF-propertyFlex MF-location">

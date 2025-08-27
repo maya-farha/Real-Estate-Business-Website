@@ -39,6 +39,7 @@ function AllCardServices() {
           description="Building a real estate portfolio requires a strategic approach. Estatein's Investment Advisory Service empowers you to make smart investments and informed decisions."
           fsDifference="48"
         />
+
         <BranchTitle2
           title="Unlock Your Investment Potential"
           description="Explore our Property Management Service categories and let us handle the complexities while you enjoy the benefits of property ownership."
