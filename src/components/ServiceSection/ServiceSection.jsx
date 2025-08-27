@@ -8,28 +8,28 @@ function ServiceSection({ services: propServices }) {
   const defaultServices = [
     {
       id: crypto.randomUUID(),
-      icon: "/assets/icons/home-icon.png",
+      icon: "assets/icons/home-icon.png",
       alt: "home-Icon",
       serviceName: "Find Your Dream Home",
     },
 
     {
       id: crypto.randomUUID(),
-      icon: "/assets/icons/lock-icon.png",
+      icon: "assets/icons/lock-icon.png",
       alt: "lock-Icon",
       serviceName: "Unlock Property Value",
     },
 
     {
       id: crypto.randomUUID(),
-      icon: "/assets/icons/bulding-icon.png",
+      icon: "assets/icons/bulding-icon.png",
       alt: "build-Icon",
       serviceName: "Effortless Property Management",
     },
 
     {
       id: crypto.randomUUID(),
-      icon: "/assets/icons/smart-icon.png",
+      icon: "assets/icons/smart-icon.png",
       alt: "sun-Icon",
       serviceName: "Smart Investments, Informed Decisions",
     },

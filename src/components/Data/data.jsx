@@ -2,7 +2,7 @@ const properties = [
   {
     id: 1,
     price: 650000,
-    image: "/assets/imgs/heroProperty.png",
+    image: "/Real-Estate-Business-Website/assets/imgs/heroProperty.png",
     description:
       "Discover your own piece of paradise with the Seaside Serenity Villa. T With an open floor plan, breathtaking ocean views from every room, and direct access to a pristine sandy beach, this property is the epitome of coastal living.",
     type: "Apartment",
@@ -104,7 +104,7 @@ const properties = [
   {
     id: 2,
     price: 480000,
-    image: "/assets/imgs/Seaside-Serenity-Villa.png",
+    image: "/Real-Estate-Business-Website/assets/imgs/Seaside-Serenity-Villa.png",
     description: "Cozy family home located in Los Angeles suburb",
     type: "House",
     location: "Los Angeles, USA",
@@ -208,7 +208,7 @@ const properties = [
   {
     id: 3,
     price: 950000,
-    image: "/assets/imgs/Metropolitan-Haven.png",
+    image: "/Real-Estate-Business-Website/assets/imgs/Metropolitan-Haven.png",
     description: "Luxury villa with private pool in Miami Beach",
     type: "Villa",
     location: "Miami, USA",
@@ -312,7 +312,7 @@ const properties = [
   {
     id: 4,
     price: 320000,
-    image: "/assets/imgs/Rustic-Retreat-Cottage.png",
+    image: "/Real-Estate-Business-Website/assets/imgs/Rustic-Retreat-Cottage.png",
     description: "Affordable condo in downtown Chicago",
     type: "Condo",
     location: "Chicago, USA",
@@ -416,7 +416,7 @@ const properties = [
   {
     id: 5,
     price: 850000,
-    image: "/assets/imgs/Seaside-Serenity-Villa.png",
+    image: "/Real-Estate-Business-Website/assets/imgs/Seaside-Serenity-Villa.png",
     description:
       "Experience unparalleled luxury at the Highland Haven Estate. Nestled in a secluded mountain community, this home offers panoramic views, state-of-the-art smart home technology, and an infinity pool that seems to blend with the sky.",
     type: "Villa",

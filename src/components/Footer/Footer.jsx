@@ -8,13 +8,13 @@ function Footer(props) {
         <div className="RJ_InputContainer">
           <img src={props.imag} alt="" className="RJ_LogoFooter" />
           <div className="RJ_InputFooter">
-            <img src="/assets/icons/Vector.svg" className="RJ_IconVector" />
+            <img src="assets/icons/Vector.svg" className="RJ_IconVector" />
             <input
               type="email"
               placeholder="Enter Your Email"
               className="RJ_FormInput"
             />
-            <img src="/assets/icons/Send.svg" className="RJ_IconSend" />
+            <img src="assets/icons/Send.svg" className="RJ_IconSend" />
           </div>
         </div>
         <div className="RJ_CardsFooter">
@@ -85,10 +85,10 @@ function Footer(props) {
           <p>Terms & Conditions</p>
         </div>
         <div className="RJ_MediaFooter ">
-          <img src="/assets/icons/facebook.svg" />
-          <img src="/assets/icons/insta.svg" />
-          <img src="/assets/icons/twiter.svg" />
-          <img src="/assets/icons/youtup.svg" />
+          <img src="assets/icons/facebook.svg" />
+          <img src="assets/icons/insta.svg" />
+          <img src="assets/icons/twiter.svg" />
+          <img src="assets/icons/youtup.svg" />
         </div>
       </div>
     </div>

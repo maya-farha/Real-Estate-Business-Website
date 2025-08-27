@@ -5,17 +5,21 @@ function SliderArrow() {
   const swiper = useSwiper();
   return (
     <div>
-
       <div className="MF-swiperNav">
         <button onClick={() => swiper.slidePrev()} className="MF-arrow">
-          <img src="/assets/icons/left-arrow.svg" alt="left-arrow"></img>
+          <img
+            src="https://maya-farha.github.io/Real-Estate-Business-Website/assets/icons/left-arrow.svg"
+            alt="left-arrow"
+          ></img>
         </button>
 
         <button onClick={() => swiper.slideNext()} className="MF-arrow">
-          <img src="/assets/icons/right-arrow.svg" alt="right-arrow"></img>
+          <img
+            src="https://maya-farha.github.io/Real-Estate-Business-Website/assets/icons/right-arrow.svg"
+            alt="right-arrow"
+          ></img>
         </button>
       </div>
-      
     </div>
   );
 }

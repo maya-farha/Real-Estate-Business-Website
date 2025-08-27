@@ -5,28 +5,28 @@ function EstateinsWorld() {
   return (
     <div className="MS-estateinsWorld msBgGrey10">
       <img
-        src="/assets/imgs/office.png"
+        src="assets/imgs/office.png"
         alt="office"
         className="MS-bigPicture"
       />
       <img
-        src="/assets/imgs/first-team.png"
+        src="assets/imgs/first-team.png"
         alt="team"
         className="MS-bigPicture"
       />
       <img
-        src="/assets/imgs/meeting.png"
+        src="assets/imgs/meeting.png"
         alt="meeting"
         className="MS-bigPicture"
       />
       <div>
         <img
-          src="/assets/imgs/second-team.png"
+          src="assets/imgs/second-team.png"
           alt="team"
           className="MS-smallPicture"
         />
         <img
-          src="/assets/imgs/third-team.png"
+          src="assets/imgs/third-team.png"
           alt="team"
           className="MS-smallPicture"
         />
@@ -40,7 +40,7 @@ function EstateinsWorld() {
         />
       </div>
       <img
-        src="/assets/imgs/deal.png"
+        src="assets/imgs/deal.png"
         alt="business deal"
         id="MS-width"
         className="MS-bigPicture"

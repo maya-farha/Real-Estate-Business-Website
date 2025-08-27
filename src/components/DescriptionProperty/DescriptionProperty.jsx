@@ -19,14 +19,14 @@ function DescriptionProperty({
           <div className="MS-paddingRight MS-paddingRightSmallScreen MS-widtho">
             <PropertyInformation
               heading="Bedrooms"
-              pictureLink="/assets/icons/bedroom-Icon.svg"
+              pictureLink="https://maya-farha.github.io/Real-Estate-Business-Website/assets/icons/bedroom-Icon.svg"
               text={Bedrooms}
             />
           </div>
           <div className="MS-borderPaddingLeft MS-paddingRight MS-paddingBorderLeftSmallScreen MS-widtho">
             <PropertyInformation
               heading="Bathrooms"
-              pictureLink="/assets/icons/bathroom-Icon.svg"
+              pictureLink="https://maya-farha.github.io/Real-Estate-Business-Website/assets/icons/bathroom-Icon.svg"
               text={Bathrooms}
             />
           </div>
@@ -34,7 +34,7 @@ function DescriptionProperty({
         <div className="MS-borderPaddingLeft MS-width">
           <PropertyInformation
             heading="Area"
-            pictureLink="/assets/icons/Area-Icon.svg"
+            pictureLink="https://maya-farha.github.io/Real-Estate-Business-Website/assets/icons/Area-Icon.svg"
             text={SquareFeet}
           />
         </div>

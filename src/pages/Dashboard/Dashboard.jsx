@@ -44,7 +44,7 @@ function Dashboard() {
     <div className="MF-FormDashboard white-spacing">
       <div className="MF-backTo">
         <NavLink to={"/"}>
-          <img src="/assets/icons/left-arrow.svg"></img>
+          <img src="assets/icons/left-arrow.svg"></img>
         </NavLink>
       </div>
 

@@ -4,7 +4,7 @@ function ServicCard({ logo, alt, titleService, link }) {
   return (
     <div className="MF-serviceCard">
       <img
-        src="/assets/icons/arrowTop.svg"
+        src="assets/icons/arrowTop.svg"
         alt="arrowTop"
         className="MF-arrowTop"
       />
