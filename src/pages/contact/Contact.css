@@ -4,7 +4,6 @@
 }
 .FM-specialTitleSe {
   background-color: #141414;
-  padding-bottom: 150px;
   padding-bottom: 110px;
   .AM-titleWidth {
     padding-top: 150px;
@@ -21,7 +20,8 @@
 .MF-allSectionCo {
   display: flex;
   flex-direction: column;
-  gap: 150px;
+  gap: 110px;
+  padding-bottom: 150px;
 }
 .MF-officeFilterType {
   margin-top: 80px;
@@ -43,6 +43,7 @@
     padding-top: 77px;
   }
   .FM-specialTitleSe {
+    padding-bottom: 90px;
     .AM-titleWidth {
       padding-top: 100px;
       padding-bottom: 100px;
@@ -60,7 +61,8 @@
     padding-top: 68px;
   }
   .MF-allSectionCo {
-    gap: 120px;
+    gap: 90px;
+    padding-bottom: 120px;
   }
 }
 
@@ -72,6 +74,7 @@
     }
   }
   .FM-specialTitleSe {
+    padding-bottom: 61px;
     .AM-titleWidth {
       padding-top: 50px;
       padding-bottom: 50px;
@@ -86,7 +89,8 @@
     }
   }
   .MF-allSectionCo {
-    gap: 80px;
+    gap: 61px;
+    padding-bottom: 80px;
   }
   .RJ-discoverCards {
     padding-top: 68px;
