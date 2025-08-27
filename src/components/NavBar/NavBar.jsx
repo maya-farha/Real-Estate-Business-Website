@@ -36,16 +36,23 @@ function NavBar({ logo, items, btn }) {
         </button>
       </nav>
       <div className={`navMenu ${show ? "show" : ""}`}>
+        <button className="closeBtn" onClick={showHandel}>
+          ×
+        </button>
+
         <ul className="items_Bars">
           {items.map((item, index) => {
             return (
               <li key={index}>
-                <NavLink to={item.url} onClick={showHandel}>
+                <NavLink to={item.url} onClick={showHandel} className="barsLink">
                   {item.content}{" "}
                 </NavLink>
               </li>
             );
           })}
+          <li>
+            <NavLink to={"/contact"}>contact</NavLink>
+          </li>
         </ul>
       </div>
     </>

@@ -6,8 +6,11 @@ import PricingDetails from "../../components/PricingDetails/PricingDetails";
 import HeroProperty from "../../components/HeroProperty/HeroProperty";
 import BuildingCards from "../../components/BuildingCards/BuildingCards";
 import "./Property.css";
+import useScrollToHash from "../../hooks/scroll";
 
 function Property() {
+  useScrollToHash();
+
   const { id } = useParams();
 
   localStorage.setItem("properties", JSON.stringify(properties));
@@ -15,8 +18,8 @@ function Property() {
   const property = properties.find((p) => p.id === selectedId);
 
   return (
-    <div className="MF-properyPage white-spacing">
-      <header>
+    <div className="MF-propertyPage white-spacing">
+      <header id="portfolio">
         <HeroProperty
           propertyImg={property.image}
           propertyLocation={property.location}
@@ -24,23 +27,46 @@ function Property() {
           propertyName={property.type}
         ></HeroProperty>
       </header>
+      <main className="MF-gapProperty">
+        <section className="MF-contentProperty" id="categories">
+          <DescriptionProperty
+            Heading={"description"}
+            Paragraph={property.description}
+            Bedrooms={property.rooms}
+            Bathrooms={property.baths}
+            SquareFeet={property.area}
+          ></DescriptionProperty>
+        </section>
+        <div className="MS-contentProperty">
+          <DescriptionProperty
+            Heading={"description"}
+            Paragraph={property.description}
+            Bedrooms={property.rooms}
+            Bathrooms={property.baths}
+            SquareFeet={property.area}
+          ></DescriptionProperty>
 
-      <div className="MS-contentProperty">
-        <DescriptionProperty
-          Heading={"description"}
-          Paragraph={property.description}
-          Bedrooms={property.rooms}
-          Bathrooms={property.baths}
-          SquareFeet={property.area}
-        ></DescriptionProperty>
+          <div className="MS-contentProperty">
+            <DescriptionProperty
+              Heading={"description"}
+              Paragraph={property.description}
+              Bedrooms={property.rooms}
+              Bathrooms={property.baths}
+              SquareFeet={property.area}
+            ></DescriptionProperty>
 
-        <GuaranteeSection features={property.features}></GuaranteeSection>
-      </div>
+            <GuaranteeSection features={property.features}></GuaranteeSection>
+          </div>
+        </section>
 
-      {/* <div className="MF-pricingDetails"> */}
-        <PricingDetails id={parseInt(property.id)}></PricingDetails>
+        <section>
+          <PricingDetails id={parseInt(property.id)}></PricingDetails>
+        </section>
 
-      <BuildingCards></BuildingCards>
+        <section>
+          <BuildingCards></BuildingCards>
+        </section>
+      </main>
     </div>
   );
 }

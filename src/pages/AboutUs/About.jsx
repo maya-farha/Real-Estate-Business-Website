@@ -6,35 +6,24 @@ import SectionOut from "../../components/SectionOut/SectionOut";
 import EstateinTeam from "../../components/EstateinTeam/EstateinTeam";
 import EstateinExperience from "../../components/EstateinExperience/EstateinExperience";
 import EstateinsWorld from "../../components/EstateinsWorld/EstateinsWorld";
+import useScrollToHash from "../../hooks/scroll";
 
 function About() {
+  useScrollToHash();
+
   return (
-    <div className="AM-about white-spacing">
-      <div className="AM-heroAb">
+    <section className="AM-allSectionAb white-spacing">
+      <header className="AM-heroAb">
         <HeroAbout />
-      </div>
-
-      <div className="sectionSpace">
+      </header>
+      <main className="AM-MainContentAb">
         <Values />
-      </div>
-
-      <div className="sectionSpace">
         <SectionOut />
-      </div>
-
-      <div className="sectionSpace">
-        <EstateinExperience></EstateinExperience>
-      </div>
-
-      <EstateinTeam></EstateinTeam>
-
-      <div className="sectionSpace">
-        <ClientReview></ClientReview>
-      </div>
-
-
-
-    </div>
+        <EstateinExperience />
+        <EstateinTeam />
+        <ClientReview />
+      </main>
+    </section>
   );
 }
 

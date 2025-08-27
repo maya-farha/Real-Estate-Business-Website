@@ -15,12 +15,26 @@
     margin-top: 20px;
   }
 }
+
 .MF-serviceLogo {
   display: block;
   margin: auto;
 }
-@media screen and (max-width: 1440px) {
 
+.MF-socialLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  margin-top: 20px;
+  a {
+    text-decoration: none;
+    border-bottom: 1px solid #ffffff;
+  }
+}
+
+@media screen and (max-width: 1440px) {
   .MF-serviceCard {
     p {
       margin-top: 16px;
@@ -31,12 +45,18 @@
     height: 60px;
   }
 }
+
 @media screen and (max-width: 992px) {
   .MF-serviceCard {
     p {
       margin-top: 14px;
     }
   }
+
+  .MF-socialLink {
+    gap: 8px;
+  }
+
   .MF-serviceLogo {
     width: 48px;
     height: 48px;

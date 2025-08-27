@@ -4,7 +4,7 @@
   align-items: center;
   gap: 60px;
   .AM-informationSe {
-    max-width: 519px;
+    /* max-width: 519px; */
     display: flex;
     flex-direction: column;
     gap: 50px;
@@ -34,11 +34,11 @@
   .AM-investmentSe {
     gap: 50px;
     .AM-informationSe {
-      max-width: 412px;
+      /* max-width: 412px; */
       gap: 40px;
     }
     .AM-informationSe {
-      max-width: 418px;
+      /* max-width: 418px; */
       display: flex;
       flex-direction: column;
       gap: 50px;
@@ -52,11 +52,18 @@
   .AM-investmentSe {
     flex-direction: column;
     gap: 40px;
-    .AM-titleWidth {
+    /* .AM-titleWidth {
       max-width: 357px;
-    }
+    } */
     .AM-informationSe {
       gap: 30px;
+      /* .AM-titleWidth {
+        max-width: 100%;
+      } */
+      .AM-branchTitle2Se {
+        max-width: 500px;
+        margin: 0 auto;
+      }
     }
     .AM-AllCardsSe {
       grid-template-columns: 1fr;

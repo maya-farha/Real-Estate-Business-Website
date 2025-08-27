@@ -30,6 +30,7 @@
 }
 @media screen and (max-width: 992px) {
   .AM-titleWidth {
+    /* max-width: 500px; */
     img {
       width: 45.6px;
     }
