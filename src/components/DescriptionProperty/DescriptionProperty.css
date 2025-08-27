@@ -14,9 +14,11 @@
     }
     .MS-informationContainer{
         display: flex;
-        flex-wrap: wrap;
         padding-top: 20px;
         border-top: 1px solid #262626;
+        .MS-container{
+            display: flex;
+        }
         .MS-paddingRight{
             padding-right: 20px;
         }
@@ -53,7 +55,7 @@
                                           /* small screen */
 @media screen and (max-width: 992px) {
     .MS-descriptionProperty{
-        max-width:500px;
+        max-width: 500px;
         width: 100%;
         padding: 20px;
         p{
@@ -64,18 +66,22 @@
         }
         .MS-informationContainer{
             padding-top: 20px;
+            flex-direction: column;
+            .MS-widtho{
+                width: 50%;
+            }
             .MS-paddingRight{
                 padding-right: 0;
             }
             .MS-paddingRightSmallScreen{
-                padding-right: 20px;
+                padding-right: 14px;
             }
             .MS-borderPaddingLeft{
                 padding-left: 0px;
                 border: none;
             }
             .MS-paddingBorderLeftSmallScreen{
-                padding-left: 20px;
+                padding-left: 14px;
                 border-left: 1px solid #262626;
             }
             .MS-width{
