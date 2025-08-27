@@ -22,10 +22,10 @@ function Footer(props) {
             href={"/"}
             title={"Home"}
             items={[
-              { url: "#HeroHome", cont: "Hero Section" },
-              { url: "#featured", cont: "Features" },
+              { url: "/#HeroHome", cont: "Hero Section" },
+              { url: "/#featured", cont: "Features" },
               { url: "/", cont: "Properties" },
-              { url: "#testimonials", cont: "Testimonials" },
+              { url: "/#testimonials", cont: "Testimonials" },
               { url: "/#FAQ", cont: "FAQ’s" },
             ]}
           ></FooterCard>

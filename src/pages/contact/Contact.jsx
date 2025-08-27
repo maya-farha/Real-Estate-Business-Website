@@ -1,10 +1,10 @@
-import DiscoverContainer from "../../components/DiscoverContainer/DiscoverContainer";
 import "./Contact.css";
 import ConnectContainer from "../../components/ConnectContainer/ConnectContainer";
 import EstateinsWorld from "../../components/EstateinsWorld/EstateinsWorld.jsx";
 import useScrollToHash from "../../hooks/scroll.jsx";
 import Title from "../../components/Title/Title.jsx";
 import ServiceSection from "../../components/ServiceSection/ServiceSection.jsx";
+import OfficeFilter from "../../components/FilterOffice/OfficeFilter.jsx";
 function Contact() {
   useScrollToHash();
   const defaultServices = [
@@ -60,10 +60,13 @@ function Contact() {
           <ServiceSection services={defaultServices}></ServiceSection>
         </div>
       </header>
-      <main className="white-spacing">
-        <ConnectContainer />
 
-        <section>
+      <main className="MF-allSectionCo   white-spacing">
+        <section id="">
+          <ConnectContainer />
+        </section>
+
+        <section id="">
           <Title
             title="Discover Our Office Locations"
             description="Estatein is here to serve you across multiple locations. Whether you're looking to meet our team, discuss real estate opportunities, or simply drop by for a chat, we have offices conveniently located to serve your needs. Explore the categories below to find the Estatein office nearest to you"
@@ -73,8 +76,9 @@ function Contact() {
             <OfficeFilter></OfficeFilter>
           </div>
         </section>
-
-        <EstateinsWorld />
+        <section id="">
+          <EstateinsWorld />
+        </section>
       </main>
     </div>
   );
