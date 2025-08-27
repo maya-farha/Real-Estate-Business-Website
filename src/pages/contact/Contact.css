@@ -18,6 +18,12 @@
     );
   }
 }
+.MF-officeFilterType {
+  margin-top: 80px;
+  .MF-btnsFilter {
+    margin-bottom: 50px;
+  }
+}
 .MF-serviceCard {
   a {
     text-align: center;
@@ -39,6 +45,12 @@
       padding-right: 80px;
     }
   }
+  .MF-officeFilterType {
+    margin-top: 60px;
+    .MF-btnsFilter {
+      margin-bottom: 40px;
+    }
+  }
   .RJ-discoverCards {
     padding-top: 68px;
   }
@@ -57,6 +69,12 @@
       padding-bottom: 50px;
       padding-left: 16px;
       padding-right: 16px;
+    }
+  }
+  .MF-officeFilterType {
+    margin-top: 40px;
+    .MF-btnsFilter {
+      margin-bottom: 30px;
     }
   }
   .RJ-discoverCards {

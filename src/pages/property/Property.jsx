@@ -36,6 +36,15 @@ function Property() {
             Bathrooms={property.baths}
             SquareFeet={property.area}
           ></DescriptionProperty>
+        </section>
+        <section className="MS-contentProperty">
+          <DescriptionProperty
+            Heading={"description"}
+            Paragraph={property.description}
+            Bedrooms={property.rooms}
+            Bathrooms={property.baths}
+            SquareFeet={property.area}
+          ></DescriptionProperty>
 
           <div className="MS-contentProperty">
             <DescriptionProperty
