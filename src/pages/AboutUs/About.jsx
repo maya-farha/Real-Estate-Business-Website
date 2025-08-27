@@ -22,7 +22,7 @@ function About() {
         <div id="howWork">
           <SectionOut />
         </div>
-        <div id="">
+        <div>
           <EstateinExperience />
         </div>
         <div id="ourTeam">

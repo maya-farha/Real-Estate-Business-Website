@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Dashboard.css";
 import FormDashboard from "../../components/FormDashboard/FormDashboard";
+import { NavLink } from "react-router-dom";
 
 function Dashboard() {
   const [services, setServices] = useState(() => {
@@ -40,7 +41,13 @@ function Dashboard() {
   };
 
   return (
-    <div className="MF-FormDashboard">
+    <div className="MF-FormDashboard white-spacing">
+      <div className="MF-backTo">
+        <NavLink to={"/"}>
+          <img src="/assets/icons/left-arrow.svg"></img>
+        </NavLink>
+      </div>
+
       <h1 className="MF-titleDashboard">Service Management Dashboard</h1>
       {isAddModalOpen && (
         <div className="MF-modalOverlay">

@@ -19,6 +19,7 @@
 }
 .MF-officeCards {
   display: flex;
+  justify-content: space-between;
   gap: 30px;
 }
 @media screen and (max-width: 1440px) {

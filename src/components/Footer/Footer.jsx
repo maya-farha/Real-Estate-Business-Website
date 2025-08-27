@@ -24,7 +24,7 @@ function Footer(props) {
             items={[
               { url: "/#HeroHome", cont: "Hero Section" },
               { url: "/#featured", cont: "Features" },
-              { url: "/", cont: "Properties" },
+              { url: "/#Properties", cont: "Properties" },
               { url: "/#testimonials", cont: "Testimonials" },
               { url: "/#FAQ", cont: "FAQ’s" },
             ]}
@@ -73,8 +73,8 @@ function Footer(props) {
             href={"/contact"}
             title={"Contact Us"}
             items={[
-              { url: "/", cont: "Contact Form" },
-              { url: "/About", cont: "Our Offices" },
+              { url: "/contact#contactForm", cont: "Contact Form" },
+              { url: "/contact#ourOffices", cont: "Our Offices" },
             ]}
           ></FooterCard>
         </div>

@@ -26,11 +26,19 @@ function NavBar({ logo, items, btn }) {
             );
           })}
         </ul>
-        <button className="btn_Nav">
-          <Link to={"/Contact"} className="link">
-            {btn}
-          </Link>
-        </button>
+        <div>
+          <button className="btn_Nav">
+            <Link to={"/Contact"} className="link">
+              {btn}
+            </Link>
+          </button>
+          <button className="btn_Nav">
+            <Link to={"/dashboard"} className="link">
+              dashboard
+            </Link>
+          </button>
+        </div>
+
         <button className="bars" onClick={showHandel}>
           <HiMiniBars3BottomRight />
         </button>
@@ -44,7 +52,11 @@ function NavBar({ logo, items, btn }) {
           {items.map((item, index) => {
             return (
               <li key={index}>
-                <NavLink to={item.url} onClick={showHandel} className="barsLink">
+                <NavLink
+                  to={item.url}
+                  onClick={showHandel}
+                  className="barsLink"
+                >
                   {item.content}{" "}
                 </NavLink>
               </li>
@@ -52,6 +64,9 @@ function NavBar({ logo, items, btn }) {
           })}
           <li>
             <NavLink to={"/contact"}>contact</NavLink>
+          </li>
+          <li>
+            <NavLink to={"/dashboard"}>dashboard</NavLink>
           </li>
         </ul>
       </div>

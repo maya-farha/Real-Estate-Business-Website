@@ -19,9 +19,11 @@ function Home() {
       </header>
 
       <main className="AM-MainContentHo">
-        <ServiceSection />
+        <div id="featured">
+          <ServiceSection />
+        </div>
 
-        <div className="AM-FeaturedHo white-spacing" id="featured">
+        <div className="AM-FeaturedHo white-spacing" id="Properties">
           <Title
             title="Featured Properties"
             description='Explore our handpicked selection of featured properties. Each listing offers a glimpse into exceptional homes and investments available through Estatein. Click "View Details" for more information.'

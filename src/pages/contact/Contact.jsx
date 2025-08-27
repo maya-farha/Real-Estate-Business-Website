@@ -62,11 +62,11 @@ function Contact() {
       </header>
 
       <main className="MF-allSectionCo   white-spacing">
-        <section id="">
+        <section id="contactForm">
           <ConnectContainer />
         </section>
 
-        <section id="">
+        <section id="ourOffices">
           <Title
             title="Discover Our Office Locations"
             description="Estatein is here to serve you across multiple locations. Whether you're looking to meet our team, discuss real estate opportunities, or simply drop by for a chat, we have offices conveniently located to serve your needs. Explore the categories below to find the Estatein office nearest to you"

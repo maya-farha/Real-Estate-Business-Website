@@ -36,7 +36,7 @@
   border-radius: 10px;
 }
 .RJ-discoverCard {
-  max-width: 783.5px;
+  /* max-width: 783.5px; */
   padding: 50px;
   border: 1px solid #262626;
   background: #141414;
@@ -49,9 +49,6 @@
   margin-bottom: 40px;
 }
 @media screen and (max-width: 1440px) {
-  .RJ-discoverCard {
-    max-width: 500px;
-  }
   .RJ-discoverParagh {
     font-size: 14px;
     margin-bottom: 6px;
@@ -73,6 +70,9 @@
   }
 }
 @media screen and (max-width: 992px) {
+  .RJ-discoverCard {
+    max-width: 500px;
+  }
   .RJ-discoverParagh {
     font-size: 14px;
     margin-bottom: 4px;
