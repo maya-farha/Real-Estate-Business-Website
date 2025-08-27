@@ -1,6 +1,6 @@
 .MF-FormDashboard {
   background-color: #1a1a1a;
-  height: 1000vh;
+  height: 100vh;
   position: relative;
 }
 .MF-backTo {
@@ -97,7 +97,7 @@ tr:hover {
   background-color: #1a1a1a;
   padding: 20px 30px;
   border-radius: 12px;
-  box-shadow: -1px -1px 8px 0 rgba(112, 59, 247, 0.544);
+  box-shadow: -1px -1px 3px 0 rgba(171, 141, 247, 0.544);
 }
 
 .MF-button {
@@ -111,6 +111,11 @@ tr:hover {
   background-color: rgb(244, 48, 48);
 }
 @media screen and (max-width: 992px) {
+  .MF-modal {
+    width: 100%;
+    max-width: 400px;
+    margin: 16px;
+  }
   .MF-table {
     width: 100%;
   }

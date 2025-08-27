@@ -1,7 +1,4 @@
 #MF-addService {
-  justify-content: center;
-  align-items: center;
-  gap: 8px;
   margin: auto;
 }
 
@@ -67,4 +64,22 @@ label {
   border: unset;
   cursor: pointer;
   background-color: #ffffff;
+}
+
+@media screen and (max-width: 992px) {
+  .MF-addIcon {
+    width: 20px;
+  }
+  .MF-modal input[type="text"],
+  .MF-modal input[type="file"] {
+    padding: 6px 8px;
+    font-size: 14px;
+  }
+  .MF-modal img {
+    width: 60px;
+    margin: 8px auto;
+  }
+  .MF-bttn {
+    padding: 8px 16px;
+  }
 }
