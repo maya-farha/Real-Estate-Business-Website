@@ -20,7 +20,7 @@
   line-height: 150%;
   letter-spacing: -0.6%;
   color: #999999;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 
 .RJ-discoverButon {
@@ -36,17 +36,21 @@
   border-radius: 10px;
 }
 .RJ-discoverCard {
-  /* max-width: 783.5px; */
   padding: 50px;
   border: 1px solid #262626;
   background: #141414;
   border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 40px;
+  height: 100%;
 }
 .RJ-containerBtn {
   display: flex;
   flex-wrap: wrap;
   gap: 6px;
-  margin-bottom: 40px;
+  /* margin-bottom: 40px; */
 }
 @media screen and (max-width: 1440px) {
   .RJ-discoverParagh {
@@ -59,15 +63,15 @@
   }
   .RJ-discoverParagh2 {
     font-size: 16px;
-    margin-bottom: 30px;
   }
   .RJ-discoverCard {
     padding: 40px;
     border-radius: 8px;
+    gap: 30px;
   }
-  .RJ-containerBtn {
+  /* .RJ-containerBtn {
     margin-bottom: 30px;
-  }
+  } */
 }
 @media screen and (max-width: 992px) {
   .RJ-discoverCard {
@@ -83,14 +87,15 @@
   }
   .RJ-discoverParagh2 {
     font-size: 14px;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
   }
   .RJ-discoverCard {
     border-radius: 8px;
     padding: 24px;
+    gap: 24px;
   }
   .RJ-containerBtn {
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
     flex-wrap: wrap;
   }
 }
