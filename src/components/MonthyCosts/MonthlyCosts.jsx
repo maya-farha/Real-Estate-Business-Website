@@ -22,7 +22,7 @@ function MonthlyCosts({ propertyId, dataPath }) {
     <div className="AM-MonthlyCostsPr mswhiteColor">
       <div className="AM-costsPr">
         <h2 className="msFontWeight600 msFontSize24">Monthly Costs</h2>
-        <Button to="" className="AM-btnPr mf-btn-black">
+        <Button to="" className="AM-btnPr">
           Learn More
         </Button>
       </div>

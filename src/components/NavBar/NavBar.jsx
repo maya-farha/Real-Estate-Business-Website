@@ -45,7 +45,7 @@ function NavBar({ logo, items, btn }) {
       </nav>
       <div className={`navMenu ${show ? "show" : ""}`}>
         <button className="closeBtn" onClick={showHandel}>
-          ×
+          x
         </button>
 
         <ul className="items_Bars">
@@ -63,10 +63,14 @@ function NavBar({ logo, items, btn }) {
             );
           })}
           <li>
-            <NavLink to={"/contact"}>contact</NavLink>
+            <NavLink to={"/contact"} onClick={showHandel}>
+              contact
+            </NavLink>
           </li>
           <li>
-            <NavLink to={"/dashboard"}>dashboard</NavLink>
+            <NavLink to={"/dashboard"} onClick={showHandel}>
+              dashboard
+            </NavLink>
           </li>
         </ul>
       </div>

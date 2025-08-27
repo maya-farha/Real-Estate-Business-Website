@@ -63,23 +63,12 @@
   border-left: 1px solid #262626;
 }
 
-.fee-item:not(:last-child) {
+.fee-item {
   border-bottom: 1px solid #262626;
 }
 
-.fee-item:nth-last-child(-n + 1) {
-  .fee-item:nth-child(odd) {
-    border-bottom: unset;
-  }
-  .fee-item:nth-child(even) {
-    border-bottom: 1px solid #262626;
-  }
-}
-
-.fee-item:nth-child(odd) {
-  .fee-item:nth-last-child(-n + 1) {
-    border-bottom: unset;
-  }
+.MF-borderBottom {
+  border-bottom: unset;
 }
 
 @media screen and (max-width: 992px) {
@@ -115,5 +104,8 @@
     .mf-button {
       width: 110px;
     }
+  }
+  .fee-item:not(:last-child) {
+    border-bottom: 1px solid #262626;
   }
 }

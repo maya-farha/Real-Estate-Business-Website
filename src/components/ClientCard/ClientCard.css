@@ -43,15 +43,10 @@
     line-height: 150%;
   }
 }
-.MF-category::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  width: 1px;
-  background-color: #262626;
-  transform: translateX(-50%);
+
+.MF-domain {
+  padding-right: 30px;
+  border-right: 1px solid #262626;
 }
 .MF-quote {
   padding: 30px;
